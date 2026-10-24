@@ -1,0 +1,7 @@
+datasets
+.venv/
+__pycache__/
+.pytest_cache/
+runs/
+*.pt
+*.onnx

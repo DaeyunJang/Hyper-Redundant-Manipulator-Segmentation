@@ -1,0 +1,7 @@
+# Install CUDA PyTorch first; see README for the RTX 30/50 series command.
+torch==2.10.0
+torchvision==0.25.0
+segmentation-models-pytorch==0.5.0
+numpy>=1.26,<3
+opencv-python>=4.10,<5
+tqdm>=4.66,<5
