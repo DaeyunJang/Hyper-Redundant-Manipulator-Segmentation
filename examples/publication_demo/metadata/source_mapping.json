@@ -1,0 +1,3125 @@
+{
+  "note": "Original locations are provenance only; all runnable paths are relative in the indexes",
+  "records": [
+    {
+      "path": "samples/rgb/00000001_1790484638_813745361.png",
+      "kind": "demo_rgb",
+      "bytes": 145305,
+      "sha256": "fb3fb02a4fe4c494202f508efb144abacc69d1e3677f4c457a73ef24423b7465",
+      "original_source": {
+        "repository": "Hyper-Redundant-Manipulator-Segmentation",
+        "path": "datasets/image_rgb/00000001_1790484638_813745361.png"
+      }
+    },
+    {
+      "path": "samples/masks/00000001_1790484638_813745361.png",
+      "kind": "demo_pseudo_mask",
+      "bytes": 1356,
+      "sha256": "0f190364e68f08d967054c3a649ec5758651075d602b79a84de4cffd486abfe6",
+      "original_source": {
+        "repository": "Hyper-Redundant-Manipulator-Segmentation",
+        "path": "datasets/image_segmentation/00000001_1790484638_813745361.png"
+      }
+    },
+    {
+      "path": "samples/rgb/00000110_1790484642_448555176.png",
+      "kind": "demo_rgb",
+      "bytes": 143987,
+      "sha256": "e871146dbc7f25709f428371f2788e21cbcddeeccbe00bbddb12c4908c78db26",
+      "original_source": {
+        "repository": "Hyper-Redundant-Manipulator-Segmentation",
+        "path": "datasets/image_rgb/00000110_1790484642_448555176.png"
+      }
+    },
+    {
+      "path": "samples/masks/00000110_1790484642_448555176.png",
+      "kind": "demo_pseudo_mask",
+      "bytes": 1388,
+      "sha256": "c2962119627f84ccad5635355fa6ca3bf35ff35025e9dbd946098749b2969839",
+      "original_source": {
+        "repository": "Hyper-Redundant-Manipulator-Segmentation",
+        "path": "datasets/image_segmentation/00000110_1790484642_448555176.png"
+      }
+    },
+    {
+      "path": "samples/rgb/00000220_1790484646_116669189.png",
+      "kind": "demo_rgb",
+      "bytes": 146148,
+      "sha256": "28c8df380fb473e6339f8e83c96fb5ddf74d9412504c7aa7a875160608c1c55b",
+      "original_source": {
+        "repository": "Hyper-Redundant-Manipulator-Segmentation",
+        "path": "datasets/image_rgb/00000220_1790484646_116669189.png"
+      }
+    },
+    {
+      "path": "samples/masks/00000220_1790484646_116669189.png",
+      "kind": "demo_pseudo_mask",
+      "bytes": 1393,
+      "sha256": "2617a33cee56a511fb92f69c90ca663a20db04829324a35bcb262db8808d5996",
+      "original_source": {
+        "repository": "Hyper-Redundant-Manipulator-Segmentation",
+        "path": "datasets/image_segmentation/00000220_1790484646_116669189.png"
+      }
+    },
+    {
+      "path": "samples/rgb/00000330_1790484649_784834961.png",
+      "kind": "demo_rgb",
+      "bytes": 141769,
+      "sha256": "877b9b5b601549eb1ef99167bf0e8561e78da42519d68ce72b441d2d76a5004b",
+      "original_source": {
+        "repository": "Hyper-Redundant-Manipulator-Segmentation",
+        "path": "datasets/image_rgb/00000330_1790484649_784834961.png"
+      }
+    },
+    {
+      "path": "samples/masks/00000330_1790484649_784834961.png",
+      "kind": "demo_pseudo_mask",
+      "bytes": 1109,
+      "sha256": "2bfc9a93c8bd01fc979d48ead4edc6df9d6e12b1c9c49204be229a6ee2200bfa",
+      "original_source": {
+        "repository": "Hyper-Redundant-Manipulator-Segmentation",
+        "path": "datasets/image_segmentation/00000330_1790484649_784834961.png"
+      }
+    },
+    {
+      "path": "samples/rgb/00000440_1790484653_452999756.png",
+      "kind": "demo_rgb",
+      "bytes": 144019,
+      "sha256": "49cc549209f8c1b34d0ab205cf8373ff5b830c7327158376c5ee518591cdb42f",
+      "original_source": {
+        "repository": "Hyper-Redundant-Manipulator-Segmentation",
+        "path": "datasets/image_rgb/00000440_1790484653_452999756.png"
+      }
+    },
+    {
+      "path": "samples/masks/00000440_1790484653_452999756.png",
+      "kind": "demo_pseudo_mask",
+      "bytes": 1549,
+      "sha256": "6f11f9fadae5e5866570375d50f00f26868ce93edf28fb2a81352cbe35c25cb2",
+      "original_source": {
+        "repository": "Hyper-Redundant-Manipulator-Segmentation",
+        "path": "datasets/image_segmentation/00000440_1790484653_452999756.png"
+      }
+    },
+    {
+      "path": "samples/rgb/00000550_1790484657_121147217.png",
+      "kind": "demo_rgb",
+      "bytes": 146910,
+      "sha256": "25e691a7012cdd9fd84e194e2de3cfe5f3596a90092e67f087eefbc753d8e699",
+      "original_source": {
+        "repository": "Hyper-Redundant-Manipulator-Segmentation",
+        "path": "datasets/image_rgb/00000550_1790484657_121147217.png"
+      }
+    },
+    {
+      "path": "samples/masks/00000550_1790484657_121147217.png",
+      "kind": "demo_pseudo_mask",
+      "bytes": 1663,
+      "sha256": "62a0f6612521be779d444a328f5c9f8d2d46100e60c3ca41a1b9229c3e72b1af",
+      "original_source": {
+        "repository": "Hyper-Redundant-Manipulator-Segmentation",
+        "path": "datasets/image_segmentation/00000550_1790484657_121147217.png"
+      }
+    },
+    {
+      "path": "samples/rgb/00000660_1790484660_789290771.png",
+      "kind": "demo_rgb",
+      "bytes": 146741,
+      "sha256": "ef487245fbde5759f3364c5a8075ee4ae763707a34d2b3f17d42bfd4ef58e4d0",
+      "original_source": {
+        "repository": "Hyper-Redundant-Manipulator-Segmentation",
+        "path": "datasets/image_rgb/00000660_1790484660_789290771.png"
+      }
+    },
+    {
+      "path": "samples/masks/00000660_1790484660_789290771.png",
+      "kind": "demo_pseudo_mask",
+      "bytes": 1529,
+      "sha256": "8e640515bc578373dc704d1e552a03a1b3f7c2aa39eb0dc3e2f7be1e3e08da6b",
+      "original_source": {
+        "repository": "Hyper-Redundant-Manipulator-Segmentation",
+        "path": "datasets/image_segmentation/00000660_1790484660_789290771.png"
+      }
+    },
+    {
+      "path": "samples/rgb/00000770_1790484664_457415527.png",
+      "kind": "demo_rgb",
+      "bytes": 146096,
+      "sha256": "4307d2de40229d27600ccf0479b2a2a53eb99ca85862686b6bbde16bd0941771",
+      "original_source": {
+        "repository": "Hyper-Redundant-Manipulator-Segmentation",
+        "path": "datasets/image_rgb/00000770_1790484664_457415527.png"
+      }
+    },
+    {
+      "path": "samples/masks/00000770_1790484664_457415527.png",
+      "kind": "demo_pseudo_mask",
+      "bytes": 1562,
+      "sha256": "49486950768e92361889bba9adfc1f552b0e538805bd07bc0509bfdcb96b673f",
+      "original_source": {
+        "repository": "Hyper-Redundant-Manipulator-Segmentation",
+        "path": "datasets/image_segmentation/00000770_1790484664_457415527.png"
+      }
+    },
+    {
+      "path": "samples/rgb/00000880_1790484668_125556396.png",
+      "kind": "demo_rgb",
+      "bytes": 144197,
+      "sha256": "bb8042b7e6ee94b3ded52e4d0af5ed835a8bdccac4d312baefc6f943de23e1e9",
+      "original_source": {
+        "repository": "Hyper-Redundant-Manipulator-Segmentation",
+        "path": "datasets/image_rgb/00000880_1790484668_125556396.png"
+      }
+    },
+    {
+      "path": "samples/masks/00000880_1790484668_125556396.png",
+      "kind": "demo_pseudo_mask",
+      "bytes": 1252,
+      "sha256": "4d30613a8c1ee7d6cae29e87afb613ccdaf1d4c6c809674d3161517f14ca058d",
+      "original_source": {
+        "repository": "Hyper-Redundant-Manipulator-Segmentation",
+        "path": "datasets/image_segmentation/00000880_1790484668_125556396.png"
+      }
+    },
+    {
+      "path": "samples/rgb/00000990_1790484671_793701904.png",
+      "kind": "demo_rgb",
+      "bytes": 143618,
+      "sha256": "f5cde63e508cb60d69459a967aa8f1f1b37412cc8cd0e71bc5421a4e9ceb8b9a",
+      "original_source": {
+        "repository": "Hyper-Redundant-Manipulator-Segmentation",
+        "path": "datasets/image_rgb/00000990_1790484671_793701904.png"
+      }
+    },
+    {
+      "path": "samples/masks/00000990_1790484671_793701904.png",
+      "kind": "demo_pseudo_mask",
+      "bytes": 1407,
+      "sha256": "36c12ac844d27190d4a3d3cc5f9a48aa71632b319d2f6eecb3c7685964fa1629",
+      "original_source": {
+        "repository": "Hyper-Redundant-Manipulator-Segmentation",
+        "path": "datasets/image_segmentation/00000990_1790484671_793701904.png"
+      }
+    },
+    {
+      "path": "samples/rgb/00001100_1790484675_461831787.png",
+      "kind": "demo_rgb",
+      "bytes": 146294,
+      "sha256": "3574033f1b65474015d83d1d9e756bc9ac7af841cb1ac5d72d467693deec53be",
+      "original_source": {
+        "repository": "Hyper-Redundant-Manipulator-Segmentation",
+        "path": "datasets/image_rgb/00001100_1790484675_461831787.png"
+      }
+    },
+    {
+      "path": "samples/masks/00001100_1790484675_461831787.png",
+      "kind": "demo_pseudo_mask",
+      "bytes": 1648,
+      "sha256": "5e741fb814860897dce34e4f187adc473dc45c1d9fec71cb8dd9ed8a1b9f6b6f",
+      "original_source": {
+        "repository": "Hyper-Redundant-Manipulator-Segmentation",
+        "path": "datasets/image_segmentation/00001100_1790484675_461831787.png"
+      }
+    },
+    {
+      "path": "samples/rgb/00001210_1790484679_129965820.png",
+      "kind": "demo_rgb",
+      "bytes": 144930,
+      "sha256": "f869ed30d86e42455c2ba204c6e7d24e44f039372ced118f3e323acae1e88e65",
+      "original_source": {
+        "repository": "Hyper-Redundant-Manipulator-Segmentation",
+        "path": "datasets/image_rgb/00001210_1790484679_129965820.png"
+      }
+    },
+    {
+      "path": "samples/masks/00001210_1790484679_129965820.png",
+      "kind": "demo_pseudo_mask",
+      "bytes": 1502,
+      "sha256": "605be83cde6d8ffabb0325457c95d34ac0a72dcc65d5bcad4ed4240d8199035e",
+      "original_source": {
+        "repository": "Hyper-Redundant-Manipulator-Segmentation",
+        "path": "datasets/image_segmentation/00001210_1790484679_129965820.png"
+      }
+    },
+    {
+      "path": "samples/rgb/00001320_1790484682_798096924.png",
+      "kind": "demo_rgb",
+      "bytes": 149181,
+      "sha256": "daf8491e8a0ca71ad6f9835e3b688b3d6426f53c4baa6e0c632c214c916b5ec9",
+      "original_source": {
+        "repository": "Hyper-Redundant-Manipulator-Segmentation",
+        "path": "datasets/image_rgb/00001320_1790484682_798096924.png"
+      }
+    },
+    {
+      "path": "samples/masks/00001320_1790484682_798096924.png",
+      "kind": "demo_pseudo_mask",
+      "bytes": 1607,
+      "sha256": "1d6abe1e97f6c8df02c7633aedd49513b73c5e19a469bf2873b533b5e0dc26cb",
+      "original_source": {
+        "repository": "Hyper-Redundant-Manipulator-Segmentation",
+        "path": "datasets/image_segmentation/00001320_1790484682_798096924.png"
+      }
+    },
+    {
+      "path": "samples/rgb/00001430_1790484686_466235107.png",
+      "kind": "demo_rgb",
+      "bytes": 144259,
+      "sha256": "9033fca306e473b43bfae80e4b76dad9426c8532434ec0d1e2a1c87466f4b868",
+      "original_source": {
+        "repository": "Hyper-Redundant-Manipulator-Segmentation",
+        "path": "datasets/image_rgb/00001430_1790484686_466235107.png"
+      }
+    },
+    {
+      "path": "samples/masks/00001430_1790484686_466235107.png",
+      "kind": "demo_pseudo_mask",
+      "bytes": 1498,
+      "sha256": "ce3aff820046d16add7770c7b994178bcc266c429a658ebe29af345dc438393f",
+      "original_source": {
+        "repository": "Hyper-Redundant-Manipulator-Segmentation",
+        "path": "datasets/image_segmentation/00001430_1790484686_466235107.png"
+      }
+    },
+    {
+      "path": "samples/rgb/00001540_1790484690_134316650.png",
+      "kind": "demo_rgb",
+      "bytes": 145586,
+      "sha256": "e8367ab71e8dbd2988573e375a35d64e9fdab98fe58a3d7e6591165ebb7a5c51",
+      "original_source": {
+        "repository": "Hyper-Redundant-Manipulator-Segmentation",
+        "path": "datasets/image_rgb/00001540_1790484690_134316650.png"
+      }
+    },
+    {
+      "path": "samples/masks/00001540_1790484690_134316650.png",
+      "kind": "demo_pseudo_mask",
+      "bytes": 1294,
+      "sha256": "5add6bf1700dbb4c92251d8d67d0cd017b044d1ec28faee43f2c76a2599e8c34",
+      "original_source": {
+        "repository": "Hyper-Redundant-Manipulator-Segmentation",
+        "path": "datasets/image_segmentation/00001540_1790484690_134316650.png"
+      }
+    },
+    {
+      "path": "samples/rgb/00000031_1790484913_785061035.png",
+      "kind": "demo_rgb",
+      "bytes": 144500,
+      "sha256": "60183270225e72a7e00749c949e16233a40fdb818b0be8bf656c3f9b50b39d0c",
+      "original_source": {
+        "repository": "Hyper-Redundant-Manipulator-Segmentation",
+        "path": "datasets/image_rgb/00000031_1790484913_785061035.png"
+      }
+    },
+    {
+      "path": "samples/masks/00000031_1790484913_785061035.png",
+      "kind": "demo_pseudo_mask",
+      "bytes": 1313,
+      "sha256": "7fdc3833271f595708ed159bf509ba576be5e860d53eef2877ba955f5e1c8855",
+      "original_source": {
+        "repository": "Hyper-Redundant-Manipulator-Segmentation",
+        "path": "datasets/image_segmentation/00000031_1790484913_785061035.png"
+      }
+    },
+    {
+      "path": "samples/rgb/00000141_1790484917_453037109.png",
+      "kind": "demo_rgb",
+      "bytes": 143033,
+      "sha256": "8b9bdad5741482caa7c1a48b485c5d5545e2554920f0ee0bc3509c9bdd2890e3",
+      "original_source": {
+        "repository": "Hyper-Redundant-Manipulator-Segmentation",
+        "path": "datasets/image_rgb/00000141_1790484917_453037109.png"
+      }
+    },
+    {
+      "path": "samples/masks/00000141_1790484917_453037109.png",
+      "kind": "demo_pseudo_mask",
+      "bytes": 1302,
+      "sha256": "15a6e0bb83023585ee4f225cd2c0c28388232db4703c2e6b8db441542c097f89",
+      "original_source": {
+        "repository": "Hyper-Redundant-Manipulator-Segmentation",
+        "path": "datasets/image_segmentation/00000141_1790484917_453037109.png"
+      }
+    },
+    {
+      "path": "samples/rgb/00000251_1790484921_121025879.png",
+      "kind": "demo_rgb",
+      "bytes": 145914,
+      "sha256": "4751b972e7b308f3eaef9f036d055a5efa815ea683c5e350c4a45b03ecb78834",
+      "original_source": {
+        "repository": "Hyper-Redundant-Manipulator-Segmentation",
+        "path": "datasets/image_rgb/00000251_1790484921_121025879.png"
+      }
+    },
+    {
+      "path": "samples/masks/00000251_1790484921_121025879.png",
+      "kind": "demo_pseudo_mask",
+      "bytes": 1458,
+      "sha256": "6e517a1507bd97eba68acd49676d64a05c40d4b49fc3e10c1fe531e415d16084",
+      "original_source": {
+        "repository": "Hyper-Redundant-Manipulator-Segmentation",
+        "path": "datasets/image_segmentation/00000251_1790484921_121025879.png"
+      }
+    },
+    {
+      "path": "samples/rgb/00000361_1790484924_789009033.png",
+      "kind": "demo_rgb",
+      "bytes": 142492,
+      "sha256": "7fcd9c08c52c6a38fcafcb5715d79a3ea29f2051a1c78e4f2f1dc478c97fbcbe",
+      "original_source": {
+        "repository": "Hyper-Redundant-Manipulator-Segmentation",
+        "path": "datasets/image_rgb/00000361_1790484924_789009033.png"
+      }
+    },
+    {
+      "path": "samples/masks/00000361_1790484924_789009033.png",
+      "kind": "demo_pseudo_mask",
+      "bytes": 1202,
+      "sha256": "f6325dd50977808f17e173b976338079412d0598642e4eee33992bc9b2e36881",
+      "original_source": {
+        "repository": "Hyper-Redundant-Manipulator-Segmentation",
+        "path": "datasets/image_segmentation/00000361_1790484924_789009033.png"
+      }
+    },
+    {
+      "path": "samples/rgb/00000471_1790484928_456992432.png",
+      "kind": "demo_rgb",
+      "bytes": 143457,
+      "sha256": "6ee45f7a5a8a854db906c5ec893ad8d963391a2ece8a23b01e98e5e5aa3e0da6",
+      "original_source": {
+        "repository": "Hyper-Redundant-Manipulator-Segmentation",
+        "path": "datasets/image_rgb/00000471_1790484928_456992432.png"
+      }
+    },
+    {
+      "path": "samples/masks/00000471_1790484928_456992432.png",
+      "kind": "demo_pseudo_mask",
+      "bytes": 1498,
+      "sha256": "d358ce98110b8be104ac817db23fdda15f7c8584cb51023895d102bafd731ed7",
+      "original_source": {
+        "repository": "Hyper-Redundant-Manipulator-Segmentation",
+        "path": "datasets/image_segmentation/00000471_1790484928_456992432.png"
+      }
+    },
+    {
+      "path": "samples/rgb/00000581_1790484932_124960205.png",
+      "kind": "demo_rgb",
+      "bytes": 147097,
+      "sha256": "56bddc5b5de52a31702a4d7fd2ae41b91049b4fdcbc05e0a5019faf64702afc1",
+      "original_source": {
+        "repository": "Hyper-Redundant-Manipulator-Segmentation",
+        "path": "datasets/image_rgb/00000581_1790484932_124960205.png"
+      }
+    },
+    {
+      "path": "samples/masks/00000581_1790484932_124960205.png",
+      "kind": "demo_pseudo_mask",
+      "bytes": 1680,
+      "sha256": "b9cf986d304743e5ea26d24a3d8add3b9f2f359601bd93d870b2127d7e325f2b",
+      "original_source": {
+        "repository": "Hyper-Redundant-Manipulator-Segmentation",
+        "path": "datasets/image_segmentation/00000581_1790484932_124960205.png"
+      }
+    },
+    {
+      "path": "samples/rgb/00000691_1790484935_792935059.png",
+      "kind": "demo_rgb",
+      "bytes": 146107,
+      "sha256": "ce5f0211b1a648e3abdd33d6d5e353da3c73f01f1e5ee39e90a0e92ed59966fb",
+      "original_source": {
+        "repository": "Hyper-Redundant-Manipulator-Segmentation",
+        "path": "datasets/image_rgb/00000691_1790484935_792935059.png"
+      }
+    },
+    {
+      "path": "samples/masks/00000691_1790484935_792935059.png",
+      "kind": "demo_pseudo_mask",
+      "bytes": 1551,
+      "sha256": "1adae035c20782f809b5d5befa97160e3bf2edc82c0e3f35febbc0580872b5a9",
+      "original_source": {
+        "repository": "Hyper-Redundant-Manipulator-Segmentation",
+        "path": "datasets/image_segmentation/00000691_1790484935_792935059.png"
+      }
+    },
+    {
+      "path": "samples/rgb/00000801_1790484939_460915771.png",
+      "kind": "demo_rgb",
+      "bytes": 145512,
+      "sha256": "08e3316c16fbe9aeb3b6f47474df68e574e3fa46683c2ca69948b81b469713fb",
+      "original_source": {
+        "repository": "Hyper-Redundant-Manipulator-Segmentation",
+        "path": "datasets/image_rgb/00000801_1790484939_460915771.png"
+      }
+    },
+    {
+      "path": "samples/masks/00000801_1790484939_460915771.png",
+      "kind": "demo_pseudo_mask",
+      "bytes": 1457,
+      "sha256": "35a77f2ad69c7ea69bff3a24bfef471e8743356ff36f44bf183253f71aabbad7",
+      "original_source": {
+        "repository": "Hyper-Redundant-Manipulator-Segmentation",
+        "path": "datasets/image_segmentation/00000801_1790484939_460915771.png"
+      }
+    },
+    {
+      "path": "samples/rgb/00000911_1790484943_128888184.png",
+      "kind": "demo_rgb",
+      "bytes": 143796,
+      "sha256": "770f434a4b43107938548d7027ebb8aea1676c403893d763174b5efad3068671",
+      "original_source": {
+        "repository": "Hyper-Redundant-Manipulator-Segmentation",
+        "path": "datasets/image_rgb/00000911_1790484943_128888184.png"
+      }
+    },
+    {
+      "path": "samples/masks/00000911_1790484943_128888184.png",
+      "kind": "demo_pseudo_mask",
+      "bytes": 1268,
+      "sha256": "f882c869c160b4e01d52593f93f8162d15ae85989fbc5308e222c166701e59a2",
+      "original_source": {
+        "repository": "Hyper-Redundant-Manipulator-Segmentation",
+        "path": "datasets/image_segmentation/00000911_1790484943_128888184.png"
+      }
+    },
+    {
+      "path": "samples/rgb/00001021_1790484946_796837891.png",
+      "kind": "demo_rgb",
+      "bytes": 143270,
+      "sha256": "f984ce9433d1c8335f066559b295d551b3162f9789ac617af9072dec96500c55",
+      "original_source": {
+        "repository": "Hyper-Redundant-Manipulator-Segmentation",
+        "path": "datasets/image_rgb/00001021_1790484946_796837891.png"
+      }
+    },
+    {
+      "path": "samples/masks/00001021_1790484946_796837891.png",
+      "kind": "demo_pseudo_mask",
+      "bytes": 1326,
+      "sha256": "3eeb13fd045cc622fa44a9c0b4609991cd095cd76f42c5cfa2eba677fe048b2b",
+      "original_source": {
+        "repository": "Hyper-Redundant-Manipulator-Segmentation",
+        "path": "datasets/image_segmentation/00001021_1790484946_796837891.png"
+      }
+    },
+    {
+      "path": "samples/rgb/00001130_1790484950_431461670.png",
+      "kind": "demo_rgb",
+      "bytes": 146413,
+      "sha256": "540784587b295c1211d56611d77c6ceadfc58e7e2c48ae1ac45fc75833295a0b",
+      "original_source": {
+        "repository": "Hyper-Redundant-Manipulator-Segmentation",
+        "path": "datasets/image_rgb/00001130_1790484950_431461670.png"
+      }
+    },
+    {
+      "path": "samples/masks/00001130_1790484950_431461670.png",
+      "kind": "demo_pseudo_mask",
+      "bytes": 1653,
+      "sha256": "728cd179b906b12d315895d781c4f74f2ba2915a370e4539fff53a0e9869d003",
+      "original_source": {
+        "repository": "Hyper-Redundant-Manipulator-Segmentation",
+        "path": "datasets/image_segmentation/00001130_1790484950_431461670.png"
+      }
+    },
+    {
+      "path": "samples/rgb/00001240_1790484954_132765137.png",
+      "kind": "demo_rgb",
+      "bytes": 146566,
+      "sha256": "a264480de5ddb0365e77864340fd2bc30be0c59d4bc92de4e3ee594b4bdbbaaf",
+      "original_source": {
+        "repository": "Hyper-Redundant-Manipulator-Segmentation",
+        "path": "datasets/image_rgb/00001240_1790484954_132765137.png"
+      }
+    },
+    {
+      "path": "samples/masks/00001240_1790484954_132765137.png",
+      "kind": "demo_pseudo_mask",
+      "bytes": 1498,
+      "sha256": "6db4ca7dadb1d5d052e84329f7185ff1c8c3048b8c0a7e49728e5c1590109a0c",
+      "original_source": {
+        "repository": "Hyper-Redundant-Manipulator-Segmentation",
+        "path": "datasets/image_segmentation/00001240_1790484954_132765137.png"
+      }
+    },
+    {
+      "path": "samples/rgb/00001350_1790484957_800737305.png",
+      "kind": "demo_rgb",
+      "bytes": 148078,
+      "sha256": "fe85534f20a4ccda04c7ea8881b5dcd4888a49c9bab8e92fae403f5e2b1a151b",
+      "original_source": {
+        "repository": "Hyper-Redundant-Manipulator-Segmentation",
+        "path": "datasets/image_rgb/00001350_1790484957_800737305.png"
+      }
+    },
+    {
+      "path": "samples/masks/00001350_1790484957_800737305.png",
+      "kind": "demo_pseudo_mask",
+      "bytes": 1539,
+      "sha256": "a23e9e5e0d846d6c308d9a83f237c4c79ca906be72721a7502b8e4e4948f29d9",
+      "original_source": {
+        "repository": "Hyper-Redundant-Manipulator-Segmentation",
+        "path": "datasets/image_segmentation/00001350_1790484957_800737305.png"
+      }
+    },
+    {
+      "path": "samples/rgb/00001460_1790484961_468721924.png",
+      "kind": "demo_rgb",
+      "bytes": 143849,
+      "sha256": "b7fcd0320ccc83e4a3e2a7676ff5a6cf048d7828f668a525b6fa76087a378599",
+      "original_source": {
+        "repository": "Hyper-Redundant-Manipulator-Segmentation",
+        "path": "datasets/image_rgb/00001460_1790484961_468721924.png"
+      }
+    },
+    {
+      "path": "samples/masks/00001460_1790484961_468721924.png",
+      "kind": "demo_pseudo_mask",
+      "bytes": 1391,
+      "sha256": "961e92a900b2a333cbe45dcedb85b0c52b30c8ff22aceb5bbcf2e770af0a2144",
+      "original_source": {
+        "repository": "Hyper-Redundant-Manipulator-Segmentation",
+        "path": "datasets/image_segmentation/00001460_1790484961_468721924.png"
+      }
+    },
+    {
+      "path": "samples/rgb/00001570_1790484965_136688232.png",
+      "kind": "demo_rgb",
+      "bytes": 142107,
+      "sha256": "abf05d9098c5d4bf96b6c843bcd701c82a73f6dbafd053e43b4ff8bd1be0e9b2",
+      "original_source": {
+        "repository": "Hyper-Redundant-Manipulator-Segmentation",
+        "path": "datasets/image_rgb/00001570_1790484965_136688232.png"
+      }
+    },
+    {
+      "path": "samples/masks/00001570_1790484965_136688232.png",
+      "kind": "demo_pseudo_mask",
+      "bytes": 1183,
+      "sha256": "b975f15bbe6db0db31f1a7931ac93fdcfb0fb223be5e77e4e29178376e83cca8",
+      "original_source": {
+        "repository": "Hyper-Redundant-Manipulator-Segmentation",
+        "path": "datasets/image_segmentation/00001570_1790484965_136688232.png"
+      }
+    },
+    {
+      "path": "samples/rgb/00001680_1790484968_804649414.png",
+      "kind": "demo_rgb",
+      "bytes": 145352,
+      "sha256": "b30be4ddd85efa14a41ba0549a81cec9745302d711286b7504d765182e79e514",
+      "original_source": {
+        "repository": "Hyper-Redundant-Manipulator-Segmentation",
+        "path": "datasets/image_rgb/00001680_1790484968_804649414.png"
+      }
+    },
+    {
+      "path": "samples/masks/00001680_1790484968_804649414.png",
+      "kind": "demo_pseudo_mask",
+      "bytes": 1529,
+      "sha256": "d7a8b1247a9d8484a91ae63288654215b0818bfa67a89c8f8272021648d90379",
+      "original_source": {
+        "repository": "Hyper-Redundant-Manipulator-Segmentation",
+        "path": "datasets/image_segmentation/00001680_1790484968_804649414.png"
+      }
+    },
+    {
+      "path": "samples/rgb/00001790_1790484972_472587158.png",
+      "kind": "demo_rgb",
+      "bytes": 145089,
+      "sha256": "3caf6f0deedc2312d5429a9e913c74f9b6bdb0fec38739bf4dbd957ec1185975",
+      "original_source": {
+        "repository": "Hyper-Redundant-Manipulator-Segmentation",
+        "path": "datasets/image_rgb/00001790_1790484972_472587158.png"
+      }
+    },
+    {
+      "path": "samples/masks/00001790_1790484972_472587158.png",
+      "kind": "demo_pseudo_mask",
+      "bytes": 1693,
+      "sha256": "fd56d462260ae7e3f5dd7d5072133898af0d4fd031d7a43d96e5aa7159faad25",
+      "original_source": {
+        "repository": "Hyper-Redundant-Manipulator-Segmentation",
+        "path": "datasets/image_segmentation/00001790_1790484972_472587158.png"
+      }
+    },
+    {
+      "path": "samples/rgb/00001900_1790484976_140539551.png",
+      "kind": "demo_rgb",
+      "bytes": 146787,
+      "sha256": "0b6c7c6c7c8108f8c6d03a238271e64498ef1ca7def5863765d9b29a118d2e2f",
+      "original_source": {
+        "repository": "Hyper-Redundant-Manipulator-Segmentation",
+        "path": "datasets/image_rgb/00001900_1790484976_140539551.png"
+      }
+    },
+    {
+      "path": "samples/masks/00001900_1790484976_140539551.png",
+      "kind": "demo_pseudo_mask",
+      "bytes": 1554,
+      "sha256": "b9bd970c9307757d11c379a7dc36aab435006c5e0ee02f306a4031c4b6143e6b",
+      "original_source": {
+        "repository": "Hyper-Redundant-Manipulator-Segmentation",
+        "path": "datasets/image_segmentation/00001900_1790484976_140539551.png"
+      }
+    },
+    {
+      "path": "samples/rgb/00002010_1790484979_808542236.png",
+      "kind": "demo_rgb",
+      "bytes": 147363,
+      "sha256": "5bf487aa812f19bba652b5b741c6fcbe1af97d8f1d8ba8c680f8c4b480c60d95",
+      "original_source": {
+        "repository": "Hyper-Redundant-Manipulator-Segmentation",
+        "path": "datasets/image_rgb/00002010_1790484979_808542236.png"
+      }
+    },
+    {
+      "path": "samples/masks/00002010_1790484979_808542236.png",
+      "kind": "demo_pseudo_mask",
+      "bytes": 1489,
+      "sha256": "c2c665305d3a7ff7ea1337280818c0727c47943d0cc9027b04b0afc70081883b",
+      "original_source": {
+        "repository": "Hyper-Redundant-Manipulator-Segmentation",
+        "path": "datasets/image_segmentation/00002010_1790484979_808542236.png"
+      }
+    },
+    {
+      "path": "samples/rgb/00002120_1790484983_476494873.png",
+      "kind": "demo_rgb",
+      "bytes": 143748,
+      "sha256": "e3efe9ada77c2c5a0a35718623f3f07d0de860d4e1c120952a718c7d621fbe5f",
+      "original_source": {
+        "repository": "Hyper-Redundant-Manipulator-Segmentation",
+        "path": "datasets/image_rgb/00002120_1790484983_476494873.png"
+      }
+    },
+    {
+      "path": "samples/masks/00002120_1790484983_476494873.png",
+      "kind": "demo_pseudo_mask",
+      "bytes": 1419,
+      "sha256": "1575086d499f8dc60ab0e5254bfdf6ceffce1dc6ea59e05606a4fbc7a0d41510",
+      "original_source": {
+        "repository": "Hyper-Redundant-Manipulator-Segmentation",
+        "path": "datasets/image_segmentation/00002120_1790484983_476494873.png"
+      }
+    },
+    {
+      "path": "samples/rgb/00002230_1790484987_144438477.png",
+      "kind": "demo_rgb",
+      "bytes": 144634,
+      "sha256": "6e6ecef5d38c5eeb2583c38b1e3eb767d09d4b446c3b98aea4f4ec0c00b54c0f",
+      "original_source": {
+        "repository": "Hyper-Redundant-Manipulator-Segmentation",
+        "path": "datasets/image_rgb/00002230_1790484987_144438477.png"
+      }
+    },
+    {
+      "path": "samples/masks/00002230_1790484987_144438477.png",
+      "kind": "demo_pseudo_mask",
+      "bytes": 1300,
+      "sha256": "5a7baa94ce4605f4f488e4279737c76da54b72842aeff8db7434413fce028a2e",
+      "original_source": {
+        "repository": "Hyper-Redundant-Manipulator-Segmentation",
+        "path": "datasets/image_segmentation/00002230_1790484987_144438477.png"
+      }
+    },
+    {
+      "path": "samples/rgb/00000099_1790485025_824484375.png",
+      "kind": "demo_rgb",
+      "bytes": 146110,
+      "sha256": "ec7ba02da7a0f541a9cad4b3c7a71d8df69bde1ca2e9a0ede454aa8e6b5d9dc4",
+      "original_source": {
+        "repository": "Hyper-Redundant-Manipulator-Segmentation",
+        "path": "datasets/image_rgb/00000099_1790485025_824484375.png"
+      }
+    },
+    {
+      "path": "samples/masks/00000099_1790485025_824484375.png",
+      "kind": "demo_pseudo_mask",
+      "bytes": 1480,
+      "sha256": "f4399807d11d9bb3e42f32db1a6e41fb42de5a7d188ee68825d0048e4632a182",
+      "original_source": {
+        "repository": "Hyper-Redundant-Manipulator-Segmentation",
+        "path": "datasets/image_segmentation/00000099_1790485025_824484375.png"
+      }
+    },
+    {
+      "path": "samples/rgb/00000209_1790485029_492428467.png",
+      "kind": "demo_rgb",
+      "bytes": 141289,
+      "sha256": "74ca568de763020df3f113b306da904c9d22f53af7806a1cea4c5891b8602faa",
+      "original_source": {
+        "repository": "Hyper-Redundant-Manipulator-Segmentation",
+        "path": "datasets/image_rgb/00000209_1790485029_492428467.png"
+      }
+    },
+    {
+      "path": "samples/masks/00000209_1790485029_492428467.png",
+      "kind": "demo_pseudo_mask",
+      "bytes": 1220,
+      "sha256": "965fea45fb7270c05fbd0c969a29ce1a5355bb680cf5c90d6d1bfc54f32e4b2b",
+      "original_source": {
+        "repository": "Hyper-Redundant-Manipulator-Segmentation",
+        "path": "datasets/image_segmentation/00000209_1790485029_492428467.png"
+      }
+    },
+    {
+      "path": "samples/rgb/00000319_1790485033_160357178.png",
+      "kind": "demo_rgb",
+      "bytes": 144386,
+      "sha256": "1c3c2e325a570753f79846b00d59e4c5486bcec39bee09b06d6c498ee5c947b4",
+      "original_source": {
+        "repository": "Hyper-Redundant-Manipulator-Segmentation",
+        "path": "datasets/image_rgb/00000319_1790485033_160357178.png"
+      }
+    },
+    {
+      "path": "samples/masks/00000319_1790485033_160357178.png",
+      "kind": "demo_pseudo_mask",
+      "bytes": 1474,
+      "sha256": "a905ec9cf2c902d711e81bb47d86eb9f91ed9f33fd82b65bddb51f4a90f3389d",
+      "original_source": {
+        "repository": "Hyper-Redundant-Manipulator-Segmentation",
+        "path": "datasets/image_segmentation/00000319_1790485033_160357178.png"
+      }
+    },
+    {
+      "path": "samples/rgb/00000429_1790485036_828284424.png",
+      "kind": "demo_rgb",
+      "bytes": 147041,
+      "sha256": "d815b6c304c31084462fbd7f881b8b19221dedbaf0960db1060cd085ad32bbdf",
+      "original_source": {
+        "repository": "Hyper-Redundant-Manipulator-Segmentation",
+        "path": "datasets/image_rgb/00000429_1790485036_828284424.png"
+      }
+    },
+    {
+      "path": "samples/masks/00000429_1790485036_828284424.png",
+      "kind": "demo_pseudo_mask",
+      "bytes": 1673,
+      "sha256": "943933c5ad6efa25d0750c59947823210b719e01e77fd003a73c2449ccb9b649",
+      "original_source": {
+        "repository": "Hyper-Redundant-Manipulator-Segmentation",
+        "path": "datasets/image_segmentation/00000429_1790485036_828284424.png"
+      }
+    },
+    {
+      "path": "samples/rgb/00000539_1790485040_496202637.png",
+      "kind": "demo_rgb",
+      "bytes": 144677,
+      "sha256": "96563eec77f3943551b34cbf83b714aae15c605f7c34030be08388532af4da57",
+      "original_source": {
+        "repository": "Hyper-Redundant-Manipulator-Segmentation",
+        "path": "datasets/image_rgb/00000539_1790485040_496202637.png"
+      }
+    },
+    {
+      "path": "samples/masks/00000539_1790485040_496202637.png",
+      "kind": "demo_pseudo_mask",
+      "bytes": 1449,
+      "sha256": "b8ef2e5f316fcb4021751a5c3429584ecb6d1cc77427fe1638a6f6631594d8fd",
+      "original_source": {
+        "repository": "Hyper-Redundant-Manipulator-Segmentation",
+        "path": "datasets/image_segmentation/00000539_1790485040_496202637.png"
+      }
+    },
+    {
+      "path": "samples/rgb/00000649_1790485044_164132568.png",
+      "kind": "demo_rgb",
+      "bytes": 148530,
+      "sha256": "ce5c70ea55e71c166faff090bb556949f9140ba58ad1114c2c0bdaa906f8192e",
+      "original_source": {
+        "repository": "Hyper-Redundant-Manipulator-Segmentation",
+        "path": "datasets/image_rgb/00000649_1790485044_164132568.png"
+      }
+    },
+    {
+      "path": "samples/masks/00000649_1790485044_164132568.png",
+      "kind": "demo_pseudo_mask",
+      "bytes": 1509,
+      "sha256": "36af43ed463aa7474cc52189c01d026c09188a0d822addccfbe3818ec77e5709",
+      "original_source": {
+        "repository": "Hyper-Redundant-Manipulator-Segmentation",
+        "path": "datasets/image_segmentation/00000649_1790485044_164132568.png"
+      }
+    },
+    {
+      "path": "samples/rgb/00000759_1790485047_832068604.png",
+      "kind": "demo_rgb",
+      "bytes": 145324,
+      "sha256": "3946f39cf8fb23127e32a445ae5c0cbf7976622479f7890656466d0082ea5604",
+      "original_source": {
+        "repository": "Hyper-Redundant-Manipulator-Segmentation",
+        "path": "datasets/image_rgb/00000759_1790485047_832068604.png"
+      }
+    },
+    {
+      "path": "samples/masks/00000759_1790485047_832068604.png",
+      "kind": "demo_pseudo_mask",
+      "bytes": 1366,
+      "sha256": "d9988b3a9ef0cd6f556dedbb7f651ead12b030b95a1a14e71bce95e4db6905e6",
+      "original_source": {
+        "repository": "Hyper-Redundant-Manipulator-Segmentation",
+        "path": "datasets/image_segmentation/00000759_1790485047_832068604.png"
+      }
+    },
+    {
+      "path": "samples/rgb/00000869_1790485051_499997559.png",
+      "kind": "demo_rgb",
+      "bytes": 141230,
+      "sha256": "2b5ef2265edbcb63b4c5ab9221c2c423c9ce615e7f3aadc277a334d543fd1bf9",
+      "original_source": {
+        "repository": "Hyper-Redundant-Manipulator-Segmentation",
+        "path": "datasets/image_rgb/00000869_1790485051_499997559.png"
+      }
+    },
+    {
+      "path": "samples/masks/00000869_1790485051_499997559.png",
+      "kind": "demo_pseudo_mask",
+      "bytes": 1255,
+      "sha256": "2a8276d6b850d48042ad6b09e776f561c4bd1c80f3ab2ffc0616f3a410e072ac",
+      "original_source": {
+        "repository": "Hyper-Redundant-Manipulator-Segmentation",
+        "path": "datasets/image_segmentation/00000869_1790485051_499997559.png"
+      }
+    },
+    {
+      "path": "samples/rgb/00000979_1790485055_167918457.png",
+      "kind": "demo_rgb",
+      "bytes": 146038,
+      "sha256": "7eb95ca6590128383a55a1c371050f8e3d17fb61b2625cd9f0d03652781eddac",
+      "original_source": {
+        "repository": "Hyper-Redundant-Manipulator-Segmentation",
+        "path": "datasets/image_rgb/00000979_1790485055_167918457.png"
+      }
+    },
+    {
+      "path": "samples/masks/00000979_1790485055_167918457.png",
+      "kind": "demo_pseudo_mask",
+      "bytes": 1576,
+      "sha256": "0c156b3d0ea602748f536127886a7899d31f2cf12a25517c61274703586abeeb",
+      "original_source": {
+        "repository": "Hyper-Redundant-Manipulator-Segmentation",
+        "path": "datasets/image_segmentation/00000979_1790485055_167918457.png"
+      }
+    },
+    {
+      "path": "samples/rgb/00001089_1790485058_835833252.png",
+      "kind": "demo_rgb",
+      "bytes": 146416,
+      "sha256": "ec6134f0681e8c89c393815755305bc65798322fb03a9f7967c85df2f8a4c77d",
+      "original_source": {
+        "repository": "Hyper-Redundant-Manipulator-Segmentation",
+        "path": "datasets/image_rgb/00001089_1790485058_835833252.png"
+      }
+    },
+    {
+      "path": "samples/masks/00001089_1790485058_835833252.png",
+      "kind": "demo_pseudo_mask",
+      "bytes": 1542,
+      "sha256": "52ea87a006c03b22b8ef727b4be4a89e2d96a6dc3ad4f02d5f674a7786fab0a7",
+      "original_source": {
+        "repository": "Hyper-Redundant-Manipulator-Segmentation",
+        "path": "datasets/image_segmentation/00001089_1790485058_835833252.png"
+      }
+    },
+    {
+      "path": "samples/rgb/00001199_1790485062_503763428.png",
+      "kind": "demo_rgb",
+      "bytes": 145809,
+      "sha256": "f788fff209e4df85929e5f30a6bc40910f78a980b66892792b118d4b7ba02202",
+      "original_source": {
+        "repository": "Hyper-Redundant-Manipulator-Segmentation",
+        "path": "datasets/image_rgb/00001199_1790485062_503763428.png"
+      }
+    },
+    {
+      "path": "samples/masks/00001199_1790485062_503763428.png",
+      "kind": "demo_pseudo_mask",
+      "bytes": 1543,
+      "sha256": "41bb138c71b7fc7b085262a33649a1dbed86413f826b98c881eaee282394bd3b",
+      "original_source": {
+        "repository": "Hyper-Redundant-Manipulator-Segmentation",
+        "path": "datasets/image_segmentation/00001199_1790485062_503763428.png"
+      }
+    },
+    {
+      "path": "samples/rgb/00001309_1790485066_171726807.png",
+      "kind": "demo_rgb",
+      "bytes": 147000,
+      "sha256": "332982d710fdb9e145c6019aa1a7371be20bcdaf0011a0eb785a0601ad0c31ae",
+      "original_source": {
+        "repository": "Hyper-Redundant-Manipulator-Segmentation",
+        "path": "datasets/image_rgb/00001309_1790485066_171726807.png"
+      }
+    },
+    {
+      "path": "samples/masks/00001309_1790485066_171726807.png",
+      "kind": "demo_pseudo_mask",
+      "bytes": 1514,
+      "sha256": "f178dbc7b51016efa213434e929036f4ecf8a9414af542c900e9ef4d8f8345bc",
+      "original_source": {
+        "repository": "Hyper-Redundant-Manipulator-Segmentation",
+        "path": "datasets/image_segmentation/00001309_1790485066_171726807.png"
+      }
+    },
+    {
+      "path": "samples/rgb/00001419_1790485069_839642578.png",
+      "kind": "demo_rgb",
+      "bytes": 144763,
+      "sha256": "1a5c61947c1e0b7efa6023d4ed91f95fc93a7f9fe91082988a95d354123b467d",
+      "original_source": {
+        "repository": "Hyper-Redundant-Manipulator-Segmentation",
+        "path": "datasets/image_rgb/00001419_1790485069_839642578.png"
+      }
+    },
+    {
+      "path": "samples/masks/00001419_1790485069_839642578.png",
+      "kind": "demo_pseudo_mask",
+      "bytes": 1243,
+      "sha256": "507bfdf04649b14413e1ff3da7531806a87202c3c462b0fc81e462a8575052b0",
+      "original_source": {
+        "repository": "Hyper-Redundant-Manipulator-Segmentation",
+        "path": "datasets/image_segmentation/00001419_1790485069_839642578.png"
+      }
+    },
+    {
+      "path": "samples/rgb/00001529_1790485073_507558594.png",
+      "kind": "demo_rgb",
+      "bytes": 143148,
+      "sha256": "e1797bfa786d12dd3d3ca1bfe6967922f93388964510358cf02098f0ec961104",
+      "original_source": {
+        "repository": "Hyper-Redundant-Manipulator-Segmentation",
+        "path": "datasets/image_rgb/00001529_1790485073_507558594.png"
+      }
+    },
+    {
+      "path": "samples/masks/00001529_1790485073_507558594.png",
+      "kind": "demo_pseudo_mask",
+      "bytes": 1254,
+      "sha256": "62df86c16fc65261787f92db2c4a557e680f08b075706f8ec9f979ed2d32b516",
+      "original_source": {
+        "repository": "Hyper-Redundant-Manipulator-Segmentation",
+        "path": "datasets/image_segmentation/00001529_1790485073_507558594.png"
+      }
+    },
+    {
+      "path": "rgbd/live_black/rgb/0000_1792828172903074219.png",
+      "kind": "paper_rgb",
+      "bytes": 137612,
+      "sha256": "84a9a057c353a733acb30a23841350466c486f32e6e6eb70c0f2e1136b15cf37",
+      "original_source": {
+        "repository": "Hyper-Redundant-Manipulator-Segmentation",
+        "path": "runs/occlusion_pose_20261024/live_capture_black/hrm_crop/0000_1792828172903074219.png"
+      }
+    },
+    {
+      "path": "rgbd/live_black/depth/0000_1792828172903074219.png",
+      "kind": "paper_depth",
+      "bytes": 21494,
+      "sha256": "0bb480cd4f06eb0e863a720a2f1066c894d67ff3d994715902185642afe9e906",
+      "original_source": {
+        "repository": "Hyper-Redundant-Manipulator-Segmentation",
+        "path": "runs/occlusion_pose_20261024/live_capture_black/hrm_crop_depth/0000_1792828172903074219.png"
+      }
+    },
+    {
+      "path": "rgbd/live_black/rgb/0002_1792828173436551514.png",
+      "kind": "paper_rgb",
+      "bytes": 139506,
+      "sha256": "5945043138fc5643eecf2915a5a366749a9a7e5c68031387dbfafae7644b7220",
+      "original_source": {
+        "repository": "Hyper-Redundant-Manipulator-Segmentation",
+        "path": "runs/occlusion_pose_20261024/live_capture_black/hrm_crop/0002_1792828173436551514.png"
+      }
+    },
+    {
+      "path": "rgbd/live_black/depth/0002_1792828173436551514.png",
+      "kind": "paper_depth",
+      "bytes": 21417,
+      "sha256": "6a649572537351c54734d71da6ac86948fd78259a72e32a662946c3011fd1b27",
+      "original_source": {
+        "repository": "Hyper-Redundant-Manipulator-Segmentation",
+        "path": "runs/occlusion_pose_20261024/live_capture_black/hrm_crop_depth/0002_1792828173436551514.png"
+      }
+    },
+    {
+      "path": "rgbd/live_black/rgb/0004_1792828173970031494.png",
+      "kind": "paper_rgb",
+      "bytes": 139422,
+      "sha256": "69b3bd03ca0190357ef38e8ceb7e9c231b3c2b31cf51c125f82edc0ae991f4ee",
+      "original_source": {
+        "repository": "Hyper-Redundant-Manipulator-Segmentation",
+        "path": "runs/occlusion_pose_20261024/live_capture_black/hrm_crop/0004_1792828173970031494.png"
+      }
+    },
+    {
+      "path": "rgbd/live_black/depth/0004_1792828173970031494.png",
+      "kind": "paper_depth",
+      "bytes": 21694,
+      "sha256": "cde55b3564b5eff14a24ddc32a9d8a2659b4572d694b32626012d95ca30fd80d",
+      "original_source": {
+        "repository": "Hyper-Redundant-Manipulator-Segmentation",
+        "path": "runs/occlusion_pose_20261024/live_capture_black/hrm_crop_depth/0004_1792828173970031494.png"
+      }
+    },
+    {
+      "path": "rgbd/live_black/rgb/0006_1792828174503513672.png",
+      "kind": "paper_rgb",
+      "bytes": 137686,
+      "sha256": "68f9879409be5fd20131cb483aa3672eeaf87640873fb5e29f5195c6ae2daf86",
+      "original_source": {
+        "repository": "Hyper-Redundant-Manipulator-Segmentation",
+        "path": "runs/occlusion_pose_20261024/live_capture_black/hrm_crop/0006_1792828174503513672.png"
+      }
+    },
+    {
+      "path": "rgbd/live_black/depth/0006_1792828174503513672.png",
+      "kind": "paper_depth",
+      "bytes": 21349,
+      "sha256": "cb8d782512a08b59503481ef06d9b727400515ae796aa2a900a37ea9795e570b",
+      "original_source": {
+        "repository": "Hyper-Redundant-Manipulator-Segmentation",
+        "path": "runs/occlusion_pose_20261024/live_capture_black/hrm_crop_depth/0006_1792828174503513672.png"
+      }
+    },
+    {
+      "path": "rgbd/live_black/rgb/0008_1792828175036995850.png",
+      "kind": "paper_rgb",
+      "bytes": 139428,
+      "sha256": "fcf6a6706537093677ffee0d839af808fc0da64cf7aeb92f3b7a17107170d85e",
+      "original_source": {
+        "repository": "Hyper-Redundant-Manipulator-Segmentation",
+        "path": "runs/occlusion_pose_20261024/live_capture_black/hrm_crop/0008_1792828175036995850.png"
+      }
+    },
+    {
+      "path": "rgbd/live_black/depth/0008_1792828175036995850.png",
+      "kind": "paper_depth",
+      "bytes": 21342,
+      "sha256": "b102659b2d483abe469cf32f3865e4b997b2380f49d2ad10d08d0b9f0f7473d9",
+      "original_source": {
+        "repository": "Hyper-Redundant-Manipulator-Segmentation",
+        "path": "runs/occlusion_pose_20261024/live_capture_black/hrm_crop_depth/0008_1792828175036995850.png"
+      }
+    },
+    {
+      "path": "rgbd/live_black/rgb/0010_1792828175570478516.png",
+      "kind": "paper_rgb",
+      "bytes": 139331,
+      "sha256": "27f2f7aabc6a952af2666f01bc9ed8df60d1bf54f60e96c0200baf828c31049f",
+      "original_source": {
+        "repository": "Hyper-Redundant-Manipulator-Segmentation",
+        "path": "runs/occlusion_pose_20261024/live_capture_black/hrm_crop/0010_1792828175570478516.png"
+      }
+    },
+    {
+      "path": "rgbd/live_black/depth/0010_1792828175570478516.png",
+      "kind": "paper_depth",
+      "bytes": 21257,
+      "sha256": "589d00ec84efcff566d2e0e7e4d6b4a002f60e89f329b9f6384d7b33ac1669af",
+      "original_source": {
+        "repository": "Hyper-Redundant-Manipulator-Segmentation",
+        "path": "runs/occlusion_pose_20261024/live_capture_black/hrm_crop_depth/0010_1792828175570478516.png"
+      }
+    },
+    {
+      "path": "rgbd/live_black/rgb/0012_1792828176103961182.png",
+      "kind": "paper_rgb",
+      "bytes": 137871,
+      "sha256": "d456aaaec94864903f50eaaea5652601d2cb4c3780ea395da8727b04fca3429e",
+      "original_source": {
+        "repository": "Hyper-Redundant-Manipulator-Segmentation",
+        "path": "runs/occlusion_pose_20261024/live_capture_black/hrm_crop/0012_1792828176103961182.png"
+      }
+    },
+    {
+      "path": "rgbd/live_black/depth/0012_1792828176103961182.png",
+      "kind": "paper_depth",
+      "bytes": 21086,
+      "sha256": "77a4b8539b0c88836b39d2201f6e6ba899d2bbb6dfa3275126c7c6e0d900f9e0",
+      "original_source": {
+        "repository": "Hyper-Redundant-Manipulator-Segmentation",
+        "path": "runs/occlusion_pose_20261024/live_capture_black/hrm_crop_depth/0012_1792828176103961182.png"
+      }
+    },
+    {
+      "path": "rgbd/live_black/rgb/0014_1792828176637445801.png",
+      "kind": "paper_rgb",
+      "bytes": 139494,
+      "sha256": "f8b199da1a035ed62c9ff699413c1099846d1e5eacfbcfbd05fac81e8630cd9f",
+      "original_source": {
+        "repository": "Hyper-Redundant-Manipulator-Segmentation",
+        "path": "runs/occlusion_pose_20261024/live_capture_black/hrm_crop/0014_1792828176637445801.png"
+      }
+    },
+    {
+      "path": "rgbd/live_black/depth/0014_1792828176637445801.png",
+      "kind": "paper_depth",
+      "bytes": 21588,
+      "sha256": "48a50a047208cd32e0fa36b02c1297ea03e0ae09d116c4cd67d7c39670515930",
+      "original_source": {
+        "repository": "Hyper-Redundant-Manipulator-Segmentation",
+        "path": "runs/occlusion_pose_20261024/live_capture_black/hrm_crop_depth/0014_1792828176637445801.png"
+      }
+    },
+    {
+      "path": "rgbd/live_black/rgb/0016_1792828177170929688.png",
+      "kind": "paper_rgb",
+      "bytes": 139671,
+      "sha256": "3c045cd1fd8448f7f0205be768208fdae9427feaadd66449e2d7d5d4febd2d8c",
+      "original_source": {
+        "repository": "Hyper-Redundant-Manipulator-Segmentation",
+        "path": "runs/occlusion_pose_20261024/live_capture_black/hrm_crop/0016_1792828177170929688.png"
+      }
+    },
+    {
+      "path": "rgbd/live_black/depth/0016_1792828177170929688.png",
+      "kind": "paper_depth",
+      "bytes": 21887,
+      "sha256": "9ea8b4e591d67c659d4fa52644ab253df073295c7f6597611364859600382c4a",
+      "original_source": {
+        "repository": "Hyper-Redundant-Manipulator-Segmentation",
+        "path": "runs/occlusion_pose_20261024/live_capture_black/hrm_crop_depth/0016_1792828177170929688.png"
+      }
+    },
+    {
+      "path": "rgbd/live_black/rgb/0018_1792828177704413818.png",
+      "kind": "paper_rgb",
+      "bytes": 137769,
+      "sha256": "88d962dcaffcfa393a80ce0640d1919a6d5337542113b1ad3d4b42418f0f3b67",
+      "original_source": {
+        "repository": "Hyper-Redundant-Manipulator-Segmentation",
+        "path": "runs/occlusion_pose_20261024/live_capture_black/hrm_crop/0018_1792828177704413818.png"
+      }
+    },
+    {
+      "path": "rgbd/live_black/depth/0018_1792828177704413818.png",
+      "kind": "paper_depth",
+      "bytes": 22014,
+      "sha256": "1b7f6dcbe871143ef66c4c51f03b3ba9a4b7e73ba942b772183162594c7e481b",
+      "original_source": {
+        "repository": "Hyper-Redundant-Manipulator-Segmentation",
+        "path": "runs/occlusion_pose_20261024/live_capture_black/hrm_crop_depth/0018_1792828177704413818.png"
+      }
+    },
+    {
+      "path": "rgbd/live_black/rgb/0020_1792828178237894043.png",
+      "kind": "paper_rgb",
+      "bytes": 138962,
+      "sha256": "1be41e0589fe141e6663cd5cab6858caa49ab43a74233f5687d562308c14e0eb",
+      "original_source": {
+        "repository": "Hyper-Redundant-Manipulator-Segmentation",
+        "path": "runs/occlusion_pose_20261024/live_capture_black/hrm_crop/0020_1792828178237894043.png"
+      }
+    },
+    {
+      "path": "rgbd/live_black/depth/0020_1792828178237894043.png",
+      "kind": "paper_depth",
+      "bytes": 21490,
+      "sha256": "8372e6d50ee549996d1f2c5ec07e97f1c212a90ebcdf371dcf45806dfe27c2ed",
+      "original_source": {
+        "repository": "Hyper-Redundant-Manipulator-Segmentation",
+        "path": "runs/occlusion_pose_20261024/live_capture_black/hrm_crop_depth/0020_1792828178237894043.png"
+      }
+    },
+    {
+      "path": "rgbd/live_black/rgb/0022_1792828178771373291.png",
+      "kind": "paper_rgb",
+      "bytes": 139401,
+      "sha256": "f08103fe8ccdfdd52f52cbb54f36c1f19217134e74341934023218be0b068ebe",
+      "original_source": {
+        "repository": "Hyper-Redundant-Manipulator-Segmentation",
+        "path": "runs/occlusion_pose_20261024/live_capture_black/hrm_crop/0022_1792828178771373291.png"
+      }
+    },
+    {
+      "path": "rgbd/live_black/depth/0022_1792828178771373291.png",
+      "kind": "paper_depth",
+      "bytes": 20982,
+      "sha256": "f62a130870ebfc7117a40fe982a6f120fdbff18bfc7b868a050c891644a22362",
+      "original_source": {
+        "repository": "Hyper-Redundant-Manipulator-Segmentation",
+        "path": "runs/occlusion_pose_20261024/live_capture_black/hrm_crop_depth/0022_1792828178771373291.png"
+      }
+    },
+    {
+      "path": "rgbd/live_black/rgb/0024_1792828179304858154.png",
+      "kind": "paper_rgb",
+      "bytes": 137506,
+      "sha256": "1bd449443e8040b97c6abbd4dff5688dbc305ece2e5743dab1b473eece25715b",
+      "original_source": {
+        "repository": "Hyper-Redundant-Manipulator-Segmentation",
+        "path": "runs/occlusion_pose_20261024/live_capture_black/hrm_crop/0024_1792828179304858154.png"
+      }
+    },
+    {
+      "path": "rgbd/live_black/depth/0024_1792828179304858154.png",
+      "kind": "paper_depth",
+      "bytes": 21792,
+      "sha256": "34f8066df79e43d1eecd00468b82a57b91e91555823a0ca1a3ed47fa10d55a49",
+      "original_source": {
+        "repository": "Hyper-Redundant-Manipulator-Segmentation",
+        "path": "runs/occlusion_pose_20261024/live_capture_black/hrm_crop_depth/0024_1792828179304858154.png"
+      }
+    },
+    {
+      "path": "rgbd/live_black/rgb/0026_1792828179838343506.png",
+      "kind": "paper_rgb",
+      "bytes": 139343,
+      "sha256": "0ad6f5c4a74b211b65c2fa50a02f2ef681f37097521692fc86f6a43a32b917ad",
+      "original_source": {
+        "repository": "Hyper-Redundant-Manipulator-Segmentation",
+        "path": "runs/occlusion_pose_20261024/live_capture_black/hrm_crop/0026_1792828179838343506.png"
+      }
+    },
+    {
+      "path": "rgbd/live_black/depth/0026_1792828179838343506.png",
+      "kind": "paper_depth",
+      "bytes": 21364,
+      "sha256": "c65d1db62198b777c083889579de5130f67b21d58d76d8e52647103d2f3d79be",
+      "original_source": {
+        "repository": "Hyper-Redundant-Manipulator-Segmentation",
+        "path": "runs/occlusion_pose_20261024/live_capture_black/hrm_crop_depth/0026_1792828179838343506.png"
+      }
+    },
+    {
+      "path": "rgbd/live_black/rgb/0028_1792828180371830322.png",
+      "kind": "paper_rgb",
+      "bytes": 139758,
+      "sha256": "7b2c3ea52afae6f495379b685bf598bd95405d83425672414b031fdb5574905e",
+      "original_source": {
+        "repository": "Hyper-Redundant-Manipulator-Segmentation",
+        "path": "runs/occlusion_pose_20261024/live_capture_black/hrm_crop/0028_1792828180371830322.png"
+      }
+    },
+    {
+      "path": "rgbd/live_black/depth/0028_1792828180371830322.png",
+      "kind": "paper_depth",
+      "bytes": 21964,
+      "sha256": "9e888c0533f1f93c28aaf654132412f08d9c0f502d04ca785e1401784506ba1e",
+      "original_source": {
+        "repository": "Hyper-Redundant-Manipulator-Segmentation",
+        "path": "runs/occlusion_pose_20261024/live_capture_black/hrm_crop_depth/0028_1792828180371830322.png"
+      }
+    },
+    {
+      "path": "rgbd/live_black/rgb/0030_1792828180905317627.png",
+      "kind": "paper_rgb",
+      "bytes": 138080,
+      "sha256": "ed153bce9439b15a91cb3552dd793a357ecece74b6d12700dda0b5fc4a62277a",
+      "original_source": {
+        "repository": "Hyper-Redundant-Manipulator-Segmentation",
+        "path": "runs/occlusion_pose_20261024/live_capture_black/hrm_crop/0030_1792828180905317627.png"
+      }
+    },
+    {
+      "path": "rgbd/live_black/depth/0030_1792828180905317627.png",
+      "kind": "paper_depth",
+      "bytes": 21919,
+      "sha256": "c3f23d4d254134f400ad82718d3967d91241122cc85a745ba3ac9475ca218f67",
+      "original_source": {
+        "repository": "Hyper-Redundant-Manipulator-Segmentation",
+        "path": "runs/occlusion_pose_20261024/live_capture_black/hrm_crop_depth/0030_1792828180905317627.png"
+      }
+    },
+    {
+      "path": "rgbd/live_black/rgb/0032_1792828181438804932.png",
+      "kind": "paper_rgb",
+      "bytes": 139627,
+      "sha256": "02272503800957955daecd4f43a8aea95de0ae087ed540d54cafd19a8a525842",
+      "original_source": {
+        "repository": "Hyper-Redundant-Manipulator-Segmentation",
+        "path": "runs/occlusion_pose_20261024/live_capture_black/hrm_crop/0032_1792828181438804932.png"
+      }
+    },
+    {
+      "path": "rgbd/live_black/depth/0032_1792828181438804932.png",
+      "kind": "paper_depth",
+      "bytes": 21805,
+      "sha256": "2840382bc834f15910336b9b2d3fe6cdfa3973a762a3ccd09b894817984a1869",
+      "original_source": {
+        "repository": "Hyper-Redundant-Manipulator-Segmentation",
+        "path": "runs/occlusion_pose_20261024/live_capture_black/hrm_crop_depth/0032_1792828181438804932.png"
+      }
+    },
+    {
+      "path": "rgbd/live_black/rgb/0034_1792828181972293213.png",
+      "kind": "paper_rgb",
+      "bytes": 139613,
+      "sha256": "c0a86df7f1d976e02aebdcfd3fc1a0e4e09817662918c4c7c27fe55181a7b3ec",
+      "original_source": {
+        "repository": "Hyper-Redundant-Manipulator-Segmentation",
+        "path": "runs/occlusion_pose_20261024/live_capture_black/hrm_crop/0034_1792828181972293213.png"
+      }
+    },
+    {
+      "path": "rgbd/live_black/depth/0034_1792828181972293213.png",
+      "kind": "paper_depth",
+      "bytes": 21899,
+      "sha256": "4c46d8a4451823c1836f9162ac74c37dcf272e27838129acb5a0a84a2c638a95",
+      "original_source": {
+        "repository": "Hyper-Redundant-Manipulator-Segmentation",
+        "path": "runs/occlusion_pose_20261024/live_capture_black/hrm_crop_depth/0034_1792828181972293213.png"
+      }
+    },
+    {
+      "path": "rgbd/live_black/rgb/0036_1792828182505782227.png",
+      "kind": "paper_rgb",
+      "bytes": 138178,
+      "sha256": "6108c37e20522734c3b2d36a6d075c91952909ca7652ec55836410c5a7efc750",
+      "original_source": {
+        "repository": "Hyper-Redundant-Manipulator-Segmentation",
+        "path": "runs/occlusion_pose_20261024/live_capture_black/hrm_crop/0036_1792828182505782227.png"
+      }
+    },
+    {
+      "path": "rgbd/live_black/depth/0036_1792828182505782227.png",
+      "kind": "paper_depth",
+      "bytes": 21533,
+      "sha256": "7c3323df969a53087b18822e0def5d7764de125a8b8b6fbef8c70ab5896d9d96",
+      "original_source": {
+        "repository": "Hyper-Redundant-Manipulator-Segmentation",
+        "path": "runs/occlusion_pose_20261024/live_capture_black/hrm_crop_depth/0036_1792828182505782227.png"
+      }
+    },
+    {
+      "path": "rgbd/live_black/rgb/0038_1792828183039268555.png",
+      "kind": "paper_rgb",
+      "bytes": 139436,
+      "sha256": "b94475dceda846a9f776590aabf255bcc4f65520f36f6e42041f615adeaa34d9",
+      "original_source": {
+        "repository": "Hyper-Redundant-Manipulator-Segmentation",
+        "path": "runs/occlusion_pose_20261024/live_capture_black/hrm_crop/0038_1792828183039268555.png"
+      }
+    },
+    {
+      "path": "rgbd/live_black/depth/0038_1792828183039268555.png",
+      "kind": "paper_depth",
+      "bytes": 21590,
+      "sha256": "f72dcf028257c7f60d4329acaa134bcce4b526766c5ebcae0ee58d6cf4bba731",
+      "original_source": {
+        "repository": "Hyper-Redundant-Manipulator-Segmentation",
+        "path": "runs/occlusion_pose_20261024/live_capture_black/hrm_crop_depth/0038_1792828183039268555.png"
+      }
+    },
+    {
+      "path": "rgbd/live_black/rgb/0040_1792828183572752930.png",
+      "kind": "paper_rgb",
+      "bytes": 139446,
+      "sha256": "f8ac064e0d4c23c15a21debe2fea102ce8ae6aa20947f53f2a6065a6109e0b1a",
+      "original_source": {
+        "repository": "Hyper-Redundant-Manipulator-Segmentation",
+        "path": "runs/occlusion_pose_20261024/live_capture_black/hrm_crop/0040_1792828183572752930.png"
+      }
+    },
+    {
+      "path": "rgbd/live_black/depth/0040_1792828183572752930.png",
+      "kind": "paper_depth",
+      "bytes": 21280,
+      "sha256": "cc51e01cb4e713e9e470edc3655618fab40a8ebba6904fbb98bfdfc87a513c37",
+      "original_source": {
+        "repository": "Hyper-Redundant-Manipulator-Segmentation",
+        "path": "runs/occlusion_pose_20261024/live_capture_black/hrm_crop_depth/0040_1792828183572752930.png"
+      }
+    },
+    {
+      "path": "rgbd/live_black/rgb/0042_1792828184106242188.png",
+      "kind": "paper_rgb",
+      "bytes": 137798,
+      "sha256": "a929c06bfbbedfbeb9c39d398f17222e9d338af773a9694478bcc3f735be95f5",
+      "original_source": {
+        "repository": "Hyper-Redundant-Manipulator-Segmentation",
+        "path": "runs/occlusion_pose_20261024/live_capture_black/hrm_crop/0042_1792828184106242188.png"
+      }
+    },
+    {
+      "path": "rgbd/live_black/depth/0042_1792828184106242188.png",
+      "kind": "paper_depth",
+      "bytes": 21970,
+      "sha256": "f58fbf881585f6746e664438a056147b515c120dd833cb414041807e01f571ea",
+      "original_source": {
+        "repository": "Hyper-Redundant-Manipulator-Segmentation",
+        "path": "runs/occlusion_pose_20261024/live_capture_black/hrm_crop_depth/0042_1792828184106242188.png"
+      }
+    },
+    {
+      "path": "rgbd/live_black/rgb/0044_1792828184639735840.png",
+      "kind": "paper_rgb",
+      "bytes": 139455,
+      "sha256": "86c4919d4c0678e94b9695d466fee27028e34660f9414e74e519fad3170e9913",
+      "original_source": {
+        "repository": "Hyper-Redundant-Manipulator-Segmentation",
+        "path": "runs/occlusion_pose_20261024/live_capture_black/hrm_crop/0044_1792828184639735840.png"
+      }
+    },
+    {
+      "path": "rgbd/live_black/depth/0044_1792828184639735840.png",
+      "kind": "paper_depth",
+      "bytes": 21801,
+      "sha256": "94ceff8fdcfca7b4ad116fefa4c8d62c28b3fc2a407a1be2f50ce2bc8757c46a",
+      "original_source": {
+        "repository": "Hyper-Redundant-Manipulator-Segmentation",
+        "path": "runs/occlusion_pose_20261024/live_capture_black/hrm_crop_depth/0044_1792828184639735840.png"
+      }
+    },
+    {
+      "path": "rgbd/live_black/rgb/0046_1792828185173225830.png",
+      "kind": "paper_rgb",
+      "bytes": 139413,
+      "sha256": "d830d6b925aea82ab1410401e4b0d5e92a5fcbe1cf18468b2065aa9130fdf9a8",
+      "original_source": {
+        "repository": "Hyper-Redundant-Manipulator-Segmentation",
+        "path": "runs/occlusion_pose_20261024/live_capture_black/hrm_crop/0046_1792828185173225830.png"
+      }
+    },
+    {
+      "path": "rgbd/live_black/depth/0046_1792828185173225830.png",
+      "kind": "paper_depth",
+      "bytes": 21763,
+      "sha256": "867043e71a32884c866b9092f0224bfb453a4656b6238c88a2022c3d743e3e71",
+      "original_source": {
+        "repository": "Hyper-Redundant-Manipulator-Segmentation",
+        "path": "runs/occlusion_pose_20261024/live_capture_black/hrm_crop_depth/0046_1792828185173225830.png"
+      }
+    },
+    {
+      "path": "rgbd/live_black/rgb/0048_1792828185706716064.png",
+      "kind": "paper_rgb",
+      "bytes": 138334,
+      "sha256": "e86a0171bc8ba85521054669b07c0624cc489fa5611e16de4de27db5abdd056f",
+      "original_source": {
+        "repository": "Hyper-Redundant-Manipulator-Segmentation",
+        "path": "runs/occlusion_pose_20261024/live_capture_black/hrm_crop/0048_1792828185706716064.png"
+      }
+    },
+    {
+      "path": "rgbd/live_black/depth/0048_1792828185706716064.png",
+      "kind": "paper_depth",
+      "bytes": 21400,
+      "sha256": "1da10e723a4281fb937c3970f8889728695360a4ded2a7738e0f610b2529a831",
+      "original_source": {
+        "repository": "Hyper-Redundant-Manipulator-Segmentation",
+        "path": "runs/occlusion_pose_20261024/live_capture_black/hrm_crop_depth/0048_1792828185706716064.png"
+      }
+    },
+    {
+      "path": "rgbd/live_black/rgb/0050_1792828186240202148.png",
+      "kind": "paper_rgb",
+      "bytes": 139422,
+      "sha256": "8346506b1c353c6d2f9069695919674a30b024f5b54e5517874f12749ea380d9",
+      "original_source": {
+        "repository": "Hyper-Redundant-Manipulator-Segmentation",
+        "path": "runs/occlusion_pose_20261024/live_capture_black/hrm_crop/0050_1792828186240202148.png"
+      }
+    },
+    {
+      "path": "rgbd/live_black/depth/0050_1792828186240202148.png",
+      "kind": "paper_depth",
+      "bytes": 21957,
+      "sha256": "2087aa2a6854c116515674f0fbbc1e47e658a8a6c7a97e7a3b87aefc5a20958b",
+      "original_source": {
+        "repository": "Hyper-Redundant-Manipulator-Segmentation",
+        "path": "runs/occlusion_pose_20261024/live_capture_black/hrm_crop_depth/0050_1792828186240202148.png"
+      }
+    },
+    {
+      "path": "rgbd/live_black/rgb/0052_1792828186773687256.png",
+      "kind": "paper_rgb",
+      "bytes": 139718,
+      "sha256": "934a978d598b9c0d4034b837b928b669552fcda484fcf4c052d1357ec3075460",
+      "original_source": {
+        "repository": "Hyper-Redundant-Manipulator-Segmentation",
+        "path": "runs/occlusion_pose_20261024/live_capture_black/hrm_crop/0052_1792828186773687256.png"
+      }
+    },
+    {
+      "path": "rgbd/live_black/depth/0052_1792828186773687256.png",
+      "kind": "paper_depth",
+      "bytes": 21803,
+      "sha256": "9c7a3008d516298528b6b9cfd11b32c97aa362f38c39d55cd6ee43f050def3ec",
+      "original_source": {
+        "repository": "Hyper-Redundant-Manipulator-Segmentation",
+        "path": "runs/occlusion_pose_20261024/live_capture_black/hrm_crop_depth/0052_1792828186773687256.png"
+      }
+    },
+    {
+      "path": "rgbd/live_black/rgb/0054_1792828187307173096.png",
+      "kind": "paper_rgb",
+      "bytes": 137931,
+      "sha256": "5bb1c975bb2990f201a44efc09ee2fcbb6bba8418c1f43f8a5a3ece079a45b8c",
+      "original_source": {
+        "repository": "Hyper-Redundant-Manipulator-Segmentation",
+        "path": "runs/occlusion_pose_20261024/live_capture_black/hrm_crop/0054_1792828187307173096.png"
+      }
+    },
+    {
+      "path": "rgbd/live_black/depth/0054_1792828187307173096.png",
+      "kind": "paper_depth",
+      "bytes": 21830,
+      "sha256": "ba2b9c5f83d29b0fa8fc761478aeb211b29866f7b39087a0f96b215937536fa9",
+      "original_source": {
+        "repository": "Hyper-Redundant-Manipulator-Segmentation",
+        "path": "runs/occlusion_pose_20261024/live_capture_black/hrm_crop_depth/0054_1792828187307173096.png"
+      }
+    },
+    {
+      "path": "rgbd/live_black/rgb/0056_1792828187840658691.png",
+      "kind": "paper_rgb",
+      "bytes": 139502,
+      "sha256": "6afeaf7bf107a67d45032123939461fa07d8578a411b4333a8af2156f1e6df63",
+      "original_source": {
+        "repository": "Hyper-Redundant-Manipulator-Segmentation",
+        "path": "runs/occlusion_pose_20261024/live_capture_black/hrm_crop/0056_1792828187840658691.png"
+      }
+    },
+    {
+      "path": "rgbd/live_black/depth/0056_1792828187840658691.png",
+      "kind": "paper_depth",
+      "bytes": 21168,
+      "sha256": "0d54b7d8b65855b369b9e549d08da071cc115cf201a687fa02ca789d673f551d",
+      "original_source": {
+        "repository": "Hyper-Redundant-Manipulator-Segmentation",
+        "path": "runs/occlusion_pose_20261024/live_capture_black/hrm_crop_depth/0056_1792828187840658691.png"
+      }
+    },
+    {
+      "path": "rgbd/live_black/rgb/0058_1792828188374143555.png",
+      "kind": "paper_rgb",
+      "bytes": 139769,
+      "sha256": "a8bdb21ee4408672cc7f4191f75f9457896b50232c56824a25ab4221870c1bee",
+      "original_source": {
+        "repository": "Hyper-Redundant-Manipulator-Segmentation",
+        "path": "runs/occlusion_pose_20261024/live_capture_black/hrm_crop/0058_1792828188374143555.png"
+      }
+    },
+    {
+      "path": "rgbd/live_black/depth/0058_1792828188374143555.png",
+      "kind": "paper_depth",
+      "bytes": 21813,
+      "sha256": "60684ad7b76da06c88a4d718376c7fe465d6a6d4edd8cbc4a5219cf7a459413b",
+      "original_source": {
+        "repository": "Hyper-Redundant-Manipulator-Segmentation",
+        "path": "runs/occlusion_pose_20261024/live_capture_black/hrm_crop_depth/0058_1792828188374143555.png"
+      }
+    },
+    {
+      "path": "rgbd/live_black/rgb/0060_1792828188907628662.png",
+      "kind": "paper_rgb",
+      "bytes": 137574,
+      "sha256": "1bb1f3d39cf5d3e3c4d20aeff251fe5e9b912d1019c69bc6e17be76526e1e99b",
+      "original_source": {
+        "repository": "Hyper-Redundant-Manipulator-Segmentation",
+        "path": "runs/occlusion_pose_20261024/live_capture_black/hrm_crop/0060_1792828188907628662.png"
+      }
+    },
+    {
+      "path": "rgbd/live_black/depth/0060_1792828188907628662.png",
+      "kind": "paper_depth",
+      "bytes": 20945,
+      "sha256": "437c481bc98555f62e5b9fa0a22e0e8161bcc0583d36709eb08c83a7838ae45f",
+      "original_source": {
+        "repository": "Hyper-Redundant-Manipulator-Segmentation",
+        "path": "runs/occlusion_pose_20261024/live_capture_black/hrm_crop_depth/0060_1792828188907628662.png"
+      }
+    },
+    {
+      "path": "rgbd/live_black/rgb/0062_1792828189441113281.png",
+      "kind": "paper_rgb",
+      "bytes": 139441,
+      "sha256": "b7a40d28d97f41c9090c352ab9069bd114373d14363f1a745583e03b2ddc2b30",
+      "original_source": {
+        "repository": "Hyper-Redundant-Manipulator-Segmentation",
+        "path": "runs/occlusion_pose_20261024/live_capture_black/hrm_crop/0062_1792828189441113281.png"
+      }
+    },
+    {
+      "path": "rgbd/live_black/depth/0062_1792828189441113281.png",
+      "kind": "paper_depth",
+      "bytes": 21495,
+      "sha256": "1d87da2c7bc322f657da1fa55758f465203b0883408574b5a56b3327d58aa729",
+      "original_source": {
+        "repository": "Hyper-Redundant-Manipulator-Segmentation",
+        "path": "runs/occlusion_pose_20261024/live_capture_black/hrm_crop_depth/0062_1792828189441113281.png"
+      }
+    },
+    {
+      "path": "rgbd/live_black/rgb/0064_1792828189974598877.png",
+      "kind": "paper_rgb",
+      "bytes": 139453,
+      "sha256": "ffe3e23df432fe31b4c918e3afbf1ab7d798e0863d77518981d65bca22a09c84",
+      "original_source": {
+        "repository": "Hyper-Redundant-Manipulator-Segmentation",
+        "path": "runs/occlusion_pose_20261024/live_capture_black/hrm_crop/0064_1792828189974598877.png"
+      }
+    },
+    {
+      "path": "rgbd/live_black/depth/0064_1792828189974598877.png",
+      "kind": "paper_depth",
+      "bytes": 21796,
+      "sha256": "1f2619f00382771ee6eb26804989a919406906c2cc16653ced1e7f41f6daea47",
+      "original_source": {
+        "repository": "Hyper-Redundant-Manipulator-Segmentation",
+        "path": "runs/occlusion_pose_20261024/live_capture_black/hrm_crop_depth/0064_1792828189974598877.png"
+      }
+    },
+    {
+      "path": "rgbd/live_black/rgb/0066_1792828190508084473.png",
+      "kind": "paper_rgb",
+      "bytes": 137674,
+      "sha256": "63c18ecfe4b5a8f8c2e950f5cd6c0def31e5c709cc0c55f543cff36c9be7dd75",
+      "original_source": {
+        "repository": "Hyper-Redundant-Manipulator-Segmentation",
+        "path": "runs/occlusion_pose_20261024/live_capture_black/hrm_crop/0066_1792828190508084473.png"
+      }
+    },
+    {
+      "path": "rgbd/live_black/depth/0066_1792828190508084473.png",
+      "kind": "paper_depth",
+      "bytes": 20930,
+      "sha256": "8a0672db035b4aed693f7f75f57b414f8e7328d77bbf14b9269e9703c106669e",
+      "original_source": {
+        "repository": "Hyper-Redundant-Manipulator-Segmentation",
+        "path": "runs/occlusion_pose_20261024/live_capture_black/hrm_crop_depth/0066_1792828190508084473.png"
+      }
+    },
+    {
+      "path": "rgbd/live_black/rgb/0068_1792828191041569824.png",
+      "kind": "paper_rgb",
+      "bytes": 139484,
+      "sha256": "7329e4b177bc4f3ef399b2497fb78076e5d70477b2af4a04d7a8e6c7c3e64206",
+      "original_source": {
+        "repository": "Hyper-Redundant-Manipulator-Segmentation",
+        "path": "runs/occlusion_pose_20261024/live_capture_black/hrm_crop/0068_1792828191041569824.png"
+      }
+    },
+    {
+      "path": "rgbd/live_black/depth/0068_1792828191041569824.png",
+      "kind": "paper_depth",
+      "bytes": 21599,
+      "sha256": "f91e52ef44e76019e0c0264235a82306d9dc138f0a3cd96775c93c652cfc4444",
+      "original_source": {
+        "repository": "Hyper-Redundant-Manipulator-Segmentation",
+        "path": "runs/occlusion_pose_20261024/live_capture_black/hrm_crop_depth/0068_1792828191041569824.png"
+      }
+    },
+    {
+      "path": "rgbd/live_black/rgb/0070_1792828191575054688.png",
+      "kind": "paper_rgb",
+      "bytes": 139392,
+      "sha256": "c40bf418eaedcab5bbe2a7e63f9fca6051680a3921cf954f224c83d2eb2a408f",
+      "original_source": {
+        "repository": "Hyper-Redundant-Manipulator-Segmentation",
+        "path": "runs/occlusion_pose_20261024/live_capture_black/hrm_crop/0070_1792828191575054688.png"
+      }
+    },
+    {
+      "path": "rgbd/live_black/depth/0070_1792828191575054688.png",
+      "kind": "paper_depth",
+      "bytes": 21861,
+      "sha256": "c2c95f3114eae87359c1169e1f5737274a12d3d0db515455d44a1c2982a4a392",
+      "original_source": {
+        "repository": "Hyper-Redundant-Manipulator-Segmentation",
+        "path": "runs/occlusion_pose_20261024/live_capture_black/hrm_crop_depth/0070_1792828191575054688.png"
+      }
+    },
+    {
+      "path": "rgbd/live_black/rgb/0072_1792828192108538818.png",
+      "kind": "paper_rgb",
+      "bytes": 138043,
+      "sha256": "a26ef2082bc374880bac29d0be0779946c2e9b11e8db108ae746af4c34e12dc6",
+      "original_source": {
+        "repository": "Hyper-Redundant-Manipulator-Segmentation",
+        "path": "runs/occlusion_pose_20261024/live_capture_black/hrm_crop/0072_1792828192108538818.png"
+      }
+    },
+    {
+      "path": "rgbd/live_black/depth/0072_1792828192108538818.png",
+      "kind": "paper_depth",
+      "bytes": 21801,
+      "sha256": "a228cc32b2a6e1593aea2faf52968a3700991a6d1b1ccb8ddb2cb2b35001cbac",
+      "original_source": {
+        "repository": "Hyper-Redundant-Manipulator-Segmentation",
+        "path": "runs/occlusion_pose_20261024/live_capture_black/hrm_crop_depth/0072_1792828192108538818.png"
+      }
+    },
+    {
+      "path": "rgbd/live_black/rgb/0074_1792828192642024170.png",
+      "kind": "paper_rgb",
+      "bytes": 139683,
+      "sha256": "cffe0a73eaaf4ccd595f5cd2adde134f0736e3263683b42dbf9337a4eeaa9982",
+      "original_source": {
+        "repository": "Hyper-Redundant-Manipulator-Segmentation",
+        "path": "runs/occlusion_pose_20261024/live_capture_black/hrm_crop/0074_1792828192642024170.png"
+      }
+    },
+    {
+      "path": "rgbd/live_black/depth/0074_1792828192642024170.png",
+      "kind": "paper_depth",
+      "bytes": 21577,
+      "sha256": "a7fa32183644d522a794e7ca06dd62508e29fb8080e07d24d3d30bfe8a39f5e5",
+      "original_source": {
+        "repository": "Hyper-Redundant-Manipulator-Segmentation",
+        "path": "runs/occlusion_pose_20261024/live_capture_black/hrm_crop_depth/0074_1792828192642024170.png"
+      }
+    },
+    {
+      "path": "rgbd/live_black/rgb/0076_1792828193175509277.png",
+      "kind": "paper_rgb",
+      "bytes": 139259,
+      "sha256": "2b5c532c968c3e9cee40766dd3d9fbb411a9e0bcf35f15a109cf629423214aa6",
+      "original_source": {
+        "repository": "Hyper-Redundant-Manipulator-Segmentation",
+        "path": "runs/occlusion_pose_20261024/live_capture_black/hrm_crop/0076_1792828193175509277.png"
+      }
+    },
+    {
+      "path": "rgbd/live_black/depth/0076_1792828193175509277.png",
+      "kind": "paper_depth",
+      "bytes": 21398,
+      "sha256": "ee02b4aa77febef8922a244963007a5e268dbe3356c25deb02bc0f0d895a0c10",
+      "original_source": {
+        "repository": "Hyper-Redundant-Manipulator-Segmentation",
+        "path": "runs/occlusion_pose_20261024/live_capture_black/hrm_crop_depth/0076_1792828193175509277.png"
+      }
+    },
+    {
+      "path": "rgbd/live_black/rgb/0079_1792828193975736816.png",
+      "kind": "paper_rgb",
+      "bytes": 139757,
+      "sha256": "022e60806913ac02911ec7f9ae7032003757750bcfc9944ca8bf1c3e9827559b",
+      "original_source": {
+        "repository": "Hyper-Redundant-Manipulator-Segmentation",
+        "path": "runs/occlusion_pose_20261024/live_capture_black/hrm_crop/0079_1792828193975736816.png"
+      }
+    },
+    {
+      "path": "rgbd/live_black/depth/0079_1792828193975736816.png",
+      "kind": "paper_depth",
+      "bytes": 21642,
+      "sha256": "aa0a7991b60ea2f6b46e0d46bba9c771f4d92817ac6384a1e8d9949e5c30f5ed",
+      "original_source": {
+        "repository": "Hyper-Redundant-Manipulator-Segmentation",
+        "path": "runs/occlusion_pose_20261024/live_capture_black/hrm_crop_depth/0079_1792828193975736816.png"
+      }
+    },
+    {
+      "path": "rgbd/archive_45deg_1/rgb/00000002_1790484529_601195313.png",
+      "kind": "paper_rgb",
+      "bytes": 144394,
+      "sha256": "97983129a617fcd2981ee92f7236cef083e4a255fbf01e638c8eacdd83fe620d",
+      "original_source": {
+        "repository": "Hyper-Redundant-Manipulator",
+        "path": "record/20260927_HRM_shape_estimation_apriltag/shape_estimation_AprilTag_45deg_1/images/hrm_crop/00000002_1790484529_601195313.png"
+      }
+    },
+    {
+      "path": "rgbd/archive_45deg_1/depth/00000001_1790484529_601195313.png",
+      "kind": "paper_depth",
+      "bytes": 35948,
+      "sha256": "debcec7c01b8c41c01896a10c11168b0dd7c6ca25985de1c3aba32d4144131e1",
+      "original_source": {
+        "repository": "Hyper-Redundant-Manipulator",
+        "path": "record/20260927_HRM_shape_estimation_apriltag/shape_estimation_AprilTag_45deg_1/images/hrm_crop_depth/00000001_1790484529_601195313.png"
+      }
+    },
+    {
+      "path": "rgbd/archive_45deg_1/rgb/00000028_1790484530_468237549.png",
+      "kind": "paper_rgb",
+      "bytes": 145489,
+      "sha256": "a86c3ed41ff0b24b5dc13151e1d5123c1dbcd863cd4cade4dfcefd8344efbc8d",
+      "original_source": {
+        "repository": "Hyper-Redundant-Manipulator",
+        "path": "record/20260927_HRM_shape_estimation_apriltag/shape_estimation_AprilTag_45deg_1/images/hrm_crop/00000028_1790484530_468237549.png"
+      }
+    },
+    {
+      "path": "rgbd/archive_45deg_1/depth/00000027_1790484530_468237549.png",
+      "kind": "paper_depth",
+      "bytes": 35624,
+      "sha256": "5ca73d63e7e2c32c30d8f41f54b34c215e95cb15d3ca867558137da862793844",
+      "original_source": {
+        "repository": "Hyper-Redundant-Manipulator",
+        "path": "record/20260927_HRM_shape_estimation_apriltag/shape_estimation_AprilTag_45deg_1/images/hrm_crop_depth/00000027_1790484530_468237549.png"
+      }
+    },
+    {
+      "path": "rgbd/archive_45deg_1/rgb/00000054_1790484531_335274658.png",
+      "kind": "paper_rgb",
+      "bytes": 145710,
+      "sha256": "714291f2461c16cd5ab1071cc53bbc34e710b75f2ae9632eb884b12a9605a2cc",
+      "original_source": {
+        "repository": "Hyper-Redundant-Manipulator",
+        "path": "record/20260927_HRM_shape_estimation_apriltag/shape_estimation_AprilTag_45deg_1/images/hrm_crop/00000054_1790484531_335274658.png"
+      }
+    },
+    {
+      "path": "rgbd/archive_45deg_1/depth/00000053_1790484531_335274658.png",
+      "kind": "paper_depth",
+      "bytes": 36079,
+      "sha256": "c987521e02381e42a86ee32be9a80e19d6266eb2b025721cdfa7ce1cdebf5239",
+      "original_source": {
+        "repository": "Hyper-Redundant-Manipulator",
+        "path": "record/20260927_HRM_shape_estimation_apriltag/shape_estimation_AprilTag_45deg_1/images/hrm_crop_depth/00000053_1790484531_335274658.png"
+      }
+    },
+    {
+      "path": "rgbd/archive_45deg_1/rgb/00000081_1790484532_235658447.png",
+      "kind": "paper_rgb",
+      "bytes": 146571,
+      "sha256": "dd8ce0e522ad00b805fe723059f71de0ec4c6206bd046080339832e0b878d307",
+      "original_source": {
+        "repository": "Hyper-Redundant-Manipulator",
+        "path": "record/20260927_HRM_shape_estimation_apriltag/shape_estimation_AprilTag_45deg_1/images/hrm_crop/00000081_1790484532_235658447.png"
+      }
+    },
+    {
+      "path": "rgbd/archive_45deg_1/depth/00000080_1790484532_235658447.png",
+      "kind": "paper_depth",
+      "bytes": 36407,
+      "sha256": "1a7476f52d0ae36b0512be88319f5feab21c2ba006edc402a88f067f8393cef6",
+      "original_source": {
+        "repository": "Hyper-Redundant-Manipulator",
+        "path": "record/20260927_HRM_shape_estimation_apriltag/shape_estimation_AprilTag_45deg_1/images/hrm_crop_depth/00000080_1790484532_235658447.png"
+      }
+    },
+    {
+      "path": "rgbd/archive_45deg_1/rgb/00000107_1790484533_102697754.png",
+      "kind": "paper_rgb",
+      "bytes": 145539,
+      "sha256": "1defc3cf6eb6af78fff53e836d7ebd8f99b7cf71ac9ce14f43e1af6415abbeac",
+      "original_source": {
+        "repository": "Hyper-Redundant-Manipulator",
+        "path": "record/20260927_HRM_shape_estimation_apriltag/shape_estimation_AprilTag_45deg_1/images/hrm_crop/00000107_1790484533_102697754.png"
+      }
+    },
+    {
+      "path": "rgbd/archive_45deg_1/depth/00000106_1790484533_102697754.png",
+      "kind": "paper_depth",
+      "bytes": 35517,
+      "sha256": "b1596cb931a67bfd4a6f22617591685e3e6148a052d7eb0501a7bcf5dd83712f",
+      "original_source": {
+        "repository": "Hyper-Redundant-Manipulator",
+        "path": "record/20260927_HRM_shape_estimation_apriltag/shape_estimation_AprilTag_45deg_1/images/hrm_crop_depth/00000106_1790484533_102697754.png"
+      }
+    },
+    {
+      "path": "rgbd/archive_45deg_1/rgb/00000134_1790484534_003086182.png",
+      "kind": "paper_rgb",
+      "bytes": 146161,
+      "sha256": "4236e67fa9159489f889a0a5770ca33d207b98bfab9dc04654ed464ce89ddca8",
+      "original_source": {
+        "repository": "Hyper-Redundant-Manipulator",
+        "path": "record/20260927_HRM_shape_estimation_apriltag/shape_estimation_AprilTag_45deg_1/images/hrm_crop/00000134_1790484534_003086182.png"
+      }
+    },
+    {
+      "path": "rgbd/archive_45deg_1/depth/00000133_1790484534_003086182.png",
+      "kind": "paper_depth",
+      "bytes": 35829,
+      "sha256": "ffb6afe03f868503cda657b15b7bc4aac1ac267fceed917ac3b2428a4fdf3561",
+      "original_source": {
+        "repository": "Hyper-Redundant-Manipulator",
+        "path": "record/20260927_HRM_shape_estimation_apriltag/shape_estimation_AprilTag_45deg_1/images/hrm_crop_depth/00000133_1790484534_003086182.png"
+      }
+    },
+    {
+      "path": "rgbd/archive_45deg_1/rgb/00000160_1790484534_870137451.png",
+      "kind": "paper_rgb",
+      "bytes": 148067,
+      "sha256": "0ed2747ac194dffee2d46c1c000d3f62a7294f59d4b47ead217aa9eade909051",
+      "original_source": {
+        "repository": "Hyper-Redundant-Manipulator",
+        "path": "record/20260927_HRM_shape_estimation_apriltag/shape_estimation_AprilTag_45deg_1/images/hrm_crop/00000160_1790484534_870137451.png"
+      }
+    },
+    {
+      "path": "rgbd/archive_45deg_1/depth/00000159_1790484534_870137451.png",
+      "kind": "paper_depth",
+      "bytes": 36109,
+      "sha256": "ad77ea2e7d7964e44f490eca0160e1e42f1395e52fedd5bcdd531093a4ce8d5a",
+      "original_source": {
+        "repository": "Hyper-Redundant-Manipulator",
+        "path": "record/20260927_HRM_shape_estimation_apriltag/shape_estimation_AprilTag_45deg_1/images/hrm_crop_depth/00000159_1790484534_870137451.png"
+      }
+    },
+    {
+      "path": "rgbd/archive_45deg_1/rgb/00000187_1790484535_770526367.png",
+      "kind": "paper_rgb",
+      "bytes": 147569,
+      "sha256": "d540ab8e4da8b6375eba2d5bdb5a05a7a18737a9e90d3f0098dc4f95ae628e2e",
+      "original_source": {
+        "repository": "Hyper-Redundant-Manipulator",
+        "path": "record/20260927_HRM_shape_estimation_apriltag/shape_estimation_AprilTag_45deg_1/images/hrm_crop/00000187_1790484535_770526367.png"
+      }
+    },
+    {
+      "path": "rgbd/archive_45deg_1/depth/00000186_1790484535_770526367.png",
+      "kind": "paper_depth",
+      "bytes": 37023,
+      "sha256": "59397f877178fd8da523f8e58251c155304737567be47f06cf0d646bc22e21a0",
+      "original_source": {
+        "repository": "Hyper-Redundant-Manipulator",
+        "path": "record/20260927_HRM_shape_estimation_apriltag/shape_estimation_AprilTag_45deg_1/images/hrm_crop_depth/00000186_1790484535_770526367.png"
+      }
+    },
+    {
+      "path": "rgbd/archive_45deg_1/rgb/00000213_1790484536_637562744.png",
+      "kind": "paper_rgb",
+      "bytes": 146878,
+      "sha256": "acde9dc82966eb881f68f854ea0f943176926600b8d485a00016cea58ea8db9d",
+      "original_source": {
+        "repository": "Hyper-Redundant-Manipulator",
+        "path": "record/20260927_HRM_shape_estimation_apriltag/shape_estimation_AprilTag_45deg_1/images/hrm_crop/00000213_1790484536_637562744.png"
+      }
+    },
+    {
+      "path": "rgbd/archive_45deg_1/depth/00000212_1790484536_637562744.png",
+      "kind": "paper_depth",
+      "bytes": 36971,
+      "sha256": "44c7175595d8e6cab8208340be23fa538c8a8c723413d22a5549850fab7eda49",
+      "original_source": {
+        "repository": "Hyper-Redundant-Manipulator",
+        "path": "record/20260927_HRM_shape_estimation_apriltag/shape_estimation_AprilTag_45deg_1/images/hrm_crop_depth/00000212_1790484536_637562744.png"
+      }
+    },
+    {
+      "path": "rgbd/archive_45deg_1/rgb/00000240_1790484537_537949707.png",
+      "kind": "paper_rgb",
+      "bytes": 145269,
+      "sha256": "556beee7232d2737b0f8d765f3731682cc842883f502fdbcb0ba932c462d81d1",
+      "original_source": {
+        "repository": "Hyper-Redundant-Manipulator",
+        "path": "record/20260927_HRM_shape_estimation_apriltag/shape_estimation_AprilTag_45deg_1/images/hrm_crop/00000240_1790484537_537949707.png"
+      }
+    },
+    {
+      "path": "rgbd/archive_45deg_1/depth/00000239_1790484537_537949707.png",
+      "kind": "paper_depth",
+      "bytes": 36741,
+      "sha256": "1d4781d1fc6dad9f3b2b8ec19eed3a67c24ad1789a7547806a2c8e50da73a3ac",
+      "original_source": {
+        "repository": "Hyper-Redundant-Manipulator",
+        "path": "record/20260927_HRM_shape_estimation_apriltag/shape_estimation_AprilTag_45deg_1/images/hrm_crop_depth/00000239_1790484537_537949707.png"
+      }
+    },
+    {
+      "path": "rgbd/archive_45deg_1/rgb/00000266_1790484538_404992188.png",
+      "kind": "paper_rgb",
+      "bytes": 141902,
+      "sha256": "d582238b314d1cbb8b8cf8b3955cfeec74d915046c7b327a42da4da6eb33c371",
+      "original_source": {
+        "repository": "Hyper-Redundant-Manipulator",
+        "path": "record/20260927_HRM_shape_estimation_apriltag/shape_estimation_AprilTag_45deg_1/images/hrm_crop/00000266_1790484538_404992188.png"
+      }
+    },
+    {
+      "path": "rgbd/archive_45deg_1/depth/00000265_1790484538_404992188.png",
+      "kind": "paper_depth",
+      "bytes": 36772,
+      "sha256": "924bd3e7e3394710c995e0c3d062cbbae24cb8b1126d181d7b1955a9f1c1db23",
+      "original_source": {
+        "repository": "Hyper-Redundant-Manipulator",
+        "path": "record/20260927_HRM_shape_estimation_apriltag/shape_estimation_AprilTag_45deg_1/images/hrm_crop_depth/00000265_1790484538_404992188.png"
+      }
+    },
+    {
+      "path": "rgbd/archive_45deg_1/rgb/00000293_1790484539_305379883.png",
+      "kind": "paper_rgb",
+      "bytes": 140835,
+      "sha256": "98886cef9f910a010629d84cb0f55278f60f8669ed1545f0b38fe30ab6b9ab1d",
+      "original_source": {
+        "repository": "Hyper-Redundant-Manipulator",
+        "path": "record/20260927_HRM_shape_estimation_apriltag/shape_estimation_AprilTag_45deg_1/images/hrm_crop/00000293_1790484539_305379883.png"
+      }
+    },
+    {
+      "path": "rgbd/archive_45deg_1/depth/00000292_1790484539_305379883.png",
+      "kind": "paper_depth",
+      "bytes": 36311,
+      "sha256": "558b0df19bf3414f9824910d22144e63a277e747b0e60c6fb2ba03b439000d87",
+      "original_source": {
+        "repository": "Hyper-Redundant-Manipulator",
+        "path": "record/20260927_HRM_shape_estimation_apriltag/shape_estimation_AprilTag_45deg_1/images/hrm_crop_depth/00000292_1790484539_305379883.png"
+      }
+    },
+    {
+      "path": "rgbd/archive_45deg_1/rgb/00000319_1790484540_172415283.png",
+      "kind": "paper_rgb",
+      "bytes": 142532,
+      "sha256": "06d79004024d08dc3623c6c7e5b6ddcc815ff237e11f24a92d34af2bf01d9258",
+      "original_source": {
+        "repository": "Hyper-Redundant-Manipulator",
+        "path": "record/20260927_HRM_shape_estimation_apriltag/shape_estimation_AprilTag_45deg_1/images/hrm_crop/00000319_1790484540_172415283.png"
+      }
+    },
+    {
+      "path": "rgbd/archive_45deg_1/depth/00000318_1790484540_172415283.png",
+      "kind": "paper_depth",
+      "bytes": 36634,
+      "sha256": "e27c377de2e78ac97864b8d7bf524ea2d0a30a6fe2fc58635d10621a0d31942a",
+      "original_source": {
+        "repository": "Hyper-Redundant-Manipulator",
+        "path": "record/20260927_HRM_shape_estimation_apriltag/shape_estimation_AprilTag_45deg_1/images/hrm_crop_depth/00000318_1790484540_172415283.png"
+      }
+    },
+    {
+      "path": "rgbd/archive_45deg_1/rgb/00000346_1790484541_072800781.png",
+      "kind": "paper_rgb",
+      "bytes": 143916,
+      "sha256": "2d3d1be97c7dcf14500be552b9075242bfd41c0e6f1e4e3a99385228555e0a96",
+      "original_source": {
+        "repository": "Hyper-Redundant-Manipulator",
+        "path": "record/20260927_HRM_shape_estimation_apriltag/shape_estimation_AprilTag_45deg_1/images/hrm_crop/00000346_1790484541_072800781.png"
+      }
+    },
+    {
+      "path": "rgbd/archive_45deg_1/depth/00000345_1790484541_072800781.png",
+      "kind": "paper_depth",
+      "bytes": 36818,
+      "sha256": "715dd3ea9aa5972c0d7c83351b74c77598677cd212ea0191af9616265fd5c0e4",
+      "original_source": {
+        "repository": "Hyper-Redundant-Manipulator",
+        "path": "record/20260927_HRM_shape_estimation_apriltag/shape_estimation_AprilTag_45deg_1/images/hrm_crop_depth/00000345_1790484541_072800781.png"
+      }
+    },
+    {
+      "path": "rgbd/archive_45deg_1/rgb/00000372_1790484541_939847168.png",
+      "kind": "paper_rgb",
+      "bytes": 145060,
+      "sha256": "b65bec79f495f21e48ea81c1260cc15e3cfac1f9b878ba94a5aaf8504f8979ef",
+      "original_source": {
+        "repository": "Hyper-Redundant-Manipulator",
+        "path": "record/20260927_HRM_shape_estimation_apriltag/shape_estimation_AprilTag_45deg_1/images/hrm_crop/00000372_1790484541_939847168.png"
+      }
+    },
+    {
+      "path": "rgbd/archive_45deg_1/depth/00000371_1790484541_939847168.png",
+      "kind": "paper_depth",
+      "bytes": 36582,
+      "sha256": "c5b74fdcb0a9b15a0d7bbf8642b9acc8c129416b6e7c798197c0d39e46e6bc03",
+      "original_source": {
+        "repository": "Hyper-Redundant-Manipulator",
+        "path": "record/20260927_HRM_shape_estimation_apriltag/shape_estimation_AprilTag_45deg_1/images/hrm_crop_depth/00000371_1790484541_939847168.png"
+      }
+    },
+    {
+      "path": "rgbd/archive_45deg_1/rgb/00000399_1790484542_840245361.png",
+      "kind": "paper_rgb",
+      "bytes": 145786,
+      "sha256": "c7e9a64826b6f296ccb65393d206906765968ba0b1467d2fcea1561df84b77c8",
+      "original_source": {
+        "repository": "Hyper-Redundant-Manipulator",
+        "path": "record/20260927_HRM_shape_estimation_apriltag/shape_estimation_AprilTag_45deg_1/images/hrm_crop/00000399_1790484542_840245361.png"
+      }
+    },
+    {
+      "path": "rgbd/archive_45deg_1/depth/00000398_1790484542_840245361.png",
+      "kind": "paper_depth",
+      "bytes": 35807,
+      "sha256": "ccda10a4a759719c0a316ae25f10415311a0671040702a23df8d5aed554359f3",
+      "original_source": {
+        "repository": "Hyper-Redundant-Manipulator",
+        "path": "record/20260927_HRM_shape_estimation_apriltag/shape_estimation_AprilTag_45deg_1/images/hrm_crop_depth/00000398_1790484542_840245361.png"
+      }
+    },
+    {
+      "path": "rgbd/archive_45deg_1/rgb/00000425_1790484543_707281738.png",
+      "kind": "paper_rgb",
+      "bytes": 145372,
+      "sha256": "e208db1d140bcbbfdda537c71f261e73914a540a614b8b8e5df8f2c4df50f2ca",
+      "original_source": {
+        "repository": "Hyper-Redundant-Manipulator",
+        "path": "record/20260927_HRM_shape_estimation_apriltag/shape_estimation_AprilTag_45deg_1/images/hrm_crop/00000425_1790484543_707281738.png"
+      }
+    },
+    {
+      "path": "rgbd/archive_45deg_1/depth/00000424_1790484543_707281738.png",
+      "kind": "paper_depth",
+      "bytes": 35803,
+      "sha256": "2e6be743324a9989c77e463c276d030b6ce8b24147a1bd2b0aa14caa8ca70e3f",
+      "original_source": {
+        "repository": "Hyper-Redundant-Manipulator",
+        "path": "record/20260927_HRM_shape_estimation_apriltag/shape_estimation_AprilTag_45deg_1/images/hrm_crop_depth/00000424_1790484543_707281738.png"
+      }
+    },
+    {
+      "path": "rgbd/archive_45deg_1/rgb/00000452_1790484544_607667725.png",
+      "kind": "paper_rgb",
+      "bytes": 146300,
+      "sha256": "276d571f7b5a5518ec0545eac52552e3fe018925a2fb08f1a896b084109a4e19",
+      "original_source": {
+        "repository": "Hyper-Redundant-Manipulator",
+        "path": "record/20260927_HRM_shape_estimation_apriltag/shape_estimation_AprilTag_45deg_1/images/hrm_crop/00000452_1790484544_607667725.png"
+      }
+    },
+    {
+      "path": "rgbd/archive_45deg_1/depth/00000451_1790484544_607667725.png",
+      "kind": "paper_depth",
+      "bytes": 36125,
+      "sha256": "fb1c8fe9438d23b6dcaeff7791c1418777ddb4040a5ab8c3d11ce8421f994a30",
+      "original_source": {
+        "repository": "Hyper-Redundant-Manipulator",
+        "path": "record/20260927_HRM_shape_estimation_apriltag/shape_estimation_AprilTag_45deg_1/images/hrm_crop_depth/00000451_1790484544_607667725.png"
+      }
+    },
+    {
+      "path": "rgbd/archive_45deg_1/rgb/00000478_1790484545_474709473.png",
+      "kind": "paper_rgb",
+      "bytes": 147912,
+      "sha256": "703ae17611e736cc47baddcb58916e67a8027d7c612d186a9cb23fff6511dfa2",
+      "original_source": {
+        "repository": "Hyper-Redundant-Manipulator",
+        "path": "record/20260927_HRM_shape_estimation_apriltag/shape_estimation_AprilTag_45deg_1/images/hrm_crop/00000478_1790484545_474709473.png"
+      }
+    },
+    {
+      "path": "rgbd/archive_45deg_1/depth/00000477_1790484545_474709473.png",
+      "kind": "paper_depth",
+      "bytes": 35959,
+      "sha256": "edaee9f863b6eb6046820a74a4081cdec462790be95480bf2952f8c54500bfb0",
+      "original_source": {
+        "repository": "Hyper-Redundant-Manipulator",
+        "path": "record/20260927_HRM_shape_estimation_apriltag/shape_estimation_AprilTag_45deg_1/images/hrm_crop_depth/00000477_1790484545_474709473.png"
+      }
+    },
+    {
+      "path": "rgbd/archive_45deg_1/rgb/00000505_1790484546_375099854.png",
+      "kind": "paper_rgb",
+      "bytes": 147851,
+      "sha256": "19f2c9bde37aae23429ea95f4d3b8078e598d41470b9eccc004377d57c653378",
+      "original_source": {
+        "repository": "Hyper-Redundant-Manipulator",
+        "path": "record/20260927_HRM_shape_estimation_apriltag/shape_estimation_AprilTag_45deg_1/images/hrm_crop/00000505_1790484546_375099854.png"
+      }
+    },
+    {
+      "path": "rgbd/archive_45deg_1/depth/00000504_1790484546_375099854.png",
+      "kind": "paper_depth",
+      "bytes": 34885,
+      "sha256": "259fe361657baa44473a48b07757070a209fd30fb093a2d7019092dbe477c385",
+      "original_source": {
+        "repository": "Hyper-Redundant-Manipulator",
+        "path": "record/20260927_HRM_shape_estimation_apriltag/shape_estimation_AprilTag_45deg_1/images/hrm_crop_depth/00000504_1790484546_375099854.png"
+      }
+    },
+    {
+      "path": "rgbd/archive_45deg_1/rgb/00000531_1790484547_242136719.png",
+      "kind": "paper_rgb",
+      "bytes": 147895,
+      "sha256": "2ebed1bfa56295e739a1619bd8554d608bd2f2e45843167a06d9b16aec2daa3c",
+      "original_source": {
+        "repository": "Hyper-Redundant-Manipulator",
+        "path": "record/20260927_HRM_shape_estimation_apriltag/shape_estimation_AprilTag_45deg_1/images/hrm_crop/00000531_1790484547_242136719.png"
+      }
+    },
+    {
+      "path": "rgbd/archive_45deg_1/depth/00000530_1790484547_242136719.png",
+      "kind": "paper_depth",
+      "bytes": 34204,
+      "sha256": "95d7dd4526a888e517b1a1b6450d0e1a08744176dd10678af8e2b3ebf6ec3f38",
+      "original_source": {
+        "repository": "Hyper-Redundant-Manipulator",
+        "path": "record/20260927_HRM_shape_estimation_apriltag/shape_estimation_AprilTag_45deg_1/images/hrm_crop_depth/00000530_1790484547_242136719.png"
+      }
+    },
+    {
+      "path": "rgbd/archive_45deg_1/rgb/00000558_1790484548_142518555.png",
+      "kind": "paper_rgb",
+      "bytes": 147699,
+      "sha256": "a1ee12ece0fe30aad9c590bc4193ee8849f6d361b19b242f1ee4f6d9de60202a",
+      "original_source": {
+        "repository": "Hyper-Redundant-Manipulator",
+        "path": "record/20260927_HRM_shape_estimation_apriltag/shape_estimation_AprilTag_45deg_1/images/hrm_crop/00000558_1790484548_142518555.png"
+      }
+    },
+    {
+      "path": "rgbd/archive_45deg_1/depth/00000557_1790484548_142518555.png",
+      "kind": "paper_depth",
+      "bytes": 33740,
+      "sha256": "801a4a725e71eb31fd34823ce74ce1a068ac540415430575db3214cc908b73f1",
+      "original_source": {
+        "repository": "Hyper-Redundant-Manipulator",
+        "path": "record/20260927_HRM_shape_estimation_apriltag/shape_estimation_AprilTag_45deg_1/images/hrm_crop_depth/00000557_1790484548_142518555.png"
+      }
+    },
+    {
+      "path": "rgbd/archive_45deg_1/rgb/00000584_1790484549_009564209.png",
+      "kind": "paper_rgb",
+      "bytes": 144566,
+      "sha256": "ff3ae9c373f765bc4624dabc85be34ca79ac6b99b999fc043a99cafb0fd61665",
+      "original_source": {
+        "repository": "Hyper-Redundant-Manipulator",
+        "path": "record/20260927_HRM_shape_estimation_apriltag/shape_estimation_AprilTag_45deg_1/images/hrm_crop/00000584_1790484549_009564209.png"
+      }
+    },
+    {
+      "path": "rgbd/archive_45deg_1/depth/00000583_1790484549_009564209.png",
+      "kind": "paper_depth",
+      "bytes": 33867,
+      "sha256": "aa202224bc3ab44ea93bce8ffbec7d79e585e9f355b79ee340ecae6e8b1d2bf3",
+      "original_source": {
+        "repository": "Hyper-Redundant-Manipulator",
+        "path": "record/20260927_HRM_shape_estimation_apriltag/shape_estimation_AprilTag_45deg_1/images/hrm_crop_depth/00000583_1790484549_009564209.png"
+      }
+    },
+    {
+      "path": "rgbd/archive_45deg_1/rgb/00000610_1790484549_876605713.png",
+      "kind": "paper_rgb",
+      "bytes": 146653,
+      "sha256": "5783a2dbf203754a88b1c0fd15d65530411a698630bb204e49f06e64daaa2669",
+      "original_source": {
+        "repository": "Hyper-Redundant-Manipulator",
+        "path": "record/20260927_HRM_shape_estimation_apriltag/shape_estimation_AprilTag_45deg_1/images/hrm_crop/00000610_1790484549_876605713.png"
+      }
+    },
+    {
+      "path": "rgbd/archive_45deg_1/depth/00000609_1790484549_876605713.png",
+      "kind": "paper_depth",
+      "bytes": 33531,
+      "sha256": "1f94b152e9e6b53c6b047044121423b06167297a29bd76f3cf790b95139222ef",
+      "original_source": {
+        "repository": "Hyper-Redundant-Manipulator",
+        "path": "record/20260927_HRM_shape_estimation_apriltag/shape_estimation_AprilTag_45deg_1/images/hrm_crop_depth/00000609_1790484549_876605713.png"
+      }
+    },
+    {
+      "path": "rgbd/archive_45deg_1/rgb/00000637_1790484550_776991211.png",
+      "kind": "paper_rgb",
+      "bytes": 147473,
+      "sha256": "3ac6390cc2bcbd15374a6bb7e907b1fe494b9c05f5724475e35300887801ca92",
+      "original_source": {
+        "repository": "Hyper-Redundant-Manipulator",
+        "path": "record/20260927_HRM_shape_estimation_apriltag/shape_estimation_AprilTag_45deg_1/images/hrm_crop/00000637_1790484550_776991211.png"
+      }
+    },
+    {
+      "path": "rgbd/archive_45deg_1/depth/00000636_1790484550_776991211.png",
+      "kind": "paper_depth",
+      "bytes": 34149,
+      "sha256": "2bc3f941ff5ca5b5eafee96bfd172fe94d3803503d82e76693196495d9e7b606",
+      "original_source": {
+        "repository": "Hyper-Redundant-Manipulator",
+        "path": "record/20260927_HRM_shape_estimation_apriltag/shape_estimation_AprilTag_45deg_1/images/hrm_crop_depth/00000636_1790484550_776991211.png"
+      }
+    },
+    {
+      "path": "rgbd/archive_45deg_1/rgb/00000663_1790484551_644026611.png",
+      "kind": "paper_rgb",
+      "bytes": 148272,
+      "sha256": "067022cb58417741952145db9fb8f1f8068d6700dbb25d75ab6368aebc77309b",
+      "original_source": {
+        "repository": "Hyper-Redundant-Manipulator",
+        "path": "record/20260927_HRM_shape_estimation_apriltag/shape_estimation_AprilTag_45deg_1/images/hrm_crop/00000663_1790484551_644026611.png"
+      }
+    },
+    {
+      "path": "rgbd/archive_45deg_1/depth/00000662_1790484551_644026611.png",
+      "kind": "paper_depth",
+      "bytes": 34200,
+      "sha256": "d44db903c7ca2c16f6f9dd20e42f5f1b72d27c3009f2a8301168cd19309568bf",
+      "original_source": {
+        "repository": "Hyper-Redundant-Manipulator",
+        "path": "record/20260927_HRM_shape_estimation_apriltag/shape_estimation_AprilTag_45deg_1/images/hrm_crop_depth/00000662_1790484551_644026611.png"
+      }
+    },
+    {
+      "path": "rgbd/archive_45deg_1/rgb/00000690_1790484552_544408691.png",
+      "kind": "paper_rgb",
+      "bytes": 149772,
+      "sha256": "7cf952597b80e14b90cdbbf81650409efb72d40ba00f8596dfec28bb0e6754a4",
+      "original_source": {
+        "repository": "Hyper-Redundant-Manipulator",
+        "path": "record/20260927_HRM_shape_estimation_apriltag/shape_estimation_AprilTag_45deg_1/images/hrm_crop/00000690_1790484552_544408691.png"
+      }
+    },
+    {
+      "path": "rgbd/archive_45deg_1/depth/00000689_1790484552_544408691.png",
+      "kind": "paper_depth",
+      "bytes": 34744,
+      "sha256": "e169fa1e24769890cc281d32ec825a30eb4bac0116f01c7f09f617908009928e",
+      "original_source": {
+        "repository": "Hyper-Redundant-Manipulator",
+        "path": "record/20260927_HRM_shape_estimation_apriltag/shape_estimation_AprilTag_45deg_1/images/hrm_crop_depth/00000689_1790484552_544408691.png"
+      }
+    },
+    {
+      "path": "rgbd/archive_45deg_1/rgb/00000716_1790484553_411442627.png",
+      "kind": "paper_rgb",
+      "bytes": 148317,
+      "sha256": "bd3a1ad543be8ef2d56095e9e278107c1ad9fd47e6130b84c2d05642e331b719",
+      "original_source": {
+        "repository": "Hyper-Redundant-Manipulator",
+        "path": "record/20260927_HRM_shape_estimation_apriltag/shape_estimation_AprilTag_45deg_1/images/hrm_crop/00000716_1790484553_411442627.png"
+      }
+    },
+    {
+      "path": "rgbd/archive_45deg_1/depth/00000715_1790484553_411442627.png",
+      "kind": "paper_depth",
+      "bytes": 34951,
+      "sha256": "844733d925db5cff7fc143c013b10f7e9e8378d0d8529690cb93c8b33e5eabeb",
+      "original_source": {
+        "repository": "Hyper-Redundant-Manipulator",
+        "path": "record/20260927_HRM_shape_estimation_apriltag/shape_estimation_AprilTag_45deg_1/images/hrm_crop_depth/00000715_1790484553_411442627.png"
+      }
+    },
+    {
+      "path": "rgbd/archive_45deg_1/rgb/00000743_1790484554_311824707.png",
+      "kind": "paper_rgb",
+      "bytes": 147976,
+      "sha256": "50529b202513a2b152833e2627f7c8e1e332f9cf38190e53f0bc8ff7bb558bb6",
+      "original_source": {
+        "repository": "Hyper-Redundant-Manipulator",
+        "path": "record/20260927_HRM_shape_estimation_apriltag/shape_estimation_AprilTag_45deg_1/images/hrm_crop/00000743_1790484554_311824707.png"
+      }
+    },
+    {
+      "path": "rgbd/archive_45deg_1/depth/00000742_1790484554_311824707.png",
+      "kind": "paper_depth",
+      "bytes": 35694,
+      "sha256": "38f61e579a1a22a8d662d6fe6cb500c7a0c0dc15a831ad0d48dad9a26c9ab916",
+      "original_source": {
+        "repository": "Hyper-Redundant-Manipulator",
+        "path": "record/20260927_HRM_shape_estimation_apriltag/shape_estimation_AprilTag_45deg_1/images/hrm_crop_depth/00000742_1790484554_311824707.png"
+      }
+    },
+    {
+      "path": "rgbd/archive_45deg_1/rgb/00000769_1790484555_178859863.png",
+      "kind": "paper_rgb",
+      "bytes": 148263,
+      "sha256": "cebca0a9b3150a010942143e4812552dfe6a9dcc43431c46866350bb743a95f9",
+      "original_source": {
+        "repository": "Hyper-Redundant-Manipulator",
+        "path": "record/20260927_HRM_shape_estimation_apriltag/shape_estimation_AprilTag_45deg_1/images/hrm_crop/00000769_1790484555_178859863.png"
+      }
+    },
+    {
+      "path": "rgbd/archive_45deg_1/depth/00000768_1790484555_178859863.png",
+      "kind": "paper_depth",
+      "bytes": 36222,
+      "sha256": "9d755374bea0424fd62506faf19b6ad628ab595a8fd90ba8bbc9b6c0bf2ed65f",
+      "original_source": {
+        "repository": "Hyper-Redundant-Manipulator",
+        "path": "record/20260927_HRM_shape_estimation_apriltag/shape_estimation_AprilTag_45deg_1/images/hrm_crop_depth/00000768_1790484555_178859863.png"
+      }
+    },
+    {
+      "path": "rgbd/archive_45deg_1/rgb/00000796_1790484556_079240479.png",
+      "kind": "paper_rgb",
+      "bytes": 147708,
+      "sha256": "77df4360c20aceb4b493297b3a40e8ebe07a9b748c9959b31fae609365da38db",
+      "original_source": {
+        "repository": "Hyper-Redundant-Manipulator",
+        "path": "record/20260927_HRM_shape_estimation_apriltag/shape_estimation_AprilTag_45deg_1/images/hrm_crop/00000796_1790484556_079240479.png"
+      }
+    },
+    {
+      "path": "rgbd/archive_45deg_1/depth/00000795_1790484556_079240479.png",
+      "kind": "paper_depth",
+      "bytes": 36231,
+      "sha256": "42de3a43b7456bdb95d7ead76cf1300bf79e9a931b2fd90278a57188b104910a",
+      "original_source": {
+        "repository": "Hyper-Redundant-Manipulator",
+        "path": "record/20260927_HRM_shape_estimation_apriltag/shape_estimation_AprilTag_45deg_1/images/hrm_crop_depth/00000795_1790484556_079240479.png"
+      }
+    },
+    {
+      "path": "rgbd/archive_45deg_1/rgb/00000822_1790484556_946270508.png",
+      "kind": "paper_rgb",
+      "bytes": 146559,
+      "sha256": "910bd7effa9a59445ad8d004a36bff74729e1feee1f1bb4245f383e34f68b008",
+      "original_source": {
+        "repository": "Hyper-Redundant-Manipulator",
+        "path": "record/20260927_HRM_shape_estimation_apriltag/shape_estimation_AprilTag_45deg_1/images/hrm_crop/00000822_1790484556_946270508.png"
+      }
+    },
+    {
+      "path": "rgbd/archive_45deg_1/depth/00000821_1790484556_946270508.png",
+      "kind": "paper_depth",
+      "bytes": 36800,
+      "sha256": "8d4aef62df4fbf4dec3daa036783b36375a90b11d8cd73a9ee6834add4c77a71",
+      "original_source": {
+        "repository": "Hyper-Redundant-Manipulator",
+        "path": "record/20260927_HRM_shape_estimation_apriltag/shape_estimation_AprilTag_45deg_1/images/hrm_crop_depth/00000821_1790484556_946270508.png"
+      }
+    },
+    {
+      "path": "rgbd/archive_45deg_1/rgb/00000849_1790484557_846650391.png",
+      "kind": "paper_rgb",
+      "bytes": 145424,
+      "sha256": "460be5f87f8e8d128dad9bf46a8f6c1e53bf9e3abdc1508a74932de1e01015ca",
+      "original_source": {
+        "repository": "Hyper-Redundant-Manipulator",
+        "path": "record/20260927_HRM_shape_estimation_apriltag/shape_estimation_AprilTag_45deg_1/images/hrm_crop/00000849_1790484557_846650391.png"
+      }
+    },
+    {
+      "path": "rgbd/archive_45deg_1/depth/00000848_1790484557_846650391.png",
+      "kind": "paper_depth",
+      "bytes": 36929,
+      "sha256": "87b05e06a6157a8b976a1d5922f163c7338e712d68b58820766f1d48280cbf7a",
+      "original_source": {
+        "repository": "Hyper-Redundant-Manipulator",
+        "path": "record/20260927_HRM_shape_estimation_apriltag/shape_estimation_AprilTag_45deg_1/images/hrm_crop_depth/00000848_1790484557_846650391.png"
+      }
+    },
+    {
+      "path": "rgbd/archive_45deg_1/rgb/00000875_1790484558_713685547.png",
+      "kind": "paper_rgb",
+      "bytes": 141904,
+      "sha256": "0646d57c3ae800035b48422c74eb05d94e2e8e1aafc8ce426bd3105b8c4b36ad",
+      "original_source": {
+        "repository": "Hyper-Redundant-Manipulator",
+        "path": "record/20260927_HRM_shape_estimation_apriltag/shape_estimation_AprilTag_45deg_1/images/hrm_crop/00000875_1790484558_713685547.png"
+      }
+    },
+    {
+      "path": "rgbd/archive_45deg_1/depth/00000874_1790484558_713685547.png",
+      "kind": "paper_depth",
+      "bytes": 36595,
+      "sha256": "d7c23600dd4e938f2dc4c67cf6006c7598388ef5d310746554f30aa12c6ca12d",
+      "original_source": {
+        "repository": "Hyper-Redundant-Manipulator",
+        "path": "record/20260927_HRM_shape_estimation_apriltag/shape_estimation_AprilTag_45deg_1/images/hrm_crop_depth/00000874_1790484558_713685547.png"
+      }
+    },
+    {
+      "path": "rgbd/archive_45deg_1/rgb/00000902_1790484559_614078857.png",
+      "kind": "paper_rgb",
+      "bytes": 140579,
+      "sha256": "2b362878a23c15cc633d24d0df5b0479e87176868365d04824011a361b532990",
+      "original_source": {
+        "repository": "Hyper-Redundant-Manipulator",
+        "path": "record/20260927_HRM_shape_estimation_apriltag/shape_estimation_AprilTag_45deg_1/images/hrm_crop/00000902_1790484559_614078857.png"
+      }
+    },
+    {
+      "path": "rgbd/archive_45deg_1/depth/00000901_1790484559_614078857.png",
+      "kind": "paper_depth",
+      "bytes": 36608,
+      "sha256": "4987e3ca67ae5d178cab6a2fd76691e2c551d19a9406bcbf1dd1f83e8a4b342a",
+      "original_source": {
+        "repository": "Hyper-Redundant-Manipulator",
+        "path": "record/20260927_HRM_shape_estimation_apriltag/shape_estimation_AprilTag_45deg_1/images/hrm_crop_depth/00000901_1790484559_614078857.png"
+      }
+    },
+    {
+      "path": "rgbd/archive_45deg_1/rgb/00000928_1790484560_481117432.png",
+      "kind": "paper_rgb",
+      "bytes": 143553,
+      "sha256": "6ed4bde2f47465859c3095848b0d260783d2f2da1198b995a853a4e3e6d32267",
+      "original_source": {
+        "repository": "Hyper-Redundant-Manipulator",
+        "path": "record/20260927_HRM_shape_estimation_apriltag/shape_estimation_AprilTag_45deg_1/images/hrm_crop/00000928_1790484560_481117432.png"
+      }
+    },
+    {
+      "path": "rgbd/archive_45deg_1/depth/00000927_1790484560_481117432.png",
+      "kind": "paper_depth",
+      "bytes": 36930,
+      "sha256": "bc4c9da5b7e21eb069da3290f50f81d1124d352bbf781c2e56bd59463b3e8af2",
+      "original_source": {
+        "repository": "Hyper-Redundant-Manipulator",
+        "path": "record/20260927_HRM_shape_estimation_apriltag/shape_estimation_AprilTag_45deg_1/images/hrm_crop_depth/00000927_1790484560_481117432.png"
+      }
+    },
+    {
+      "path": "rgbd/archive_45deg_1/rgb/00000955_1790484561_381497070.png",
+      "kind": "paper_rgb",
+      "bytes": 142636,
+      "sha256": "8a2c693d04e4591fd4877b2e7b12e1ca7e9af0f25bf0070b9458202f8cdfa93a",
+      "original_source": {
+        "repository": "Hyper-Redundant-Manipulator",
+        "path": "record/20260927_HRM_shape_estimation_apriltag/shape_estimation_AprilTag_45deg_1/images/hrm_crop/00000955_1790484561_381497070.png"
+      }
+    },
+    {
+      "path": "rgbd/archive_45deg_1/depth/00000954_1790484561_381497070.png",
+      "kind": "paper_depth",
+      "bytes": 36562,
+      "sha256": "36c4283fbf280d6b52777179820417a91647cb12486d2be075180a40ca1d8c6d",
+      "original_source": {
+        "repository": "Hyper-Redundant-Manipulator",
+        "path": "record/20260927_HRM_shape_estimation_apriltag/shape_estimation_AprilTag_45deg_1/images/hrm_crop_depth/00000954_1790484561_381497070.png"
+      }
+    },
+    {
+      "path": "rgbd/archive_45deg_1/rgb/00000981_1790484562_248531738.png",
+      "kind": "paper_rgb",
+      "bytes": 142934,
+      "sha256": "cb27ad77eb471022f5baced05aae448daecd46c434fecefc00909eca7ec4f978",
+      "original_source": {
+        "repository": "Hyper-Redundant-Manipulator",
+        "path": "record/20260927_HRM_shape_estimation_apriltag/shape_estimation_AprilTag_45deg_1/images/hrm_crop/00000981_1790484562_248531738.png"
+      }
+    },
+    {
+      "path": "rgbd/archive_45deg_1/depth/00000980_1790484562_248531738.png",
+      "kind": "paper_depth",
+      "bytes": 35876,
+      "sha256": "eb9dc21a343f1fcef41cf58184184b7e085ab65b0b9fbe6d1a3cc5221d867e04",
+      "original_source": {
+        "repository": "Hyper-Redundant-Manipulator",
+        "path": "record/20260927_HRM_shape_estimation_apriltag/shape_estimation_AprilTag_45deg_1/images/hrm_crop_depth/00000980_1790484562_248531738.png"
+      }
+    },
+    {
+      "path": "rgbd/archive_45deg_1/rgb/00001008_1790484563_148917236.png",
+      "kind": "paper_rgb",
+      "bytes": 145441,
+      "sha256": "f8055f8d48f13e1f9098f4f099164537593949075b91bc642de194ef12165c2e",
+      "original_source": {
+        "repository": "Hyper-Redundant-Manipulator",
+        "path": "record/20260927_HRM_shape_estimation_apriltag/shape_estimation_AprilTag_45deg_1/images/hrm_crop/00001008_1790484563_148917236.png"
+      }
+    },
+    {
+      "path": "rgbd/archive_45deg_1/depth/00001007_1790484563_148917236.png",
+      "kind": "paper_depth",
+      "bytes": 35021,
+      "sha256": "73add253c46b19d134093fc33b9647e35a3bf64881bbbdcbda9b0a0485113b33",
+      "original_source": {
+        "repository": "Hyper-Redundant-Manipulator",
+        "path": "record/20260927_HRM_shape_estimation_apriltag/shape_estimation_AprilTag_45deg_1/images/hrm_crop_depth/00001007_1790484563_148917236.png"
+      }
+    },
+    {
+      "path": "rgbd/archive_45deg_1/rgb/00001034_1790484564_015946045.png",
+      "kind": "paper_rgb",
+      "bytes": 144751,
+      "sha256": "2bde84e87d4104eba44dea39e057b0c2c31ee9f0f312207789de618c73a84fdc",
+      "original_source": {
+        "repository": "Hyper-Redundant-Manipulator",
+        "path": "record/20260927_HRM_shape_estimation_apriltag/shape_estimation_AprilTag_45deg_1/images/hrm_crop/00001034_1790484564_015946045.png"
+      }
+    },
+    {
+      "path": "rgbd/archive_45deg_1/depth/00001033_1790484564_015946045.png",
+      "kind": "paper_depth",
+      "bytes": 34959,
+      "sha256": "2c6d0a94d0150bc41ace65a088bf23ec4d4f4d65e7e52c265e57fe239008bda3",
+      "original_source": {
+        "repository": "Hyper-Redundant-Manipulator",
+        "path": "record/20260927_HRM_shape_estimation_apriltag/shape_estimation_AprilTag_45deg_1/images/hrm_crop_depth/00001033_1790484564_015946045.png"
+      }
+    },
+    {
+      "path": "rgbd/archive_45deg_1/rgb/00001061_1790484564_916329834.png",
+      "kind": "paper_rgb",
+      "bytes": 145183,
+      "sha256": "15f2f8eead59ad06113d1587d25a7becb2e6aa09e6a47c2604e47e5faa0141c8",
+      "original_source": {
+        "repository": "Hyper-Redundant-Manipulator",
+        "path": "record/20260927_HRM_shape_estimation_apriltag/shape_estimation_AprilTag_45deg_1/images/hrm_crop/00001061_1790484564_916329834.png"
+      }
+    },
+    {
+      "path": "rgbd/archive_45deg_1/depth/00001060_1790484564_916329834.png",
+      "kind": "paper_depth",
+      "bytes": 35277,
+      "sha256": "45d0de1f48feeca229911dd5520f716a2667281e348234f4cbda119a2807563b",
+      "original_source": {
+        "repository": "Hyper-Redundant-Manipulator",
+        "path": "record/20260927_HRM_shape_estimation_apriltag/shape_estimation_AprilTag_45deg_1/images/hrm_crop_depth/00001060_1790484564_916329834.png"
+      }
+    },
+    {
+      "path": "rgbd/archive_45deg_1/rgb/00001087_1790484565_783364990.png",
+      "kind": "paper_rgb",
+      "bytes": 147255,
+      "sha256": "687f3058ee8e92885243de9e5e698c6e21a1da94e2402fda9b69a5ab40de22aa",
+      "original_source": {
+        "repository": "Hyper-Redundant-Manipulator",
+        "path": "record/20260927_HRM_shape_estimation_apriltag/shape_estimation_AprilTag_45deg_1/images/hrm_crop/00001087_1790484565_783364990.png"
+      }
+    },
+    {
+      "path": "rgbd/archive_45deg_1/depth/00001086_1790484565_783364990.png",
+      "kind": "paper_depth",
+      "bytes": 34995,
+      "sha256": "7a5bebc8d957b00b96030d04950ebb07d74b18591acd4014c11778ef7ed6e014",
+      "original_source": {
+        "repository": "Hyper-Redundant-Manipulator",
+        "path": "record/20260927_HRM_shape_estimation_apriltag/shape_estimation_AprilTag_45deg_1/images/hrm_crop_depth/00001086_1790484565_783364990.png"
+      }
+    },
+    {
+      "path": "rgbd/archive_45deg_1/rgb/00001114_1790484566_683744141.png",
+      "kind": "paper_rgb",
+      "bytes": 147708,
+      "sha256": "00d716b34c05d08fa1f4a986ad81592e94140c81c1d123a24f66a89e4ff5371a",
+      "original_source": {
+        "repository": "Hyper-Redundant-Manipulator",
+        "path": "record/20260927_HRM_shape_estimation_apriltag/shape_estimation_AprilTag_45deg_1/images/hrm_crop/00001114_1790484566_683744141.png"
+      }
+    },
+    {
+      "path": "rgbd/archive_45deg_1/depth/00001113_1790484566_683744141.png",
+      "kind": "paper_depth",
+      "bytes": 34751,
+      "sha256": "6019241b2ee4909b04a62ea495077f909f809506abfce6c2ed778f27bb90ab09",
+      "original_source": {
+        "repository": "Hyper-Redundant-Manipulator",
+        "path": "record/20260927_HRM_shape_estimation_apriltag/shape_estimation_AprilTag_45deg_1/images/hrm_crop_depth/00001113_1790484566_683744141.png"
+      }
+    },
+    {
+      "path": "rgbd/archive_45deg_1/rgb/00001140_1790484567_550775391.png",
+      "kind": "paper_rgb",
+      "bytes": 147550,
+      "sha256": "7eb00cfdaf7132e38fee77b51ef1bde07348cee765e812c5ea25c914fb13cfd4",
+      "original_source": {
+        "repository": "Hyper-Redundant-Manipulator",
+        "path": "record/20260927_HRM_shape_estimation_apriltag/shape_estimation_AprilTag_45deg_1/images/hrm_crop/00001140_1790484567_550775391.png"
+      }
+    },
+    {
+      "path": "rgbd/archive_45deg_1/depth/00001139_1790484567_550775391.png",
+      "kind": "paper_depth",
+      "bytes": 34229,
+      "sha256": "0100438a7a74533e1f4751196a72a047b5c39ce02d663d07b25049cdb6ab5ad1",
+      "original_source": {
+        "repository": "Hyper-Redundant-Manipulator",
+        "path": "record/20260927_HRM_shape_estimation_apriltag/shape_estimation_AprilTag_45deg_1/images/hrm_crop_depth/00001139_1790484567_550775391.png"
+      }
+    },
+    {
+      "path": "rgbd/archive_45deg_1/rgb/00001166_1790484568_417807617.png",
+      "kind": "paper_rgb",
+      "bytes": 144405,
+      "sha256": "1028851cd2e0bd655c9ecdb1f1f0024afeb5325a5e237a18678ac99192833739",
+      "original_source": {
+        "repository": "Hyper-Redundant-Manipulator",
+        "path": "record/20260927_HRM_shape_estimation_apriltag/shape_estimation_AprilTag_45deg_1/images/hrm_crop/00001166_1790484568_417807617.png"
+      }
+    },
+    {
+      "path": "rgbd/archive_45deg_1/depth/00001165_1790484568_417807617.png",
+      "kind": "paper_depth",
+      "bytes": 33670,
+      "sha256": "6e233d7a61b8d375bf3d98e5ed4acfd48331ce67b97c3a46b77c3555066ec978",
+      "original_source": {
+        "repository": "Hyper-Redundant-Manipulator",
+        "path": "record/20260927_HRM_shape_estimation_apriltag/shape_estimation_AprilTag_45deg_1/images/hrm_crop_depth/00001165_1790484568_417807617.png"
+      }
+    },
+    {
+      "path": "rgbd/archive_45deg_1/rgb/00001193_1790484569_318192139.png",
+      "kind": "paper_rgb",
+      "bytes": 143788,
+      "sha256": "28a65c6c018268de8658bdf9a2f479e8828f3160778d21a96bd7344ad02b7287",
+      "original_source": {
+        "repository": "Hyper-Redundant-Manipulator",
+        "path": "record/20260927_HRM_shape_estimation_apriltag/shape_estimation_AprilTag_45deg_1/images/hrm_crop/00001193_1790484569_318192139.png"
+      }
+    },
+    {
+      "path": "rgbd/archive_45deg_1/depth/00001192_1790484569_318192139.png",
+      "kind": "paper_depth",
+      "bytes": 33517,
+      "sha256": "04a145a99553f276c90229588dc2ed08c09538ea70f285075312182d812f1363",
+      "original_source": {
+        "repository": "Hyper-Redundant-Manipulator",
+        "path": "record/20260927_HRM_shape_estimation_apriltag/shape_estimation_AprilTag_45deg_1/images/hrm_crop_depth/00001192_1790484569_318192139.png"
+      }
+    },
+    {
+      "path": "rgbd/archive_45deg_1/rgb/00001219_1790484570_185233398.png",
+      "kind": "paper_rgb",
+      "bytes": 145993,
+      "sha256": "af8f30c7a54272869940e01636c1e99102de0c9176d2506630ca2219a61b4c31",
+      "original_source": {
+        "repository": "Hyper-Redundant-Manipulator",
+        "path": "record/20260927_HRM_shape_estimation_apriltag/shape_estimation_AprilTag_45deg_1/images/hrm_crop/00001219_1790484570_185233398.png"
+      }
+    },
+    {
+      "path": "rgbd/archive_45deg_1/depth/00001218_1790484570_185233398.png",
+      "kind": "paper_depth",
+      "bytes": 33477,
+      "sha256": "0bc13265ca066f48cd0096938ef67e0ce902dc7e5791d19991616350f04b1a9f",
+      "original_source": {
+        "repository": "Hyper-Redundant-Manipulator",
+        "path": "record/20260927_HRM_shape_estimation_apriltag/shape_estimation_AprilTag_45deg_1/images/hrm_crop_depth/00001218_1790484570_185233398.png"
+      }
+    },
+    {
+      "path": "rgbd/archive_45deg_1/rgb/00001246_1790484571_085620361.png",
+      "kind": "paper_rgb",
+      "bytes": 146811,
+      "sha256": "b3ee72bb3b262034861c5ab9cdbff1408669d1c015e21cd0bddca87a003a8ec1",
+      "original_source": {
+        "repository": "Hyper-Redundant-Manipulator",
+        "path": "record/20260927_HRM_shape_estimation_apriltag/shape_estimation_AprilTag_45deg_1/images/hrm_crop/00001246_1790484571_085620361.png"
+      }
+    },
+    {
+      "path": "rgbd/archive_45deg_1/depth/00001245_1790484571_085620361.png",
+      "kind": "paper_depth",
+      "bytes": 33351,
+      "sha256": "9e6ef97d1a05023bcc464b152adc27fa52aba6e4d84a947c119c91deedcf0267",
+      "original_source": {
+        "repository": "Hyper-Redundant-Manipulator",
+        "path": "record/20260927_HRM_shape_estimation_apriltag/shape_estimation_AprilTag_45deg_1/images/hrm_crop_depth/00001245_1790484571_085620361.png"
+      }
+    },
+    {
+      "path": "rgbd/archive_45deg_1/rgb/00001272_1790484571_952652588.png",
+      "kind": "paper_rgb",
+      "bytes": 147934,
+      "sha256": "f50f933a83ae1c078105cece161099d12e5e9512c705d2cdb7930f63987549e2",
+      "original_source": {
+        "repository": "Hyper-Redundant-Manipulator",
+        "path": "record/20260927_HRM_shape_estimation_apriltag/shape_estimation_AprilTag_45deg_1/images/hrm_crop/00001272_1790484571_952652588.png"
+      }
+    },
+    {
+      "path": "rgbd/archive_45deg_1/depth/00001271_1790484571_952652588.png",
+      "kind": "paper_depth",
+      "bytes": 34076,
+      "sha256": "2a54e26101c42df3c0b9d8c1a6ae15a3656459ea3e18eae17df53659d468d61d",
+      "original_source": {
+        "repository": "Hyper-Redundant-Manipulator",
+        "path": "record/20260927_HRM_shape_estimation_apriltag/shape_estimation_AprilTag_45deg_1/images/hrm_crop_depth/00001271_1790484571_952652588.png"
+      }
+    },
+    {
+      "path": "rgbd/archive_45deg_1/rgb/00001299_1790484572_853031738.png",
+      "kind": "paper_rgb",
+      "bytes": 149303,
+      "sha256": "613bac5e7e1f7ac8dedf825e82f747239129336c246e70563fd4042d46f293a0",
+      "original_source": {
+        "repository": "Hyper-Redundant-Manipulator",
+        "path": "record/20260927_HRM_shape_estimation_apriltag/shape_estimation_AprilTag_45deg_1/images/hrm_crop/00001299_1790484572_853031738.png"
+      }
+    },
+    {
+      "path": "rgbd/archive_45deg_1/depth/00001298_1790484572_853031738.png",
+      "kind": "paper_depth",
+      "bytes": 34540,
+      "sha256": "f38ae330af1978439e9bb9247cf0d3b521db442a8ae25c890f604e1beacf463d",
+      "original_source": {
+        "repository": "Hyper-Redundant-Manipulator",
+        "path": "record/20260927_HRM_shape_estimation_apriltag/shape_estimation_AprilTag_45deg_1/images/hrm_crop_depth/00001298_1790484572_853031738.png"
+      }
+    },
+    {
+      "path": "rgbd/archive_45deg_1/rgb/00001325_1790484573_720062256.png",
+      "kind": "paper_rgb",
+      "bytes": 147210,
+      "sha256": "15851495bf7d47b17a48b797acf097d75d0173e87a6e0ef7145e2deeaeb44b68",
+      "original_source": {
+        "repository": "Hyper-Redundant-Manipulator",
+        "path": "record/20260927_HRM_shape_estimation_apriltag/shape_estimation_AprilTag_45deg_1/images/hrm_crop/00001325_1790484573_720062256.png"
+      }
+    },
+    {
+      "path": "rgbd/archive_45deg_1/depth/00001324_1790484573_720062256.png",
+      "kind": "paper_depth",
+      "bytes": 35449,
+      "sha256": "47f0e8876c6e4b484b1c2accfabc406ae3a23c22736067e87f5472a77062867a",
+      "original_source": {
+        "repository": "Hyper-Redundant-Manipulator",
+        "path": "record/20260927_HRM_shape_estimation_apriltag/shape_estimation_AprilTag_45deg_1/images/hrm_crop_depth/00001324_1790484573_720062256.png"
+      }
+    },
+    {
+      "path": "rgbd/archive_45deg_1/rgb/00001352_1790484574_620437744.png",
+      "kind": "paper_rgb",
+      "bytes": 146941,
+      "sha256": "98a5116dd48d2ca707216b6f4a38ee416619f05a544e76d9359697578fff6f1c",
+      "original_source": {
+        "repository": "Hyper-Redundant-Manipulator",
+        "path": "record/20260927_HRM_shape_estimation_apriltag/shape_estimation_AprilTag_45deg_1/images/hrm_crop/00001352_1790484574_620437744.png"
+      }
+    },
+    {
+      "path": "rgbd/archive_45deg_1/depth/00001351_1790484574_620437744.png",
+      "kind": "paper_depth",
+      "bytes": 35791,
+      "sha256": "eaacd4b22fa3573c2c8b14f9c13d5663b8ae407a515a248a4d83a44e1831e499",
+      "original_source": {
+        "repository": "Hyper-Redundant-Manipulator",
+        "path": "record/20260927_HRM_shape_estimation_apriltag/shape_estimation_AprilTag_45deg_1/images/hrm_crop_depth/00001351_1790484574_620437744.png"
+      }
+    },
+    {
+      "path": "rgbd/archive_45deg_1/rgb/00001378_1790484575_487474854.png",
+      "kind": "paper_rgb",
+      "bytes": 147458,
+      "sha256": "40bb79edc581ce3484ced1780f59876f9abd97cdec657b9e8c7c715ec57b0060",
+      "original_source": {
+        "repository": "Hyper-Redundant-Manipulator",
+        "path": "record/20260927_HRM_shape_estimation_apriltag/shape_estimation_AprilTag_45deg_1/images/hrm_crop/00001378_1790484575_487474854.png"
+      }
+    },
+    {
+      "path": "rgbd/archive_45deg_1/depth/00001377_1790484575_487474854.png",
+      "kind": "paper_depth",
+      "bytes": 35760,
+      "sha256": "3d376887c41a3931f7a796d20eee0dd082d109f16f48b7cb3a0b83dabeaa584b",
+      "original_source": {
+        "repository": "Hyper-Redundant-Manipulator",
+        "path": "record/20260927_HRM_shape_estimation_apriltag/shape_estimation_AprilTag_45deg_1/images/hrm_crop_depth/00001377_1790484575_487474854.png"
+      }
+    },
+    {
+      "path": "rgbd/archive_45deg_1/rgb/00001405_1790484576_387857910.png",
+      "kind": "paper_rgb",
+      "bytes": 146471,
+      "sha256": "7b78566b18a4b92d5d54e628e4f80ed9284ef3d45a934754c9f9b3e2319b6c76",
+      "original_source": {
+        "repository": "Hyper-Redundant-Manipulator",
+        "path": "record/20260927_HRM_shape_estimation_apriltag/shape_estimation_AprilTag_45deg_1/images/hrm_crop/00001405_1790484576_387857910.png"
+      }
+    },
+    {
+      "path": "rgbd/archive_45deg_1/depth/00001404_1790484576_387857910.png",
+      "kind": "paper_depth",
+      "bytes": 35964,
+      "sha256": "b01220668d33f6892cdac8c7b30b049576e8f4987d9f1013a2dc1471b74dc3f3",
+      "original_source": {
+        "repository": "Hyper-Redundant-Manipulator",
+        "path": "record/20260927_HRM_shape_estimation_apriltag/shape_estimation_AprilTag_45deg_1/images/hrm_crop_depth/00001404_1790484576_387857910.png"
+      }
+    },
+    {
+      "path": "rgbd/archive_45deg_1/rgb/00001431_1790484577_254888428.png",
+      "kind": "paper_rgb",
+      "bytes": 146456,
+      "sha256": "e3fcb0430cbca0419f2e3d1647d058ac99225662ea74ae13ba70359b1c553f6a",
+      "original_source": {
+        "repository": "Hyper-Redundant-Manipulator",
+        "path": "record/20260927_HRM_shape_estimation_apriltag/shape_estimation_AprilTag_45deg_1/images/hrm_crop/00001431_1790484577_254888428.png"
+      }
+    },
+    {
+      "path": "rgbd/archive_45deg_1/depth/00001430_1790484577_254888428.png",
+      "kind": "paper_depth",
+      "bytes": 36584,
+      "sha256": "51e600be6d1e82f634f6aec39d5adf91e57ce830db5febe09e1eaff203b7e670",
+      "original_source": {
+        "repository": "Hyper-Redundant-Manipulator",
+        "path": "record/20260927_HRM_shape_estimation_apriltag/shape_estimation_AprilTag_45deg_1/images/hrm_crop_depth/00001430_1790484577_254888428.png"
+      }
+    },
+    {
+      "path": "rgbd/archive_45deg_1/rgb/00001458_1790484578_155266846.png",
+      "kind": "paper_rgb",
+      "bytes": 146218,
+      "sha256": "ef368b2f4c87ce8c4553044f1014b075e4d78bf4bc88848239081483ce2c9f92",
+      "original_source": {
+        "repository": "Hyper-Redundant-Manipulator",
+        "path": "record/20260927_HRM_shape_estimation_apriltag/shape_estimation_AprilTag_45deg_1/images/hrm_crop/00001458_1790484578_155266846.png"
+      }
+    },
+    {
+      "path": "rgbd/archive_45deg_1/depth/00001457_1790484578_155266846.png",
+      "kind": "paper_depth",
+      "bytes": 36644,
+      "sha256": "b08f7e4c52ab315249466d8d925e1960185e116a0e511c2bcbd5c7aff6218c70",
+      "original_source": {
+        "repository": "Hyper-Redundant-Manipulator",
+        "path": "record/20260927_HRM_shape_estimation_apriltag/shape_estimation_AprilTag_45deg_1/images/hrm_crop_depth/00001457_1790484578_155266846.png"
+      }
+    },
+    {
+      "path": "rgbd/archive_45deg_1/rgb/00001484_1790484579_022303711.png",
+      "kind": "paper_rgb",
+      "bytes": 144589,
+      "sha256": "93c87b926d6f41bc9e9d6d2f7df8433dc33e0464ed2801d0b4e05478587eb732",
+      "original_source": {
+        "repository": "Hyper-Redundant-Manipulator",
+        "path": "record/20260927_HRM_shape_estimation_apriltag/shape_estimation_AprilTag_45deg_1/images/hrm_crop/00001484_1790484579_022303711.png"
+      }
+    },
+    {
+      "path": "rgbd/archive_45deg_1/depth/00001483_1790484579_022303711.png",
+      "kind": "paper_depth",
+      "bytes": 36479,
+      "sha256": "ea220a4019e4bfd7a597f3c541708683a2327f51bcc5eeb05531660444cfc81f",
+      "original_source": {
+        "repository": "Hyper-Redundant-Manipulator",
+        "path": "record/20260927_HRM_shape_estimation_apriltag/shape_estimation_AprilTag_45deg_1/images/hrm_crop_depth/00001483_1790484579_022303711.png"
+      }
+    },
+    {
+      "path": "rgbd/archive_45deg_1/rgb/00001511_1790484579_922682617.png",
+      "kind": "paper_rgb",
+      "bytes": 145053,
+      "sha256": "1b2812dc5639c35306e4b96bfac5f02bd9d800eed850bbde9096c22ea2dfa97b",
+      "original_source": {
+        "repository": "Hyper-Redundant-Manipulator",
+        "path": "record/20260927_HRM_shape_estimation_apriltag/shape_estimation_AprilTag_45deg_1/images/hrm_crop/00001511_1790484579_922682617.png"
+      }
+    },
+    {
+      "path": "rgbd/archive_45deg_1/depth/00001510_1790484579_922682617.png",
+      "kind": "paper_depth",
+      "bytes": 36506,
+      "sha256": "4e2669be20eb49c185b3b20812b35a2742c49fc975bf61cb7ea8c3f6be9183fa",
+      "original_source": {
+        "repository": "Hyper-Redundant-Manipulator",
+        "path": "record/20260927_HRM_shape_estimation_apriltag/shape_estimation_AprilTag_45deg_1/images/hrm_crop_depth/00001510_1790484579_922682617.png"
+      }
+    },
+    {
+      "path": "rgbd/archive_45deg_1/rgb/00001537_1790484580_789715332.png",
+      "kind": "paper_rgb",
+      "bytes": 146949,
+      "sha256": "06cced6a755df40561a899d6e96bdc1687da6efc56c2d4072b43418046d83875",
+      "original_source": {
+        "repository": "Hyper-Redundant-Manipulator",
+        "path": "record/20260927_HRM_shape_estimation_apriltag/shape_estimation_AprilTag_45deg_1/images/hrm_crop/00001537_1790484580_789715332.png"
+      }
+    },
+    {
+      "path": "rgbd/archive_45deg_1/depth/00001536_1790484580_789715332.png",
+      "kind": "paper_depth",
+      "bytes": 36197,
+      "sha256": "21d44e4c631a56fd3a001e8c6f90c1d1ebb572be575eeadac74957902c086dd2",
+      "original_source": {
+        "repository": "Hyper-Redundant-Manipulator",
+        "path": "record/20260927_HRM_shape_estimation_apriltag/shape_estimation_AprilTag_45deg_1/images/hrm_crop_depth/00001536_1790484580_789715332.png"
+      }
+    },
+    {
+      "path": "rgbd/archive_45deg_1/rgb/00001564_1790484581_690093262.png",
+      "kind": "paper_rgb",
+      "bytes": 145561,
+      "sha256": "400f97eb7871e002cccc644642b04e8bc95fd5ca7e10d459d16776cd3f7e44f4",
+      "original_source": {
+        "repository": "Hyper-Redundant-Manipulator",
+        "path": "record/20260927_HRM_shape_estimation_apriltag/shape_estimation_AprilTag_45deg_1/images/hrm_crop/00001564_1790484581_690093262.png"
+      }
+    },
+    {
+      "path": "rgbd/archive_45deg_1/depth/00001563_1790484581_690093262.png",
+      "kind": "paper_depth",
+      "bytes": 36632,
+      "sha256": "b5485dbbda410e28dc3105158be95124f1117b24585f28633434cb4710cbeee4",
+      "original_source": {
+        "repository": "Hyper-Redundant-Manipulator",
+        "path": "record/20260927_HRM_shape_estimation_apriltag/shape_estimation_AprilTag_45deg_1/images/hrm_crop_depth/00001563_1790484581_690093262.png"
+      }
+    },
+    {
+      "path": "rgbd/archive_45deg_1/rgb/00001590_1790484582_557122070.png",
+      "kind": "paper_rgb",
+      "bytes": 145107,
+      "sha256": "9c091511d611b463963d48760008c5f3107886e6258b9615c439671ea05e288c",
+      "original_source": {
+        "repository": "Hyper-Redundant-Manipulator",
+        "path": "record/20260927_HRM_shape_estimation_apriltag/shape_estimation_AprilTag_45deg_1/images/hrm_crop/00001590_1790484582_557122070.png"
+      }
+    },
+    {
+      "path": "rgbd/archive_45deg_1/depth/00001589_1790484582_557122070.png",
+      "kind": "paper_depth",
+      "bytes": 35714,
+      "sha256": "a61ad2d23b2257798722275071f0fd471512a976b2220029cd08941f16dbcf41",
+      "original_source": {
+        "repository": "Hyper-Redundant-Manipulator",
+        "path": "record/20260927_HRM_shape_estimation_apriltag/shape_estimation_AprilTag_45deg_1/images/hrm_crop_depth/00001589_1790484582_557122070.png"
+      }
+    },
+    {
+      "path": "rgbd/archive_45deg_1/rgb/00001617_1790484583_457496826.png",
+      "kind": "paper_rgb",
+      "bytes": 144914,
+      "sha256": "55dbf25d54e298a82986e3e580f5b5d8c38b4aaf25bde3373a89191b7ef5cc06",
+      "original_source": {
+        "repository": "Hyper-Redundant-Manipulator",
+        "path": "record/20260927_HRM_shape_estimation_apriltag/shape_estimation_AprilTag_45deg_1/images/hrm_crop/00001617_1790484583_457496826.png"
+      }
+    },
+    {
+      "path": "rgbd/archive_45deg_1/depth/00001616_1790484583_457496826.png",
+      "kind": "paper_depth",
+      "bytes": 35337,
+      "sha256": "db59ce47d8454595d9d90c33fe7422c60e58c3b49b7ab59ebc5f9107a47bf330",
+      "original_source": {
+        "repository": "Hyper-Redundant-Manipulator",
+        "path": "record/20260927_HRM_shape_estimation_apriltag/shape_estimation_AprilTag_45deg_1/images/hrm_crop_depth/00001616_1790484583_457496826.png"
+      }
+    },
+    {
+      "path": "rgbd/archive_45deg_1/rgb/00001643_1790484584_324524414.png",
+      "kind": "paper_rgb",
+      "bytes": 143030,
+      "sha256": "705ff4d5883ceaead8aca1357e03ad82e48b758f65bdc03dbc4992c8c3cfede0",
+      "original_source": {
+        "repository": "Hyper-Redundant-Manipulator",
+        "path": "record/20260927_HRM_shape_estimation_apriltag/shape_estimation_AprilTag_45deg_1/images/hrm_crop/00001643_1790484584_324524414.png"
+      }
+    },
+    {
+      "path": "rgbd/archive_45deg_1/depth/00001642_1790484584_324524414.png",
+      "kind": "paper_depth",
+      "bytes": 35742,
+      "sha256": "c09d6a1ab538b41f5ffea47b3b9325e2cd1c9c696acd513fa221776c2cc76cee",
+      "original_source": {
+        "repository": "Hyper-Redundant-Manipulator",
+        "path": "record/20260927_HRM_shape_estimation_apriltag/shape_estimation_AprilTag_45deg_1/images/hrm_crop_depth/00001642_1790484584_324524414.png"
+      }
+    },
+    {
+      "path": "rgbd/archive_45deg_1/rgb/00001670_1790484585_224901123.png",
+      "kind": "paper_rgb",
+      "bytes": 142931,
+      "sha256": "471c58196d24540c9d57c006925b6fb4ce582b322d426fdb8b331cfbc9e08b61",
+      "original_source": {
+        "repository": "Hyper-Redundant-Manipulator",
+        "path": "record/20260927_HRM_shape_estimation_apriltag/shape_estimation_AprilTag_45deg_1/images/hrm_crop/00001670_1790484585_224901123.png"
+      }
+    },
+    {
+      "path": "rgbd/archive_45deg_1/depth/00001669_1790484585_224901123.png",
+      "kind": "paper_depth",
+      "bytes": 36117,
+      "sha256": "25a229e6bd9f100e0b79916ab501a6bea3318e124e9c52c2e233d11acea5fa7e",
+      "original_source": {
+        "repository": "Hyper-Redundant-Manipulator",
+        "path": "record/20260927_HRM_shape_estimation_apriltag/shape_estimation_AprilTag_45deg_1/images/hrm_crop_depth/00001669_1790484585_224901123.png"
+      }
+    },
+    {
+      "path": "models/unet_v2.pt",
+      "kind": "checkpoint",
+      "bytes": 50128799,
+      "sha256": "dd4d2421b88448c3400236688102bfa0fe85710d7e635d92113a9474b24d6e27",
+      "original_source": {
+        "repository": "Hyper-Redundant-Manipulator-Segmentation",
+        "path": "runs/occlusion_pose_20261024/unet_v2/best.pt"
+      }
+    },
+    {
+      "path": "metadata/v2_training_config.original.json",
+      "kind": "training_config",
+      "bytes": 1166,
+      "sha256": "9be85f4c085c17d6277a385a7a9f662711610ad821dc76ab85fbc9777cb9d071",
+      "original_source": {
+        "repository": "Hyper-Redundant-Manipulator-Segmentation",
+        "path": "runs/occlusion_pose_20261024/unet_v2/config.json"
+      }
+    },
+    {
+      "path": "metadata/reference_paper_pose_summary.csv",
+      "kind": "reference_statistics",
+      "bytes": 6219,
+      "sha256": "af5c657adaf084883d08228e0949204a715fdf3ba54071064a18f27d0924dbe8",
+      "original_source": {
+        "repository": "Hyper-Redundant-Manipulator-Segmentation",
+        "path": "runs/perspective_pose_followup_20261024/paper_pose_summary.csv"
+      }
+    },
+    {
+      "path": "metadata/reference_paper_pose_frames.csv",
+      "kind": "reference_statistics",
+      "bytes": 118189,
+      "sha256": "7f4144f943a052ea5cb6d03e865522247d371c677ad92f06f8380dcfc32c0481",
+      "original_source": {
+        "repository": "Hyper-Redundant-Manipulator-Segmentation",
+        "path": "runs/perspective_pose_followup_20261024/paper_pose_frames.csv"
+      }
+    }
+  ]
+}

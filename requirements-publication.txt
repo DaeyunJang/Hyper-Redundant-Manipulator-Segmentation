@@ -1,0 +1,13 @@
+# Compact publication demo, tested with Python 3.10.
+# The tested CUDA build is torch 2.7.1+cu126 / torchvision 0.22.1+cu126.
+# A compatible CPU build is sufficient for the default offline demo.
+# Neither Ultralytics nor MobileSAM is needed for this V2-only package.
+torch==2.7.1
+torchvision==0.22.1
+numpy==1.26.4
+opencv-python==4.11.0.86
+segmentation-models-pytorch==0.5.0
+scipy==1.14.1
+scikit-image==0.24.0
+matplotlib==3.5.1
+tqdm==4.66.5

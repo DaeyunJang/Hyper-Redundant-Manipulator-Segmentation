@@ -1,0 +1,30 @@
+{
+  "command": "train",
+  "output": "runs/occlusion_pose_20261024/unet_v2",
+  "epochs": 16,
+  "train_limit": 1600,
+  "val_limit": 96,
+  "batch_size": 8,
+  "size": 384,
+  "device": "cuda",
+  "seed": 173,
+  "training_images": 1600,
+  "validation_images": 96,
+  "validation_conditions": [
+    "clean",
+    "multi3_30",
+    "bg_perspective_multi3"
+  ],
+  "checkpoint_selection": "validation micro foreground Dice",
+  "test_role": "previously examined development stress test, not blind final test",
+  "label_provenance": "opencv_pseudo_label_not_independent_manual_ground_truth",
+  "comparison_caveat": "V1 and V2 differ in training sample count/budget and augmentation; not augmentation-only ablation",
+  "torch": "2.7.1+cu126",
+  "gpu": "NVIDIA GeForce RTX 3060",
+  "source_hashes": {
+    "run_occlusion_v2.py": "0ae99a257d518e3fbf26e68ec38af0e20d9ca5a091b2f32ac3af365f85f53d6b",
+    "feasibility_augmentation_v2.py": "86be66d81e62fc2dcd6005dca0757065ff8e664c951ed5a633b74ee2d719693d",
+    "feasibility_data.py": "8073b0b4c76fb2184cace7d051d8f41a4e1a1f90198df34e695fc08a42946a15",
+    "hrm.py": "d60c87a95c5998c24d96aac09fb40c503c96a32f085793e646e09083706e0fc0"
+  }
+}

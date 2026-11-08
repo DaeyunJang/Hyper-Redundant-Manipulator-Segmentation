@@ -1,0 +1,72 @@
+{
+  "copied_original_files": 312,
+  "copied_original_bytes": 75614895,
+  "copy_checksums_verified_against_originals": true,
+  "counts_by_kind": {
+    "demo_rgb": 50,
+    "demo_pseudo_mask": 50,
+    "paper_rgb": 104,
+    "paper_depth": 104,
+    "checkpoint": 1,
+    "training_config": 1,
+    "reference_statistics": 2
+  },
+  "bytes_by_kind": {
+    "demo_rgb": 7255965,
+    "demo_pseudo_mask": 72158,
+    "paper_rgb": 14890548,
+    "paper_depth": 3141851,
+    "checkpoint": 50128799,
+    "training_config": 1166,
+    "reference_statistics": 124408
+  },
+  "source_manifests": [
+    {
+      "original_source": {
+        "repository": "Hyper-Redundant-Manipulator-Segmentation",
+        "path": "datasets/split.json"
+      },
+      "sha256": "0d06ec47cba6b39b5048001fcce6c0e04f3661b0ccb6be0445a33b4c58568256"
+    },
+    {
+      "original_source": {
+        "repository": "Hyper-Redundant-Manipulator-Segmentation",
+        "path": "runs/occlusion_pose_20261024/unet_v2/split.json"
+      },
+      "sha256": "166522877d4e93f18046727b89ae0d455593d691b3c56c65474610e2bcf35385"
+    },
+    {
+      "original_source": {
+        "repository": "Hyper-Redundant-Manipulator-Segmentation",
+        "path": "runs/perspective_pose_followup_20261024/paper_pose_source_index.json"
+      },
+      "sha256": "fedea15bcde4b92c5e5eeeb027a53535eca9387c0971acfc67b855215c24f895"
+    },
+    {
+      "original_source": {
+        "repository": "Hyper-Redundant-Manipulator-Segmentation",
+        "path": "runs/occlusion_pose_20261024/pose_evaluation_short_fragments/protocol.json"
+      },
+      "sha256": "7d02c150be18022f0d0c013331522558dfa916c3017e276be74e008d6fa9bda3"
+    }
+  ],
+  "sample_split_counts": {
+    "train": 36,
+    "val": 14
+  },
+  "v2_actual_split_counts": {
+    "train": 1600,
+    "val": 96
+  },
+  "paper_posture_counts": {
+    "straight": 40,
+    "bent": 64
+  },
+  "limitations": [
+    "Demo includes training examples; not a held-out benchmark",
+    "Masks are OpenCV pseudo-labels",
+    "Paper evaluation measures paired changes, not physical ground-truth accuracy",
+    "Known synthetic occluder mask rejects depth, not real-world occluders",
+    "Full training datasets/backgrounds/V1/MobileSAM are not included"
+  ]
+}

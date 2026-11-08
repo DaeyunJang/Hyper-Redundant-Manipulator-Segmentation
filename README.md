@@ -6,6 +6,67 @@ ImageNet-pretrained **U-Net / ResNet18**. A 384-pixel input, close to the origin
 a small decoder, and CUDA mixed precision balance speed and boundary accuracy.
 Use `benchmark` on the target GPU to assess real-time performance.
 
+## Compact publication examples (2026-11-08)
+
+[`examples/publication_demo/`](examples/publication_demo/) is the small, Git-included
+example package. The complete `datasets/`, experiment `runs/`, environments, and
+other checkpoints remain excluded. The package contains 319 files totaling
+76.29 MB (72.76 MiB):
+
+- 50 original RGB/OpenCV pseudo-mask pairs in `samples/rgb/` and `samples/masks/`.
+  These are deterministic demonstration samples from the original train/validation
+  data, **not a new held-out accuracy benchmark or a sufficient retraining set**.
+- The trained U-Net V2 checkpoint, `models/unet_v2.pt` (approximately 50 MB).
+- The exact 40 straight and 64 bent RGB/depth pairs used in the paper pose-sensitivity
+  experiment. `rgbd/index.json` preserves integer source timestamps, cropped camera
+  intrinsics, depth scale, and ROI information, with relocatable relative paths.
+- Selected experiment settings, source membership/provenance, and SHA-256 checksums.
+  The RGB, masks, depth files, and checkpoint are byte-for-byte copies, not recompressed
+  images. No full bags, sensor logs, MobileSAM, or surgical-background dataset is included.
+
+From this repository's root, verify the package without loading models or ROS:
+
+```bash
+(cd examples/publication_demo && sha256sum -c checksums.sha256)
+```
+
+Use a separate Python 3.10 environment with `requirements-publication.txt`; the local
+validation environment used PyTorch 2.7.1+cu126 and torchvision 0.22.1+cu126. CPU inference
+is also supported. These requirements do not install ROS or operate any hardware.
+With the dependencies installed, run segmentation on the 50 RGB examples:
+
+```bash
+python hrm.py predict --device cpu \
+  --checkpoint examples/publication_demo/models/unet_v2.pt \
+  --source examples/publication_demo/samples/rgb \
+  --output runs/publication_demo_rgb
+```
+
+To replay the V2-only clean-versus-three-gap RGB-D comparison, also place the
+`Hyper-Redundant-Manipulator` repository beside this repository. The shape evaluator
+reads its `postprocess.py`, `surgical_tool.cpp`, and hardware definitions without
+starting ROS, cameras, or motors. It uses the packaged historical shape configuration.
+
+```bash
+# Small offline smoke check; choose a new output directory on each run.
+python run_publication_demo.py --device cpu --limit 2 \
+  --output runs/publication_demo_pose_smoke
+# All 104 source frames; --include-opencv optionally adds the OpenCV comparator.
+python run_publication_demo.py --device cpu \
+  --output runs/publication_demo_pose
+```
+
+The wrapper uses the existing evaluator's seed, minimum-path handling and metrics.
+Only V2 is loaded by default; V1 is not silently replaced with V2. The original
+three-method evaluator retains its previous defaults. Results are **changes relative
+to each method's unoccluded estimate**, not physical ground-truth accuracy. Synthetic
+occluder locations are known and used to exclude depth; this does not demonstrate
+automatic rejection of real occluder depth. A rerun records the current source hashes;
+reproducing historical numbers also requires compatible code and numerical libraries.
+
+The optional `package_publication_demo.py` assembler is for maintainers who still have
+the full original local data. It is **not needed after cloning** the included package.
+
 ## 2026-10-24 update: base/tip-oriented perspective augmentation and paper assets
 
 Start with `runs/perspective_pose_followup_20261024/report.html` for the follow-up results.

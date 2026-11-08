@@ -131,6 +131,51 @@ def load_archive_records(session):
     }
 
 
+def load_record_index(path):
+    """Read packaged RGB-D pairs without touching the original recording tree.
+
+    File paths are relative to ``path_base`` (itself relative to this JSON).
+    Source dataset/frame names and integer timestamps are retained unchanged:
+    they are also inputs to the deterministic synthetic-occlusion seed.
+    """
+    path = Path(path).resolve()
+    index = json.loads(path.read_text())
+    root = (path.parent / index.get('path_base', '.')).resolve()
+    records, keys, frame_keys = [], set(), set()
+    for original in index['records']:
+        record = dict(original)
+        for name in ('dataset', 'frame_id'):
+            value = record[name]
+            if not isinstance(value, str) or not value or Path(value).name != value or value in ('.', '..'):
+                raise ValueError(f'Invalid packaged {name}: {value!r}')
+        stamp = record['source_stamp_ns']
+        if isinstance(stamp, bool) or not isinstance(stamp, int):
+            raise ValueError('Packaged source_stamp_ns must be an exact integer, not a float.')
+        key, frame_key = (record['dataset'], stamp), (record['dataset'], record['frame_id'])
+        if key in keys or frame_key in frame_keys:
+            raise ValueError('Duplicate packaged RGB-D frame.')
+        keys.add(key)
+        frame_keys.add(frame_key)
+        for name in ('rgb', 'depth'):
+            relative = Path(record[name])
+            source = (root / relative).resolve()
+            if relative.is_absolute() or not source.is_relative_to(root):
+                raise ValueError(f'Packaged {name} must remain inside path_base.')
+            if not source.is_file():
+                raise FileNotFoundError(source)
+            record[name] = str(source)
+        k = np.asarray(record['crop_k'], dtype=float)
+        scale = float(record['depth_scale_m'])
+        if k.size != 9 or not np.isfinite(k).all() or min(k.reshape(3, 3)[0, 0], k.reshape(3, 3)[1, 1]) <= 0:
+            raise ValueError('Packaged crop_k must contain nine finite pinhole intrinsic entries.')
+        if not np.isfinite(scale) or scale <= 0:
+            raise ValueError('Packaged depth_scale_m must be positive finite.')
+        record['crop_k'], record['depth_scale_m'] = k.reshape(-1).tolist(), scale
+        record['source_manifest'] = str(path)
+        records.append(record)
+    return records
+
+
 def wrapped_joint_delta_deg(current, reference):
     current, reference = np.asarray(current, dtype=float), np.asarray(reference, dtype=float)
     if current.shape != (18,) or reference.shape != (18,):
@@ -292,15 +337,25 @@ def evaluate(args):
         conditions = ['clean', *conditions]
     if any(condition not in GEOMETRY_PRESERVING_CONDITIONS_V2 for condition in conditions):
         raise ValueError('RGB-D pose evaluation forbids perspective/affine image transforms.')
-    archive, archive_stats = load_archive_records(args.archive)
-    live = load_live_records(args.capture)
-    records = spaced(live, args.live_limit) + spaced(archive, args.archive_limit)
+    record_index = getattr(args, 'record_index', None)
+    if record_index:
+        records = spaced(load_record_index(record_index), getattr(args, 'record_limit', -1))
+        archive_stats = {'join_rule': 'pre-paired packaged RGB-D index; original source stamps preserved',
+                         'record_index': str(Path(record_index).resolve())}
+    else:
+        archive, archive_stats = load_archive_records(args.archive)
+        live = load_live_records(args.capture)
+        records = spaced(live, args.live_limit) + spaced(archive, args.archive_limit)
     if not records:
         raise ValueError('No selected RGB-D frames.')
+    methods = getattr(args, 'methods', None) or ['opencv', 'unet_v1', 'unet_v2']
+    if len(set(methods)) != len(methods) or any(method not in ('opencv', 'unet_v1', 'unet_v2') for method in methods):
+        raise ValueError('Choose unique methods from opencv, unet_v1 and unet_v2.')
     output = Path(args.output).resolve()
     output.mkdir(parents=True, exist_ok=False)
-    backends = {'opencv': OpenCVBaseline(), 'unet_v1': UNetBackend(args.v1, args.device),
-                'unet_v2': UNetBackend(args.v2, args.device)}
+    backends = {method: (OpenCVBaseline() if method == 'opencv' else
+                        UNetBackend(args.v1 if method == 'unet_v1' else args.v2, args.device))
+                for method in methods}
     # New live images and held-out archive frames must not enter fitting.
     for method, backend in backends.items():
         if hasattr(backend, 'checkpoint'):
@@ -308,7 +363,10 @@ def evaluate(args):
             overlap = seen & {Path(record['rgb']).name for record in records}
             if overlap:
                 raise ValueError(f'{method} training/evaluation image overlap: {list(overlap)[:3]}')
-    estimator = ShapeEstimator(minimum_path_points=args.minimum_path_points)
+    shape_protocol = getattr(args, 'shape_protocol', None)
+    shape_config = (json.loads(Path(shape_protocol).read_text())['shape_estimator_metadata']['config']
+                    if shape_protocol else None)
+    estimator = ShapeEstimator(config=shape_config, minimum_path_points=args.minimum_path_points)
     torch.set_num_threads(4)
     cv2.setNumThreads(0)
     synchronize = torch.cuda.synchronize if args.device.startswith('cuda') else lambda: None
@@ -316,11 +374,13 @@ def evaluate(args):
     for backend in backends.values():
         segmentation(backend, warm, synchronize)
     dump(output / 'protocol.json', {
-        'purpose': __doc__, 'archive_source': str(Path(args.archive).resolve()),
-        'archive_pair_audit': archive_stats, 'capture': str(Path(args.capture).resolve()),
+        'purpose': __doc__, 'archive_source': None if record_index else str(Path(args.archive).resolve()),
+        'archive_pair_audit': archive_stats, 'capture': None if record_index else str(Path(args.capture).resolve()),
         'records': records, 'conditions': conditions, 'seed': args.seed,
-        'methods': list(backends), 'v1_checkpoint': str(Path(args.v1).resolve()),
-        'v2_checkpoint': str(Path(args.v2).resolve()),
+        'methods': list(backends),
+        'v1_checkpoint': str(Path(args.v1).resolve()) if 'unet_v1' in backends else None,
+        'v2_checkpoint': str(Path(args.v2).resolve()) if 'unet_v2' in backends else None,
+        'shape_reference_protocol': str(Path(shape_protocol).resolve()) if shape_protocol else None,
         'shape_estimator_metadata': estimator.metadata(),
         'source_hashes': {name: hashlib.sha256((ROOT / name).read_bytes()).hexdigest()
                           for name in ('evaluate_pose_occlusion_v2.py', 'feasibility_shape.py',
@@ -462,6 +522,11 @@ def main():
     parser.add_argument('--archive', default=str(ARCHIVE))
     parser.add_argument('--live-limit', type=int, default=40, help='0 skips live; negative selects all')
     parser.add_argument('--archive-limit', type=int, default=64, help='0 skips archive; negative selects all')
+    parser.add_argument('--record-index', help='Packaged paired RGB-D JSON; bypasses archive/capture paths')
+    parser.add_argument('--record-limit', type=int, default=-1, help='Packaged frames; negative selects all')
+    parser.add_argument('--methods', nargs='+', choices=('opencv', 'unet_v1', 'unet_v2'),
+                        help='Default: all three methods; only selected checkpoints are loaded')
+    parser.add_argument('--shape-protocol', help='Reuse the archived shape configuration from this protocol JSON')
     parser.add_argument('--v1', default=str(ROOT / 'runs/feasibility_20261024/unet_robust/best.pt'))
     parser.add_argument('--v2', default=str(ROOT / 'runs/occlusion_pose_20261024/unet_v2/best.pt'))
     parser.add_argument('--device', default='cuda')

@@ -7,6 +7,10 @@ runs/
 *.pt
 *.onnx
 
+# Only the reviewed, compact publication checkpoint is included in Git.
+# Full datasets, runs, environments and other checkpoints remain excluded.
+!/examples/publication_demo/models/unet_v2.pt
+
 # Local feasibility regression tests, excluded from the runtime-source upload.
 # Keep training/inference tools and the already tracked test_hrm.py unchanged.
 /test_archive_feasibility.py

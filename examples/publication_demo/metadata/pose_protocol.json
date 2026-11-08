@@ -1,0 +1,147 @@
+{
+  "purpose": "Paired occlusion sensitivity of image-derived q/FK, NOT ground-truth accuracy.\n\nRGB-D geometry is unchanged. Synthetic opaque occluder pixels remove original\ndepth ONLY, never clip predicted masks. A clean OpenCV prediction is used solely\nto place occluders. Each method's occluded shape is compared to that method's\nclean shape on the SAME source frame, with its clean camera-space base origin\nheld fixed. This is a missing-depth simulation, not real-occluder rejection.\n",
+  "archive_pair_audit": {
+    "source_rgb_frames": 1670,
+    "source_depth_frames": 1669,
+    "exact_timestamp_pairs": 1669,
+    "rgb_without_depth": 1,
+    "join_rule": "exact source_time_ns; file sequence counter is NOT used"
+  },
+  "conditions": [
+    "clean",
+    "thin",
+    "thick10",
+    "thick20",
+    "thick30",
+    "multi3_15",
+    "multi3_30"
+  ],
+  "seed": 61024,
+  "shape_estimator_metadata": {
+    "production_methods": [
+      "fit_quartic_through_origin",
+      "wrap_angle",
+      "update_joint_kalman",
+      "project_segment_directions_to_joint_planes",
+      "reconstruct_3d_segments"
+    ],
+    "production_source_sha256": "93a4432bb6e2dc505b0a3e5362c851c91501f0948a6e6a691e4e213d4d5c33d9",
+    "fk_cpp_source_sha256": "f170bb5fa8521d46ddf797f5e686e47188065d4ba01e026d937baffd3a1029f5",
+    "hardware_header_sha256": "7c59337baf11b8cdaf96b1ce802176ba1b5fc03882d478d2a850836acfea1874",
+    "config": {
+      "num_of_segments": 19,
+      "num_of_bending_joints": 18,
+      "num_of_joint_pairs": 9,
+      "num_of_pan_joints": 9,
+      "num_of_tilt_joints": 9,
+      "length_of_segment": 4.33,
+      "proximal_offset_length": 4.33,
+      "bending_joint_spacing": 4.33,
+      "distal_offset_length": 4.33,
+      "curve_dense_samples": 1001,
+      "base_frame_id": "hrm_base",
+      "base_in_camera_rotation_y_deg": -90.0,
+      "base_in_camera_rotation_z_deg": -45.0,
+      "performance": {
+        "opencv_num_threads": 1,
+        "blas_num_threads": 1,
+        "max_depth_age_sec": 0.1,
+        "debug_timing_enabled": false,
+        "debug_rate_enabled": false,
+        "timing_log_interval_frames": 60,
+        "rate_log_interval_sec": 5.0,
+        "visualization_curve_max_points": 251
+      },
+      "filters": {
+        "base_origin_initial_average": {
+          "enabled": false,
+          "sample_count": 15
+        },
+        "depth_neighborhood_median": {
+          "enabled": true,
+          "kernel_size": 5,
+          "min_valid_samples": 3
+        },
+        "joint_kalman": {
+          "enabled": false,
+          "measurement_std_deg": 0.5,
+          "process_acceleration_std_deg_s2": 300.0,
+          "initial_angle_std_deg": 5.0,
+          "initial_velocity_std_deg_s": 20.0
+        }
+      }
+    },
+    "minimum_component_area": 16,
+    "minimum_path_points": 1,
+    "endpoint_max_skipped": 5,
+    "max_single_observation_step_in_hardware_lengths": 1.5,
+    "max_first_point_distance_from_fixed_base_in_hardware_lengths": 0.1,
+    "filters": "joint Kalman and initial-base average OFF; every call independent",
+    "production_identical": "3D quartic+origin constraint+arc scaling+19 chords+18 sequential DH projections",
+    "production_frontend_differences": "multi-component Lee path ordering; mask-aware depth; no 2D fit/extrapolation",
+    "missing_geometry": "surviving observations only; gap parameter distance approximated by endpoint 3D chord",
+    "known_synthetic_occlusion": "depth availability only; does not clip segmentation prediction or skeleton",
+    "assumptions": [
+      "base and tip visible",
+      "base is lowest-image-v endpoint",
+      "unbranched non-self-overlapping body",
+      "pinhole crop-local K",
+      "source pixels/depth already aligned",
+      "no independent shape ground truth"
+    ]
+  },
+  "source_hashes": {
+    "evaluate_pose_occlusion_v2.py": "d2025a0dda1b22d478e2cf8facf2a22c18a64d430243519d8158e8e6fe7ad4ba",
+    "feasibility_shape.py": "d49cfc96b167b18cb3a0641a68aabc504e50ed04c04f9921c0b6712cc6e11538",
+    "feasibility_augmentation_v2.py": "86be66d81e62fc2dcd6005dca0757065ff8e664c951ed5a633b74ee2d719693d",
+    "feasibility_backends.py": "2c8c54b73a39e507bb979b4ceec41a3eb9f3cd8ab47eb3a4e90d8ff13e7a2457"
+  },
+  "synthetic_depth_rule": "Known generated occluder map invalidates depth query and neighborhood support ONLY. Never clips model mask.",
+  "base_rule": "Per-method per-frame clean base origin reused for ALL occlusion variants. No rebase to surviving first point.",
+  "sequence_rule": "Independent paired frames; no Kalman, no temporal/base initialization averaging.",
+  "no_ground_truth": true,
+  "original_methods": [
+    "opencv",
+    "unet_v1",
+    "unet_v2"
+  ],
+  "methods": [
+    "opencv",
+    "unet_v2"
+  ],
+  "v2_checkpoint": "../models/unet_v2.pt",
+  "record_index": "../rgbd/index.json",
+  "omitted_comparator": "U-Net V1 checkpoint is intentionally not bundled",
+  "per_frame_seed_rule": "61024 + zlib.crc32(f'{dataset}:{source_stamp_ns}'.encode())",
+  "occlusion_grade": {
+    "clean": [
+      0,
+      0.0
+    ],
+    "thin": [
+      1,
+      0.02
+    ],
+    "thick10": [
+      1,
+      0.1
+    ],
+    "thick20": [
+      1,
+      0.2
+    ],
+    "thick30": [
+      1,
+      0.3
+    ],
+    "multi3_15": [
+      3,
+      0.15
+    ],
+    "multi3_30": [
+      3,
+      0.3
+    ]
+  },
+  "occlusion_grade_note": "[stripe count, requested total centerline occlusion fraction]; actual coverage is measured per frame"
+}

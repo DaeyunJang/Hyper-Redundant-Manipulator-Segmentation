@@ -1,0 +1,600 @@
+{
+  "schema_version": 1,
+  "path_base": ".",
+  "purpose": "Small inference/augmentation demo, NOT an independent test set",
+  "selection_rule": "np.linspace(0, 5389 - 1, 50, dtype=int), original datasets/split.json record order",
+  "original_source_summary": {
+    "pairs": 5389,
+    "image_shapes": [
+      [
+        337,
+        379,
+        3
+      ]
+    ],
+    "mask_values": [
+      0,
+      255
+    ],
+    "foreground_fraction_min_median_max": [
+      0.031059401987112736,
+      0.04518371788949523,
+      0.05933152212209234
+    ],
+    "sessions": {
+      "session_01": {
+        "count": 1619,
+        "start": 1790484638.8137453,
+        "end": 1790484692.7686815
+      },
+      "session_02": {
+        "count": 2241,
+        "start": 1790484912.7847044,
+        "end": 1790484987.5112271
+      },
+      "session_03": {
+        "count": 1529,
+        "start": 1790485022.423325,
+        "end": 1790485073.5075586
+      }
+    },
+    "split_counts": {
+      "train": 3860,
+      "val": 1529,
+      "test": 0
+    },
+    "note": "No independent test set unless --test-group is supplied. Hold out real deployment images separately."
+  },
+  "records": [
+    {
+      "rgb": "rgb/00000001_1790484638_813745361.png",
+      "mask": "masks/00000001_1790484638_813745361.png",
+      "original_index_zero_based": 0,
+      "group": "session_01",
+      "split": "train",
+      "source_stamp_ns": 1790484638813745361,
+      "used_in_v2_training": true,
+      "used_in_v2_validation": false,
+      "label_provenance": "opencv_pseudo_label_not_independent_manual_ground_truth"
+    },
+    {
+      "rgb": "rgb/00000110_1790484642_448555176.png",
+      "mask": "masks/00000110_1790484642_448555176.png",
+      "original_index_zero_based": 109,
+      "group": "session_01",
+      "split": "train",
+      "source_stamp_ns": 1790484642448555176,
+      "used_in_v2_training": false,
+      "used_in_v2_validation": false,
+      "label_provenance": "opencv_pseudo_label_not_independent_manual_ground_truth"
+    },
+    {
+      "rgb": "rgb/00000220_1790484646_116669189.png",
+      "mask": "masks/00000220_1790484646_116669189.png",
+      "original_index_zero_based": 219,
+      "group": "session_01",
+      "split": "train",
+      "source_stamp_ns": 1790484646116669189,
+      "used_in_v2_training": true,
+      "used_in_v2_validation": false,
+      "label_provenance": "opencv_pseudo_label_not_independent_manual_ground_truth"
+    },
+    {
+      "rgb": "rgb/00000330_1790484649_784834961.png",
+      "mask": "masks/00000330_1790484649_784834961.png",
+      "original_index_zero_based": 329,
+      "group": "session_01",
+      "split": "train",
+      "source_stamp_ns": 1790484649784834961,
+      "used_in_v2_training": false,
+      "used_in_v2_validation": false,
+      "label_provenance": "opencv_pseudo_label_not_independent_manual_ground_truth"
+    },
+    {
+      "rgb": "rgb/00000440_1790484653_452999756.png",
+      "mask": "masks/00000440_1790484653_452999756.png",
+      "original_index_zero_based": 439,
+      "group": "session_01",
+      "split": "train",
+      "source_stamp_ns": 1790484653452999756,
+      "used_in_v2_training": true,
+      "used_in_v2_validation": false,
+      "label_provenance": "opencv_pseudo_label_not_independent_manual_ground_truth"
+    },
+    {
+      "rgb": "rgb/00000550_1790484657_121147217.png",
+      "mask": "masks/00000550_1790484657_121147217.png",
+      "original_index_zero_based": 549,
+      "group": "session_01",
+      "split": "train",
+      "source_stamp_ns": 1790484657121147217,
+      "used_in_v2_training": false,
+      "used_in_v2_validation": false,
+      "label_provenance": "opencv_pseudo_label_not_independent_manual_ground_truth"
+    },
+    {
+      "rgb": "rgb/00000660_1790484660_789290771.png",
+      "mask": "masks/00000660_1790484660_789290771.png",
+      "original_index_zero_based": 659,
+      "group": "session_01",
+      "split": "train",
+      "source_stamp_ns": 1790484660789290771,
+      "used_in_v2_training": false,
+      "used_in_v2_validation": false,
+      "label_provenance": "opencv_pseudo_label_not_independent_manual_ground_truth"
+    },
+    {
+      "rgb": "rgb/00000770_1790484664_457415527.png",
+      "mask": "masks/00000770_1790484664_457415527.png",
+      "original_index_zero_based": 769,
+      "group": "session_01",
+      "split": "train",
+      "source_stamp_ns": 1790484664457415527,
+      "used_in_v2_training": true,
+      "used_in_v2_validation": false,
+      "label_provenance": "opencv_pseudo_label_not_independent_manual_ground_truth"
+    },
+    {
+      "rgb": "rgb/00000880_1790484668_125556396.png",
+      "mask": "masks/00000880_1790484668_125556396.png",
+      "original_index_zero_based": 879,
+      "group": "session_01",
+      "split": "train",
+      "source_stamp_ns": 1790484668125556396,
+      "used_in_v2_training": false,
+      "used_in_v2_validation": false,
+      "label_provenance": "opencv_pseudo_label_not_independent_manual_ground_truth"
+    },
+    {
+      "rgb": "rgb/00000990_1790484671_793701904.png",
+      "mask": "masks/00000990_1790484671_793701904.png",
+      "original_index_zero_based": 989,
+      "group": "session_01",
+      "split": "train",
+      "source_stamp_ns": 1790484671793701904,
+      "used_in_v2_training": true,
+      "used_in_v2_validation": false,
+      "label_provenance": "opencv_pseudo_label_not_independent_manual_ground_truth"
+    },
+    {
+      "rgb": "rgb/00001100_1790484675_461831787.png",
+      "mask": "masks/00001100_1790484675_461831787.png",
+      "original_index_zero_based": 1099,
+      "group": "session_01",
+      "split": "train",
+      "source_stamp_ns": 1790484675461831787,
+      "used_in_v2_training": false,
+      "used_in_v2_validation": false,
+      "label_provenance": "opencv_pseudo_label_not_independent_manual_ground_truth"
+    },
+    {
+      "rgb": "rgb/00001210_1790484679_129965820.png",
+      "mask": "masks/00001210_1790484679_129965820.png",
+      "original_index_zero_based": 1209,
+      "group": "session_01",
+      "split": "train",
+      "source_stamp_ns": 1790484679129965820,
+      "used_in_v2_training": true,
+      "used_in_v2_validation": false,
+      "label_provenance": "opencv_pseudo_label_not_independent_manual_ground_truth"
+    },
+    {
+      "rgb": "rgb/00001320_1790484682_798096924.png",
+      "mask": "masks/00001320_1790484682_798096924.png",
+      "original_index_zero_based": 1319,
+      "group": "session_01",
+      "split": "train",
+      "source_stamp_ns": 1790484682798096924,
+      "used_in_v2_training": false,
+      "used_in_v2_validation": false,
+      "label_provenance": "opencv_pseudo_label_not_independent_manual_ground_truth"
+    },
+    {
+      "rgb": "rgb/00001430_1790484686_466235107.png",
+      "mask": "masks/00001430_1790484686_466235107.png",
+      "original_index_zero_based": 1429,
+      "group": "session_01",
+      "split": "train",
+      "source_stamp_ns": 1790484686466235107,
+      "used_in_v2_training": false,
+      "used_in_v2_validation": false,
+      "label_provenance": "opencv_pseudo_label_not_independent_manual_ground_truth"
+    },
+    {
+      "rgb": "rgb/00001540_1790484690_134316650.png",
+      "mask": "masks/00001540_1790484690_134316650.png",
+      "original_index_zero_based": 1539,
+      "group": "session_01",
+      "split": "train",
+      "source_stamp_ns": 1790484690134316650,
+      "used_in_v2_training": true,
+      "used_in_v2_validation": false,
+      "label_provenance": "opencv_pseudo_label_not_independent_manual_ground_truth"
+    },
+    {
+      "rgb": "rgb/00000031_1790484913_785061035.png",
+      "mask": "masks/00000031_1790484913_785061035.png",
+      "original_index_zero_based": 1649,
+      "group": "session_02",
+      "split": "train",
+      "source_stamp_ns": 1790484913785061035,
+      "used_in_v2_training": false,
+      "used_in_v2_validation": false,
+      "label_provenance": "opencv_pseudo_label_not_independent_manual_ground_truth"
+    },
+    {
+      "rgb": "rgb/00000141_1790484917_453037109.png",
+      "mask": "masks/00000141_1790484917_453037109.png",
+      "original_index_zero_based": 1759,
+      "group": "session_02",
+      "split": "train",
+      "source_stamp_ns": 1790484917453037109,
+      "used_in_v2_training": true,
+      "used_in_v2_validation": false,
+      "label_provenance": "opencv_pseudo_label_not_independent_manual_ground_truth"
+    },
+    {
+      "rgb": "rgb/00000251_1790484921_121025879.png",
+      "mask": "masks/00000251_1790484921_121025879.png",
+      "original_index_zero_based": 1869,
+      "group": "session_02",
+      "split": "train",
+      "source_stamp_ns": 1790484921121025879,
+      "used_in_v2_training": false,
+      "used_in_v2_validation": false,
+      "label_provenance": "opencv_pseudo_label_not_independent_manual_ground_truth"
+    },
+    {
+      "rgb": "rgb/00000361_1790484924_789009033.png",
+      "mask": "masks/00000361_1790484924_789009033.png",
+      "original_index_zero_based": 1979,
+      "group": "session_02",
+      "split": "train",
+      "source_stamp_ns": 1790484924789009033,
+      "used_in_v2_training": false,
+      "used_in_v2_validation": false,
+      "label_provenance": "opencv_pseudo_label_not_independent_manual_ground_truth"
+    },
+    {
+      "rgb": "rgb/00000471_1790484928_456992432.png",
+      "mask": "masks/00000471_1790484928_456992432.png",
+      "original_index_zero_based": 2089,
+      "group": "session_02",
+      "split": "train",
+      "source_stamp_ns": 1790484928456992432,
+      "used_in_v2_training": true,
+      "used_in_v2_validation": false,
+      "label_provenance": "opencv_pseudo_label_not_independent_manual_ground_truth"
+    },
+    {
+      "rgb": "rgb/00000581_1790484932_124960205.png",
+      "mask": "masks/00000581_1790484932_124960205.png",
+      "original_index_zero_based": 2199,
+      "group": "session_02",
+      "split": "train",
+      "source_stamp_ns": 1790484932124960205,
+      "used_in_v2_training": false,
+      "used_in_v2_validation": false,
+      "label_provenance": "opencv_pseudo_label_not_independent_manual_ground_truth"
+    },
+    {
+      "rgb": "rgb/00000691_1790484935_792935059.png",
+      "mask": "masks/00000691_1790484935_792935059.png",
+      "original_index_zero_based": 2309,
+      "group": "session_02",
+      "split": "train",
+      "source_stamp_ns": 1790484935792935059,
+      "used_in_v2_training": true,
+      "used_in_v2_validation": false,
+      "label_provenance": "opencv_pseudo_label_not_independent_manual_ground_truth"
+    },
+    {
+      "rgb": "rgb/00000801_1790484939_460915771.png",
+      "mask": "masks/00000801_1790484939_460915771.png",
+      "original_index_zero_based": 2419,
+      "group": "session_02",
+      "split": "train",
+      "source_stamp_ns": 1790484939460915771,
+      "used_in_v2_training": false,
+      "used_in_v2_validation": false,
+      "label_provenance": "opencv_pseudo_label_not_independent_manual_ground_truth"
+    },
+    {
+      "rgb": "rgb/00000911_1790484943_128888184.png",
+      "mask": "masks/00000911_1790484943_128888184.png",
+      "original_index_zero_based": 2529,
+      "group": "session_02",
+      "split": "train",
+      "source_stamp_ns": 1790484943128888184,
+      "used_in_v2_training": true,
+      "used_in_v2_validation": false,
+      "label_provenance": "opencv_pseudo_label_not_independent_manual_ground_truth"
+    },
+    {
+      "rgb": "rgb/00001021_1790484946_796837891.png",
+      "mask": "masks/00001021_1790484946_796837891.png",
+      "original_index_zero_based": 2639,
+      "group": "session_02",
+      "split": "train",
+      "source_stamp_ns": 1790484946796837891,
+      "used_in_v2_training": false,
+      "used_in_v2_validation": false,
+      "label_provenance": "opencv_pseudo_label_not_independent_manual_ground_truth"
+    },
+    {
+      "rgb": "rgb/00001130_1790484950_431461670.png",
+      "mask": "masks/00001130_1790484950_431461670.png",
+      "original_index_zero_based": 2748,
+      "group": "session_02",
+      "split": "train",
+      "source_stamp_ns": 1790484950431461670,
+      "used_in_v2_training": true,
+      "used_in_v2_validation": false,
+      "label_provenance": "opencv_pseudo_label_not_independent_manual_ground_truth"
+    },
+    {
+      "rgb": "rgb/00001240_1790484954_132765137.png",
+      "mask": "masks/00001240_1790484954_132765137.png",
+      "original_index_zero_based": 2858,
+      "group": "session_02",
+      "split": "train",
+      "source_stamp_ns": 1790484954132765137,
+      "used_in_v2_training": false,
+      "used_in_v2_validation": false,
+      "label_provenance": "opencv_pseudo_label_not_independent_manual_ground_truth"
+    },
+    {
+      "rgb": "rgb/00001350_1790484957_800737305.png",
+      "mask": "masks/00001350_1790484957_800737305.png",
+      "original_index_zero_based": 2968,
+      "group": "session_02",
+      "split": "train",
+      "source_stamp_ns": 1790484957800737305,
+      "used_in_v2_training": true,
+      "used_in_v2_validation": false,
+      "label_provenance": "opencv_pseudo_label_not_independent_manual_ground_truth"
+    },
+    {
+      "rgb": "rgb/00001460_1790484961_468721924.png",
+      "mask": "masks/00001460_1790484961_468721924.png",
+      "original_index_zero_based": 3078,
+      "group": "session_02",
+      "split": "train",
+      "source_stamp_ns": 1790484961468721924,
+      "used_in_v2_training": false,
+      "used_in_v2_validation": false,
+      "label_provenance": "opencv_pseudo_label_not_independent_manual_ground_truth"
+    },
+    {
+      "rgb": "rgb/00001570_1790484965_136688232.png",
+      "mask": "masks/00001570_1790484965_136688232.png",
+      "original_index_zero_based": 3188,
+      "group": "session_02",
+      "split": "train",
+      "source_stamp_ns": 1790484965136688232,
+      "used_in_v2_training": true,
+      "used_in_v2_validation": false,
+      "label_provenance": "opencv_pseudo_label_not_independent_manual_ground_truth"
+    },
+    {
+      "rgb": "rgb/00001680_1790484968_804649414.png",
+      "mask": "masks/00001680_1790484968_804649414.png",
+      "original_index_zero_based": 3298,
+      "group": "session_02",
+      "split": "train",
+      "source_stamp_ns": 1790484968804649414,
+      "used_in_v2_training": false,
+      "used_in_v2_validation": false,
+      "label_provenance": "opencv_pseudo_label_not_independent_manual_ground_truth"
+    },
+    {
+      "rgb": "rgb/00001790_1790484972_472587158.png",
+      "mask": "masks/00001790_1790484972_472587158.png",
+      "original_index_zero_based": 3408,
+      "group": "session_02",
+      "split": "train",
+      "source_stamp_ns": 1790484972472587158,
+      "used_in_v2_training": false,
+      "used_in_v2_validation": false,
+      "label_provenance": "opencv_pseudo_label_not_independent_manual_ground_truth"
+    },
+    {
+      "rgb": "rgb/00001900_1790484976_140539551.png",
+      "mask": "masks/00001900_1790484976_140539551.png",
+      "original_index_zero_based": 3518,
+      "group": "session_02",
+      "split": "train",
+      "source_stamp_ns": 1790484976140539551,
+      "used_in_v2_training": true,
+      "used_in_v2_validation": false,
+      "label_provenance": "opencv_pseudo_label_not_independent_manual_ground_truth"
+    },
+    {
+      "rgb": "rgb/00002010_1790484979_808542236.png",
+      "mask": "masks/00002010_1790484979_808542236.png",
+      "original_index_zero_based": 3628,
+      "group": "session_02",
+      "split": "train",
+      "source_stamp_ns": 1790484979808542236,
+      "used_in_v2_training": false,
+      "used_in_v2_validation": false,
+      "label_provenance": "opencv_pseudo_label_not_independent_manual_ground_truth"
+    },
+    {
+      "rgb": "rgb/00002120_1790484983_476494873.png",
+      "mask": "masks/00002120_1790484983_476494873.png",
+      "original_index_zero_based": 3738,
+      "group": "session_02",
+      "split": "train",
+      "source_stamp_ns": 1790484983476494873,
+      "used_in_v2_training": true,
+      "used_in_v2_validation": false,
+      "label_provenance": "opencv_pseudo_label_not_independent_manual_ground_truth"
+    },
+    {
+      "rgb": "rgb/00002230_1790484987_144438477.png",
+      "mask": "masks/00002230_1790484987_144438477.png",
+      "original_index_zero_based": 3848,
+      "group": "session_02",
+      "split": "train",
+      "source_stamp_ns": 1790484987144438477,
+      "used_in_v2_training": false,
+      "used_in_v2_validation": false,
+      "label_provenance": "opencv_pseudo_label_not_independent_manual_ground_truth"
+    },
+    {
+      "rgb": "rgb/00000099_1790485025_824484375.png",
+      "mask": "masks/00000099_1790485025_824484375.png",
+      "original_index_zero_based": 3958,
+      "group": "session_03",
+      "split": "val",
+      "source_stamp_ns": 1790485025824484375,
+      "used_in_v2_training": false,
+      "used_in_v2_validation": false,
+      "label_provenance": "opencv_pseudo_label_not_independent_manual_ground_truth"
+    },
+    {
+      "rgb": "rgb/00000209_1790485029_492428467.png",
+      "mask": "masks/00000209_1790485029_492428467.png",
+      "original_index_zero_based": 4068,
+      "group": "session_03",
+      "split": "val",
+      "source_stamp_ns": 1790485029492428467,
+      "used_in_v2_training": false,
+      "used_in_v2_validation": false,
+      "label_provenance": "opencv_pseudo_label_not_independent_manual_ground_truth"
+    },
+    {
+      "rgb": "rgb/00000319_1790485033_160357178.png",
+      "mask": "masks/00000319_1790485033_160357178.png",
+      "original_index_zero_based": 4178,
+      "group": "session_03",
+      "split": "val",
+      "source_stamp_ns": 1790485033160357178,
+      "used_in_v2_training": false,
+      "used_in_v2_validation": false,
+      "label_provenance": "opencv_pseudo_label_not_independent_manual_ground_truth"
+    },
+    {
+      "rgb": "rgb/00000429_1790485036_828284424.png",
+      "mask": "masks/00000429_1790485036_828284424.png",
+      "original_index_zero_based": 4288,
+      "group": "session_03",
+      "split": "val",
+      "source_stamp_ns": 1790485036828284424,
+      "used_in_v2_training": false,
+      "used_in_v2_validation": false,
+      "label_provenance": "opencv_pseudo_label_not_independent_manual_ground_truth"
+    },
+    {
+      "rgb": "rgb/00000539_1790485040_496202637.png",
+      "mask": "masks/00000539_1790485040_496202637.png",
+      "original_index_zero_based": 4398,
+      "group": "session_03",
+      "split": "val",
+      "source_stamp_ns": 1790485040496202637,
+      "used_in_v2_training": false,
+      "used_in_v2_validation": false,
+      "label_provenance": "opencv_pseudo_label_not_independent_manual_ground_truth"
+    },
+    {
+      "rgb": "rgb/00000649_1790485044_164132568.png",
+      "mask": "masks/00000649_1790485044_164132568.png",
+      "original_index_zero_based": 4508,
+      "group": "session_03",
+      "split": "val",
+      "source_stamp_ns": 1790485044164132568,
+      "used_in_v2_training": false,
+      "used_in_v2_validation": false,
+      "label_provenance": "opencv_pseudo_label_not_independent_manual_ground_truth"
+    },
+    {
+      "rgb": "rgb/00000759_1790485047_832068604.png",
+      "mask": "masks/00000759_1790485047_832068604.png",
+      "original_index_zero_based": 4618,
+      "group": "session_03",
+      "split": "val",
+      "source_stamp_ns": 1790485047832068604,
+      "used_in_v2_training": false,
+      "used_in_v2_validation": false,
+      "label_provenance": "opencv_pseudo_label_not_independent_manual_ground_truth"
+    },
+    {
+      "rgb": "rgb/00000869_1790485051_499997559.png",
+      "mask": "masks/00000869_1790485051_499997559.png",
+      "original_index_zero_based": 4728,
+      "group": "session_03",
+      "split": "val",
+      "source_stamp_ns": 1790485051499997559,
+      "used_in_v2_training": false,
+      "used_in_v2_validation": true,
+      "label_provenance": "opencv_pseudo_label_not_independent_manual_ground_truth"
+    },
+    {
+      "rgb": "rgb/00000979_1790485055_167918457.png",
+      "mask": "masks/00000979_1790485055_167918457.png",
+      "original_index_zero_based": 4838,
+      "group": "session_03",
+      "split": "val",
+      "source_stamp_ns": 1790485055167918457,
+      "used_in_v2_training": false,
+      "used_in_v2_validation": false,
+      "label_provenance": "opencv_pseudo_label_not_independent_manual_ground_truth"
+    },
+    {
+      "rgb": "rgb/00001089_1790485058_835833252.png",
+      "mask": "masks/00001089_1790485058_835833252.png",
+      "original_index_zero_based": 4948,
+      "group": "session_03",
+      "split": "val",
+      "source_stamp_ns": 1790485058835833252,
+      "used_in_v2_training": false,
+      "used_in_v2_validation": false,
+      "label_provenance": "opencv_pseudo_label_not_independent_manual_ground_truth"
+    },
+    {
+      "rgb": "rgb/00001199_1790485062_503763428.png",
+      "mask": "masks/00001199_1790485062_503763428.png",
+      "original_index_zero_based": 5058,
+      "group": "session_03",
+      "split": "val",
+      "source_stamp_ns": 1790485062503763428,
+      "used_in_v2_training": false,
+      "used_in_v2_validation": false,
+      "label_provenance": "opencv_pseudo_label_not_independent_manual_ground_truth"
+    },
+    {
+      "rgb": "rgb/00001309_1790485066_171726807.png",
+      "mask": "masks/00001309_1790485066_171726807.png",
+      "original_index_zero_based": 5168,
+      "group": "session_03",
+      "split": "val",
+      "source_stamp_ns": 1790485066171726807,
+      "used_in_v2_training": false,
+      "used_in_v2_validation": false,
+      "label_provenance": "opencv_pseudo_label_not_independent_manual_ground_truth"
+    },
+    {
+      "rgb": "rgb/00001419_1790485069_839642578.png",
+      "mask": "masks/00001419_1790485069_839642578.png",
+      "original_index_zero_based": 5278,
+      "group": "session_03",
+      "split": "val",
+      "source_stamp_ns": 1790485069839642578,
+      "used_in_v2_training": false,
+      "used_in_v2_validation": false,
+      "label_provenance": "opencv_pseudo_label_not_independent_manual_ground_truth"
+    },
+    {
+      "rgb": "rgb/00001529_1790485073_507558594.png",
+      "mask": "masks/00001529_1790485073_507558594.png",
+      "original_index_zero_based": 5388,
+      "group": "session_03",
+      "split": "val",
+      "source_stamp_ns": 1790485073507558594,
+      "used_in_v2_training": false,
+      "used_in_v2_validation": true,
+      "label_provenance": "opencv_pseudo_label_not_independent_manual_ground_truth"
+    }
+  ]
+}
