@@ -1,3 +1,4 @@
+# AUTHOR: Daeyun - HRM-specific paired RGB/visible-mask augmentation.
 """RGB/binary-mask augmentation, using only NumPy and OpenCV.
 
 Masks describe the *visible* HRM: opaque occluders remove labels; translucent

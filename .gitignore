@@ -2,6 +2,23 @@ datasets
 .venv/
 __pycache__/
 .pytest_cache/
+.ultralytics/
 runs/
 *.pt
 *.onnx
+
+# Local feasibility regression tests, excluded from the runtime-source upload.
+# Keep training/inference tools and the already tracked test_hrm.py unchanged.
+/test_archive_feasibility.py
+/test_evaluate_live_feasibility.py
+/test_evaluate_pose_occlusion_v2.py
+/test_feasibility_augmentation_v2.py
+/test_feasibility_augmentation_v3.py
+/test_feasibility_backends.py
+/test_feasibility_data.py
+/test_feasibility_depth_preview.py
+/test_feasibility_shape.py
+/test_run_feasibility.py
+/test_run_occlusion_v2.py
+/test_run_perspective_v3.py
+/test_summarize_pose_for_paper.py

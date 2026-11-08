@@ -1,3 +1,5 @@
+# AUTHOR: Daeyun - HRM dataset, training, and inference pipeline integration.
+# U-Net/encoder implementations remain provided by segmentation-models-pytorch.
 """Binary HRM segmentation: prepare, preview, export, train, evaluate, predict, benchmark.
 
 PNG masks remain 0/255 on disk; training targets are float32 0/1.

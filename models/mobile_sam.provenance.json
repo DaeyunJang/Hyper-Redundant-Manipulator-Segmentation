@@ -1,0 +1,12 @@
+{
+  "filename": "mobile_sam.pt",
+  "source_url": "https://github.com/ultralytics/assets/releases/download/v8.4.0/mobile_sam.pt",
+  "official_documentation": "https://docs.ultralytics.com/models/mobile-sam/",
+  "sha256": "6dbb90523a35330fedd7f1d3dfc66f995213d81b29a5ca8108dbcdd4e37d6c2f",
+  "bytes": 40728226,
+  "download_date": "2026-10-24",
+  "integration": "ultralytics==8.4.31",
+  "prompt_policy": "fixed full-crop box [0,0,W-1,H-1] on every frame; no test ground-truth prompts",
+  "fine_tuned_on_hrm": false,
+  "note": "Zero-shot prompt-based comparator, not a pretrained HRM semantic class. Ultralytics integration licensing is separate from this project's code license."
+}
